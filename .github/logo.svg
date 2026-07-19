@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 577"
+   width="500"
+   height="577"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.96568482"
+     inkscape:cx="112.3555"
+     inkscape:cy="257.8481"
+     inkscape:window-width="1920"
+     inkscape:window-height="937"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <title
+     id="title1">sitsrag</title>
+  <desc
+     id="desc1">Hex sticker for sitsrag, paired with sitsmcp. Same service-device visual grammar; the screen shows lines of documentation with one highlighted retrieved passage. Wordmark {sitsrag} sits below.</desc>
+  <defs
+     id="defs1">
+    <clipPath
+       id="hex">
+      <polygon
+         points="250,12 491,149 491,428 250,566 9,428 9,149"
+         id="polygon1" />
+    </clipPath>
+  </defs>
+  <polygon
+     points="250,12 491,149 491,428 250,566 9,428 9,149"
+     fill="#f2e4c9"
+     id="polygon2" />
+  <g
+     clip-path="url(#hex)"
+     id="g17"
+     transform="matrix(1.3089593,0,0,1.3089593,-75.383981,-44.253279)">
+    <g
+       transform="translate(140,170)"
+       id="g16">
+      <polygon
+         points="180,0 210,-30 210,80 180,110 "
+         fill="#e8d5a3"
+         stroke="#1e3a5f"
+         stroke-width="2.2"
+         stroke-linejoin="round"
+         id="polygon3" />
+      <g
+         stroke="#1e3a5f"
+         stroke-width="0.9"
+         opacity="0.4"
+         id="g5">
+        <line
+           x1="180"
+           y1="27.5"
+           x2="210"
+           y2="-2.5"
+           id="line3" />
+        <line
+           x1="180"
+           y1="55"
+           x2="210"
+           y2="25"
+           id="line4" />
+        <line
+           x1="180"
+           y1="82.5"
+           x2="210"
+           y2="52.5"
+           id="line5" />
+      </g>
+      <polygon
+         points="0,0 30,-30 210,-30 180,0 "
+         fill="#eed6a0"
+         stroke="#1e3a5f"
+         stroke-width="2.2"
+         stroke-linejoin="round"
+         id="polygon5" />
+      <rect
+         x="0"
+         y="0"
+         width="180"
+         height="110"
+         fill="#f6ebc9"
+         stroke="#1e3a5f"
+         stroke-width="2.2"
+         id="rect5" />
+      <rect
+         x="10"
+         y="10"
+         width="160"
+         height="76"
+         fill="#1e3a5f"
+         stroke="#1e3a5f"
+         stroke-width="1.3"
+         rx="2.5"
+         id="rect6" />
+      <g
+         transform="translate(15,15)"
+         id="g14">
+        <rect
+           x="0"
+           y="3"
+           width="132"
+           height="4"
+           fill="#e6b34d"
+           rx="0.80000001"
+           id="rect7" />
+        <rect
+           x="0"
+           y="11"
+           width="140"
+           height="3.5"
+           fill="#f6ebc9"
+           rx="0.80000001"
+           opacity="0.85"
+           id="rect8" />
+        <rect
+           x="0"
+           y="18"
+           width="119"
+           height="3.5"
+           fill="#f6ebc9"
+           rx="0.80000001"
+           opacity="0.85"
+           id="rect9" />
+        <rect
+           x="0"
+           y="25"
+           width="135"
+           height="3.5"
+           fill="#f6ebc9"
+           rx="0.80000001"
+           opacity="0.85"
+           id="rect10" />
+        <rect
+           x="0"
+           y="32"
+           width="126"
+           height="4"
+           fill="#d97757"
+           rx="0.80000001"
+           id="rect11" />
+        <rect
+           x="0"
+           y="40"
+           width="140"
+           height="3.5"
+           fill="#f6ebc9"
+           rx="0.80000001"
+           opacity="0.85"
+           id="rect12" />
+        <rect
+           x="0"
+           y="47"
+           width="100"
+           height="3.5"
+           fill="#f6ebc9"
+           rx="0.80000001"
+           opacity="0.85"
+           id="rect13" />
+        <rect
+           x="0"
+           y="54"
+           width="128"
+           height="3.5"
+           fill="#f6ebc9"
+           rx="0.80000001"
+           opacity="0.85"
+           id="rect14" />
+      </g>
+      <circle
+         cx="18"
+         cy="99"
+         r="2.5999999"
+         fill="#a6c179"
+         id="circle14" />
+      <circle
+         cx="28"
+         cy="99"
+         r="2.5999999"
+         fill="#d97757"
+         id="circle15" />
+      <line
+         x1="152"
+         y1="97"
+         x2="167"
+         y2="97"
+         stroke="#1e3a5f"
+         stroke-width="1.3"
+         opacity="0.6"
+         id="line15" />
+      <line
+         x1="152"
+         y1="102"
+         x2="167"
+         y2="102"
+         stroke="#1e3a5f"
+         stroke-width="1.3"
+         opacity="0.6"
+         id="line16" />
+    </g>
+  </g>
+  <polygon
+     points="250,12 491,149 491,428 250,566 9,428 9,149"
+     fill="none"
+     stroke="#1e3a5f"
+     stroke-width="6"
+     stroke-linejoin="round"
+     id="polygon17" />
+  <polygon
+     points="250,28 476,157 476,420 250,551 24,420 24,157"
+     fill="none"
+     stroke="#1e3a5f"
+     stroke-width="1"
+     opacity="0.35"
+     stroke-linejoin="round"
+     id="polygon18" />
+  <text
+     x="250.46773"
+     y="462.25604"
+     text-anchor="middle"
+     fill="#1e3a5f"
+     font-family="Georgia, 'DM Serif Display', serif"
+     font-size="57.5585px"
+     font-weight="700"
+     id="text18"
+     style="stroke-width:1.10689">sits rag</text>
+</svg>

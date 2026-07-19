@@ -1,0 +1,40 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*.egg-info
+.venv
+.ruff_cache
+.pytest_cache
+.mypy_cache
+htmlcov
+
+# IDE
+.vscode
+.idea
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Data and docs
+# index.db is mounted as a volume at runtime, never baked into the image.
+data/
+docs/
+*.md
+LICENSE
+
+# Caches
+.cache/
+
+# OS
+.DS_Store

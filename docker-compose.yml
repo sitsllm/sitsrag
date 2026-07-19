@@ -1,0 +1,36 @@
+#
+# Copyright (C) 2026 Felipe Carlos (m3nin0-labs).
+#
+# sitsrag is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your
+# option) any later version; see the LICENSE file for more details.
+#
+
+name: sits-rag
+
+services:
+  app:
+    build: .
+    image: sits-rag:${IMAGE_TAG:-latest}
+    container_name: sits-rag-app
+    env_file: .env
+    environment:
+      # Nginx is the only ingress in this compose. Trust its forwarded headers.
+      FORWARDED_ALLOW_IPS: "*"
+    expose:
+      - "8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: sits-rag-nginx
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    volumes:
+      - ./config/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - app
+    restart: unless-stopped

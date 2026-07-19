@@ -1,0 +1,355 @@
+AWS:
+- SENTINEL-2-L2A (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection 
+
+- SENTINEL-S2-L2A-COGS (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection 
+
+- LANDSAT-C2-L2 (LANDSAT/TM-ETM-OLI)
+- grid system: WRS-2
+- period: 1982 to now
+- bands: BLUE GREEN RED NIR08 SWIR16 SWIR22 CLOUD
+- not opendata collection
+
+BDC:
+- CBERS-WFI-16D (CBERS-4/WFI)
+- grid system: BDC-Large V2
+- period: 2016 to 2024
+- bands: NDVI EVI B13 B14 B15 B16 CLOUD
+- opendata collection (requires access token)
+
+- CBERS-WFI-8D (CBERS-4-4A/WFI)
+- grid system: BDC-Large V2
+- period: 2020 to 2024
+- bands: NDVI EVI B13 B14 B15 B16 CLOUD
+- opendata collection (requires access token)
+
+- CBERS-MUX-2M (CBERS-4/MUX)
+- grid system: BDC-Medium V2
+- period: 2016 to 2024
+- bands: NDVI EVI B05 B06 B07 B08 CLOUD
+- opendata collection (requires access token)
+
+- LANDSAT-OLI-16D (LANDSAT/OLI)
+- grid system: BDC-Medium V2
+- period: 2010 to 2024
+- bands: NDVI EVI COASTAL BLUE GREEN RED NIR08 SWIR16 SWIR22 CLOUD
+- opendata collection (requires access token)
+
+- MOD13Q1-6.1 (TERRA/MODIS)
+- grid system: STG
+- period: 2000 to 2024
+- bands: NDVI EVI BLUE RED NIR MIR CLOUD
+- opendata collection (requires access token)
+
+- MYD13Q1-6.1 (AQUA/MODIS)
+- grid system: STG
+- period: 2002 to 2024
+- bands: NDVI EVI BLUE RED NIR MIR CLOUD
+- opendata collection (requires access token)
+
+- SENTINEL-2-16D (SENTINEL-2/MSI)
+- grid system: BDC-Small V2
+- period: 2017 to 2024
+- bands: NDVI EVI NBR B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection (requires access token)
+
+CDSE-OS:
+- SENTINEL-1-RTC (SENTINEL-1/RTC)
+- grid system: MGRS
+- period: 2014 to now
+- bands: VV VH
+- opendata collection (requires access token)
+
+CDSE:
+- SENTINEL-2-L2A (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection (requires access token)
+
+DCCHILE:
+- SENTINEL-2-L2A (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection 
+
+DEAFRICA:
+- ALOS-PALSAR-MOSAIC (PALSAR/ALOS)
+- grid system: NoTilingSystem
+- period: 2007 to 2022
+- bands: HH HV CLOUD
+- opendata collection 
+
+- DEM-COP-30 (COP-DEM/30)
+- grid system: DEM-GRID-SYSTEM
+- period: 2019
+- bands: ELEVATION
+- opendata collection 
+
+- LS5-SR (LANDSAT-5/TM-MSS)
+- grid system: WRS-2
+- period: 1984 to 2011
+- bands: B01 B02 B03 B04 B05 B07 CLOUD
+- opendata collection 
+
+- LS7-SR (LANDSAT-7/ETM)
+- grid system: WRS-2
+- period: 1999 to 2024
+- bands: B01 B02 B03 B04 B05 B07 CLOUD
+- opendata collection 
+
+- LS8-SR (LANDSAT-8/OLI)
+- grid system: WRS-2
+- period: 2013 to 2024
+- bands: B01 B02 B03 B04 B05 B06 B07 CLOUD
+- opendata collection 
+
+- LS9-SR (LANDSAT-9/OLI)
+- grid system: WRS-2
+- period: 2021 to 2024
+- bands: B01 B02 B03 B04 B05 B06 B07 CLOUD
+- opendata collection 
+
+- NDVI-ANOMALY (LANDSAT-SENTINEL/OLI-MSI)
+- grid system: DEA-GRID
+- period: 2017 to 2024
+- bands: NDVI-MEAN NDVI-STD-ANOMALY
+- opendata collection 
+
+- RAINFALL-CHIRPS-DAILY (CHIRPS/CHIRPS)
+- grid system: DEA-GRID
+- period: 1981 to 2024
+- bands: RAINFALL
+- opendata collection 
+
+- RAINFALL-CHIRPS-MONTHLY (CHIRPS/CHIRPS)
+- grid system: DEA-GRID
+- period: 1981 to 2024
+- bands: RAINFALL
+- opendata collection 
+
+- SENTINEL-1-RTC (SENTINEL-1/RTC)
+- grid system: DEA-GRID
+- period: 2018 to 2024
+- bands: VV VH
+- opendata collection 
+
+- SENTINEL-2-L2A (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2016 to 2024
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection 
+
+- GM-LS8-LS9-ANNUAL (LANDSAT/OLI)
+- grid system: WRS-2
+- period: 2021 to 2022
+- bands: B02 B03 B04 B05 B06 B07 EMAD SMAD BCMAD
+- opendata collection 
+
+- GM-S2-ANNUAL (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2017 to 2022
+- bands: B02 B03 B04 B05 B06 B07 B08 B11 B12 B8A EMAD SMAD BCMAD
+- opendata collection 
+
+- GM-S2-ROLLING (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2019 to 2023
+- bands: B02 B03 B04 B05 B06 B07 B08 B11 B12 B8A EMAD SMAD BCMAD
+- opendata collection 
+
+- GM-S2-SEMIANNUAL (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2017 to 2022
+- bands: B02 B03 B04 B05 B06 B07 B08 B11 B12 B8A EMAD SMAD BCMAD
+- opendata collection 
+
+DEAUSTRALIA:
+- GA_LS5T_ARD_3 (LANDSAT-5/TM)
+- grid system: WRS-2
+- period: 1986 to 2011
+- bands: BLUE GREEN RED NIR SWIR-1 SWIR-2 CLOUD
+- opendata collection 
+
+- GA_LS7E_ARD_3 (LANDSAT-7/ETM)
+- grid system: WRS-2
+- period: 1999 to 2022
+- bands: BLUE GREEN RED NIR SWIR-1 SWIR-2 PANCHROMATIC CLOUD
+- opendata collection 
+
+- GA_LS8C_ARD_3 (LANDSAT-8/OLI-TIRS)
+- grid system: WRS-2
+- period: 2013 to 2024
+- bands: COASTAL-AEROSOL BLUE GREEN RED NIR SWIR-1 SWIR-2 PANCHROMATIC CLOUD
+- opendata collection 
+
+- GA_LS9C_ARD_3 (LANDSAT-9/OLI-TIRS)
+- grid system: WRS-2
+- period: 2021 to 2024
+- bands: COASTAL-AEROSOL BLUE GREEN RED NIR SWIR-1 SWIR-2 PANCHROMATIC CLOUD
+- opendata collection 
+
+- GA_S2AM_ARD_3 (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to 2024
+- bands: COASTAL-AEROSOL BLUE GREEN RED RED-EDGE-1 RED-EDGE-2 RED-EDGE-3 NIR-1 NIR-2 SWIR-2 SWIR-3 CLOUD
+- opendata collection 
+
+- GA_S2BM_ARD_3 (SENTINEL-2B/MSI)
+- grid system: MGRS
+- period: 2017 to 2024
+- bands: COASTAL-AEROSOL BLUE GREEN RED RED-EDGE-1 RED-EDGE-2 RED-EDGE-3 NIR-1 NIR-2 SWIR-2 SWIR-3 CLOUD
+- opendata collection 
+
+- GA_LS5T_GM_CYEAR_3 (LANDSAT-5/TM-GEOMEDIAN)
+- grid system: WRS-2
+- period: 1986 to 2011
+- bands: BLUE GREEN RED NIR SWIR1 SWIR2 EDEV SDEV BCDEV
+- opendata collection 
+
+- GA_LS7E_GM_CYEAR_3 (LANDSAT-7/ETM-GEOMEDIAN)
+- grid system: WRS-2
+- period: 1999 to 2021
+- bands: BLUE GREEN RED NIR SWIR1 SWIR2 EDEV SDEV BCDEV
+- opendata collection 
+
+- GA_LS8CLS9C_GM_CYEAR_3 (LANDSAT-8-9/OLI-TIRS-GEOMEDIAN)
+- grid system: WRS-2
+- period: 2013 to 2023
+- bands: BLUE GREEN RED NIR SWIR1 SWIR2 EDEV SDEV BCDEV
+- opendata collection 
+
+- GA_LS_FC_3 (LANDSAT/FRACTIONAL-COVER)
+- grid system: WRS-2
+- period: 1986 to 2024
+- bands: BS PV NPV
+- opendata collection 
+
+- GA_S2LS_INTERTIDAL_CYEAR_3 (LANDSAT-SENTINEL/INTERTIDAL)
+- grid system: 
+- period: 2016 to 2022
+- bands: ELEVATION ELEVATION-UNCERTAINTY EXPOSURE TA-HAT TA-HOT TA-LOT TA-LAT TA-OFFSET-HIGH TA-OFFSET-LOW TA-SPREAD QA-NDWI-CORR QA-NDWI-FREQ
+- opendata collection 
+
+HLS:
+- HLSS30 (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: COASTAL-AEROSOL BLUE GREEN RED RED-EDGE-1 RED-EDGE-2 RED-EDGE-3 NIR-BROAD NIR-NARROW WATER-VAPOR SWIR-1 SWIR-2 CLOUD
+- opendata collection 
+
+- HLSL30 (LANDSAT-8/OLI)
+- grid system: MGRS
+- period: 2013 to now
+- bands: COASTAL-AEROSOL BLUE GREEN RED NIR-NARROW SWIR-1 SWIR-2 CLOUD
+- opendata collection 
+
+MPC:
+- MOD13Q1-6.1 (TERRA/MODIS)
+- grid system: STG
+- period: 2000 to now
+- bands: NDVI EVI BLUE RED NIR MIR CLOUD
+- opendata collection 
+
+- MOD10A1-6.1 (TERRA/MODIS)
+- grid system: STG
+- period: 2000 to now
+- bands: SNOW ALBEDO
+- opendata collection 
+
+- MOD09A1-6.1 (TERRA/MODIS)
+- grid system: STG
+- period: 2000 to now
+- bands: BLUE RED GREEN NIR08 LWIR12 SWIR16 SWIR22
+- opendata collection 
+
+- COP-DEM-GLO-30 (TANDEM-X/X-band-SAR)
+- grid system: DEM-GRID-SYSTEM
+- period: 2019
+- bands: ELEVATION
+- opendata collection 
+
+- LANDSAT-C2-L2 (LANDSAT/TM-ETM-OLI)
+- grid system: WRS-2
+- period: 1982 to now
+- bands: BLUE GREEN RED NIR08 SWIR16 SWIR22 CLOUD
+- opendata collection 
+
+- SENTINEL-2-L2A (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection 
+
+- SENTINEL-1-GRD (SENTINEL-1/C-band-SAR)
+- grid system: NoTilingSystem
+- period: 2014 to now
+- bands: VV VH
+- opendata collection 
+
+- SENTINEL-1-RTC (SENTINEL-1/C-band-SAR)
+- grid system: NoTilingSystem
+- period: 2014 to now
+- bands: VV VH
+- opendata collection 
+
+- HLSS30 (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 2015 to now
+- bands: COASTAL-AEROSOL BLUE GREEN RED RED-EDGE-1 RED-EDGE-2 RED-EDGE-3 NIR-BROAD NIR-NARROW WATER-VAPOR SWIR-1 SWIR-2 CLOUD
+- opendata collection 
+
+- HLSL30 (LANDSAT-8/OLI)
+- grid system: MGRS
+- period: 2013 to now
+- bands: COASTAL-AEROSOL BLUE GREEN RED NIR-NARROW SWIR-1 SWIR-2 CLOUD
+- opendata collection 
+
+OGH:
+- LANDSAT-GLAD-2M (LANDSAT/TM-ETM-OLI)
+- grid system: WRS-2
+- period: 1997 to 2022
+- bands: BLUE GREEN RED NIR SWIR1 SWIR2 THERMAL
+- opendata collection 
+
+PLANET:
+- MOSAIC (PLANETSCOPE/MOSAIC)
+- grid system: NoTilingSystem
+- period: On-demand
+- bands: B1 B2 B3 B4
+- not opendata collection
+
+SDC:
+- S2_L2A_10M_SWISS (SENTINEL-2/MSI)
+- grid system: MGRS
+- period: 
+- bands: B01 B02 B03 B04 B05 B06 B07 B08 B8A B09 B11 B12 CLOUD
+- opendata collection 
+
+TERRASCOPE:
+- WORLD-COVER-2021 (WORLD-COVER/2021)
+- grid system: WORLD-COVER-TILES
+- period: 2021
+- bands: CLASS
+- opendata collection 
+
+- WORLD-CEREAL-2021 (SENTINEL-2/MSI)
+- grid system: WORLD-CEREAL-MOSAICS
+- period: 2021
+- bands: CLASS
+- opendata collection (requires access token)
+
+USGS:
+- LANDSAT-C2L2-SR (LANDSAT/TM-ETM-OLI)
+- grid system: WRS-2
+- period: 1982 to now
+- bands: BLUE GREEN RED NIR08 SWIR16 SWIR22 CLOUD
+- not opendata collection

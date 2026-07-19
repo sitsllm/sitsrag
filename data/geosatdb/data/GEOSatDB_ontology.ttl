@@ -1,0 +1,566 @@
+@prefix eo-ont: <https://www.eoknowledgehub.cn/eo/ontology/> .
+@prefix mac: <https://schemas.isotc211.org/19115/-2/mac/2.2/> .
+@prefix mrc: <https://schemas.isotc211.org/19115/-1/mrc/1.3.0/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix smi: <https://schemas.isotc211.org/19130/-3/smi/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+eo-ont:Geometry a rdfs:Class,
+        owl:Class ;
+    rdfs:label "View Geometry"@en ;
+    rdfs:comment "The sensor's geometry."@en ;
+    skos:definition "The sensor's geometry."@en .
+
+eo-ont:LaunchSite a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Launch Site"@en ;
+    rdfs:comment "Launch Site"@en ;
+    skos:definition "Launch Site"@en .
+
+eo-ont:Operation a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Operation"@en ;
+    rdfs:comment "Sensor operation mode"@en ;
+    skos:definition "Sensor operation mode"@en .
+
+eo-ont:OperationalBand a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Operational Band"@en ;
+    rdfs:comment "range of wavelengths in the electromagnetic spectrum"@en ;
+    rdfs:subClassOf mrc:MD_Band ;
+    skos:definition "range of wavelengths in the electromagnetic spectrum"@en .
+
+eo-ont:OperationalStatus a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Operational Status"@en ;
+    rdfs:comment "The current operational status of the satellite."@en ;
+    skos:definition "The current operational status of the satellite."@en .
+
+eo-ont:OrbitType a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Orbit Type"@en ;
+    rdfs:comment "Orbit type of the canonical orbit. (https://www.planet4589.org/space/gcat/web/intro/orbits.html)"@en ;
+    skos:definition "Orbit type of the canonical orbit. (https://www.planet4589.org/space/gcat/web/intro/orbits.html)"@en .
+
+eo-ont:Owner a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Owner"@en ;
+    rdfs:comment "The country, region or organization to which the satellite mission belongs."@en ;
+    skos:definition "The country, region or organization to which the satellite mission belongs."@en .
+
+eo-ont:Sampling a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Sampling"@en ;
+    rdfs:comment "The sensor's sampling method."@en ;
+    skos:definition "The sensor's sampling method."@en .
+
+eo-ont:Satellite a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Satellite"@en ;
+    rdfs:comment "An Earth observation satellite or Earth remote sensing satellite is a satellite used or designed for Earth observation (EO) from orbit, including spy satellites and similar ones intended for non-military uses such as environmental monitoring, meteorology, cartography and others. The most common type are Earth imaging satellites, that take satellite images, analogous to aerial photographs; some EO satellites may perform remote sensing without forming pictures, such as in GNSS radio occultation."@en ;
+    rdfs:subClassOf mac:MI_Platform ;
+    skos:definition "An Earth observation satellite or Earth remote sensing satellite is a satellite used or designed for Earth observation (EO) from orbit, including spy satellites and similar ones intended for non-military uses such as environmental monitoring, meteorology, cartography and others. The most common type are Earth imaging satellites, that take satellite images, analogous to aerial photographs; some EO satellites may perform remote sensing without forming pictures, such as in GNSS radio occultation."@en .
+
+eo-ont:Sensor a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Sensor"@en ;
+    rdfs:comment "A remote sensing sensor is mounted on a satellite to obtain observations of the Earth's surface and atmosphere."@en ;
+    rdfs:subClassOf smi:SD_Sensor ;
+    skos:definition "A remote sensing sensor is mounted on a satellite to obtain observations of the Earth's surface and atmosphere."@en .
+
+eo-ont:SensorStatus a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Sensor Status"@en ;
+    rdfs:comment "The current status of the sensor."@en ;
+    skos:definition "The current status of the sensor."@en .
+
+eo-ont:SensorType a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Sensor Type"@en ;
+    rdfs:comment "The type of the sensor."@en ;
+    skos:definition "The type of the sensor."@en .
+
+eo-ont:WavebandRegion a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Waveband Region"@en ;
+    rdfs:comment "Waveband Region"@en ;
+    skos:definition "Waveband Region"@en .
+
+schema:alternateName a owl:DatatypeProperty ;
+    schema:domainIncludes eo-ont:Satellite,
+        eo-ont:Sensor .
+
+schema:domainIncludes a owl:AnnotationProperty .
+
+schema:name a owl:DatatypeProperty ;
+    schema:domainIncludes eo-ont:Satellite,
+        eo-ont:Sensor .
+
+schema:rangeIncludes a owl:AnnotationProperty .
+
+mrc:boundMax a owl:DatatypeProperty ;
+    rdfs:label "bound max"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    rdfs:comment "longest wavelength that the sensor is capable of collecting within a designated band"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "longest wavelength that the sensor is capable of collecting within a designated band"@en .
+
+mrc:boundMin a owl:DatatypeProperty ;
+    rdfs:label "bound min"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    rdfs:comment "shortest wavelength that the sensor is capable of collecting within a designated band"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "shortest wavelength that the sensor is capable of collecting within a designated band"@en .
+
+mrc:boundUnit a owl:DatatypeProperty ;
+    rdfs:label "bound unit"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    rdfs:comment "units in which sensor wavelengths are expressed"@en ;
+    skos:definition "units in which sensor wavelengths are expressed"@en .
+
+mac:description a owl:DatatypeProperty ;
+    rdfs:label "description"@en ;
+    schema:domainIncludes eo-ont:Satellite,
+        eo-ont:Sensor ;
+    rdfs:comment "A full text description of the objectives and applications"@en ;
+    skos:definition "A full text description of the objectives and applications"@en .
+
+mac:mountedOn a owl:ObjectProperty ;
+    rdfs:label "mounted on"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:Satellite ;
+    rdfs:comment "Satellite on which the sensor is mounted"@en ;
+    skos:definition "Satellite on which the sensor is mounted"@en .
+
+mac:polarisation schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "Polarization is a property of transverse waves that refers to the geometric orientation of the oscillations of the corresponding wave. The radiation field of an antenna is composed of electric and magnetic lines of force. In this field emitted by an antenna, the lines of force of the electric field are perpendicular to the magnetic field. Both field components depend on the position of the antenna relative to the earth's surface. The direction of the electric field determines the direction of the polarization of the electromagnetic wave. A distinction is declared between linear and circular polarization."@en .
+
+mac:polarization a owl:DatatypeProperty ;
+    rdfs:label "polarisation"@en ;
+    skos:definition "Polarization is a property of transverse waves that refers to the geometric orientation of the oscillations of the corresponding wave. The radiation field of an antenna is composed of electric and magnetic lines of force. In this field emitted by an antenna, the lines of force of the electric field are perpendicular to the magnetic field. Both field components depend on the position of the antenna relative to the earth's surface. The direction of the electric field determines the direction of the polarization of the electromagnetic wave. A distinction is declared between linear and circular polarization."@en .
+
+smi:inclination a owl:DatatypeProperty ;
+    rdfs:label "orbital inclination"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "Orbital inclination [degrees]"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "Orbital inclination [degrees]"@en .
+
+smi:operationalMode a owl:DatatypeProperty ;
+    rdfs:label "operational mode"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "description of the operational mode of sensor"@en ;
+    skos:definition "description of the operational mode of sensor"@en .
+
+smi:period a owl:DatatypeProperty ;
+    rdfs:label "orbital period"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "Orbital period [minutes]"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "Orbital period [minutes]"@en .
+
+eo-ont:COSPARId a owl:DatatypeProperty ;
+    rdfs:label "COSPAR ID"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The International Designator, also known as COSPAR ID, is an international identifier assigned to artificial objects in space. It consists of the launch year, a three-digit incrementing launch number of that year and up to a three-letter code representing the sequential identifier of a piece in a launch."@en ;
+    skos:definition "The International Designator, also known as COSPAR ID, is an international identifier assigned to artificial objects in space. It consists of the launch year, a three-digit incrementing launch number of that year and up to a three-letter code representing the sequential identifier of a piece in a launch."@en .
+
+eo-ont:EOLDate a owl:DatatypeProperty ;
+    rdfs:label "end of life date"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The past, planned or projected end of life (EOL) date for the mission."@en ;
+    rdfs:range xsd:date ;
+    skos:definition "The past, planned or projected end of life (EOL) date for the mission."@en .
+
+eo-ont:NORADId a owl:DatatypeProperty ;
+    rdfs:label "NORAD ID"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The Satellite Catalog Number (SATCAT, also known as NORAD (North American Aerospace Defense) Catalog Number, NORAD ID, USSPACECOM object number or simply catalog number, among similar variants) is a sequential nine-digit number assigned by the United States Space Command (USSPACECOM) in the order of launch or discovery to all artificial objects in the orbits of Earth and those that left Earth's orbit."@en ;
+    rdfs:range xsd:integer ;
+    skos:definition "The Satellite Catalog Number (SATCAT, also known as NORAD (North American Aerospace Defense) Catalog Number, NORAD ID, USSPACECOM object number or simply catalog number, among similar variants) is a sequential nine-digit number assigned by the United States Space Command (USSPACECOM) in the order of launch or discovery to all artificial objects in the orbits of Earth and those that left Earth's orbit."@en .
+
+eo-ont:apogee a owl:DatatypeProperty ;
+    rdfs:label "orbital apogee altitude"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "orbital apogee altitude [kilometers]"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "orbital apogee altitude [kilometers]"@en .
+
+eo-ont:dataFormat a owl:DatatypeProperty ;
+    rdfs:label "data format"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "A description of the data formats used for this sensor (NetCDF, etc.)."@en ;
+    skos:definition "A description of the data formats used for this sensor (NetCDF, etc.)."@en .
+
+eo-ont:dataPortal a owl:DatatypeProperty ;
+    rdfs:label "data access portal"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The URL of any mission data access websites or portals."@en ;
+    rdfs:range xsd:anyURI ;
+    skos:definition "The URL of any mission data access websites or portals."@en .
+
+eo-ont:dryMass a owl:DatatypeProperty ;
+    rdfs:label "dry mass"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The mass of the satellite without fuel, measured in kilograms."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The mass of the satellite without fuel, measured in kilograms."@en .
+
+eo-ont:ect a owl:DatatypeProperty ;
+    rdfs:label "equatorial crossing time"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The Local Solar Time (the time of satellite equator overpass) for the mission."@en ;
+    rdfs:range xsd:time ;
+    skos:definition "The Local Solar Time (the time of satellite equator overpass) for the mission."@en .
+
+eo-ont:frequencyMax a owl:DatatypeProperty ;
+    rdfs:label "frequency max"@en ;
+    schema:domainIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "frequency maximum (Gigahertz)"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "frequency maximum (Gigahertz)"@en .
+
+eo-ont:frequencyMin a owl:DatatypeProperty ;
+    rdfs:label "frequency min"@en ;
+    schema:domainIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "frequency minimum (Gigahertz)"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "frequency minimum (Gigahertz)"@en .
+
+eo-ont:geometry a owl:ObjectProperty ;
+    rdfs:label "view geometry"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:Geometry ;
+    rdfs:comment "The sensor's geometry."@en ;
+    skos:definition "The sensor's geometry."@en .
+
+eo-ont:geometryCode a owl:DatatypeProperty ;
+    rdfs:label "view geometry code"@en ;
+    schema:domainIncludes eo-ont:Geometry ;
+    rdfs:comment "view geometry code"@en ;
+    skos:definition "view geometry code"@en .
+
+eo-ont:horizontalResolution a owl:DatatypeProperty ;
+    rdfs:label "horizontal resolution"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "The smallest distance between two uniformly illuminated objects that can be separately resolved in an image. It can also be roughly expressed as IFOV, GSD, or GRD. It is expressed in meters."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The smallest distance between two uniformly illuminated objects that can be separately resolved in an image. It can also be roughly expressed as IFOV, GSD, or GRD. It is expressed in meters."@en .
+
+eo-ont:identifier a owl:DatatypeProperty ;
+    rdfs:label "sensor id"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "The unique ID of the sensor."@en ;
+    skos:definition "The unique ID of the sensor."@en .
+
+eo-ont:incidenceAngle a owl:DatatypeProperty ;
+    rdfs:label "incidence angle"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "The angle at which electromagnetic radiation (such as light or microwaves) strikes a surface. It is the angle between the incident ray (incoming radiation) and the normal (a line perpendicular to the surface) at the point of incidence."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The angle at which electromagnetic radiation (such as light or microwaves) strikes a surface. It is the angle between the incident ray (incoming radiation) and the normal (a line perpendicular to the surface) at the point of incidence."@en .
+
+eo-ont:launchDate a owl:DatatypeProperty ;
+    rdfs:label "launch date"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "Launch Date [year-month-day] (ISO 8601)"@en ;
+    rdfs:range xsd:date ;
+    skos:definition "Launch Date [year-month-day] (ISO 8601)"@en .
+
+eo-ont:launchMass a owl:DatatypeProperty ;
+    rdfs:label "launch mass"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The mass of the satellite at the time of launch, including fuel, given in kilograms."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The mass of the satellite at the time of launch, including fuel, given in kilograms."@en .
+
+eo-ont:launchSite a owl:ObjectProperty ;
+    rdfs:label "launch site"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    schema:rangeIncludes eo-ont:LaunchSite ;
+    rdfs:comment "launch site"@en ;
+    skos:definition "launch site"@en .
+
+eo-ont:launchSiteId a owl:DatatypeProperty ;
+    rdfs:label "launch site id"@en ;
+    schema:domainIncludes eo-ont:LaunchSite ;
+    rdfs:comment "launch site id"@en ;
+    skos:definition "launch site id"@en .
+
+eo-ont:maxSwath a owl:DatatypeProperty ;
+    rdfs:label "maximum swath"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "maximum swath (km)"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "maximum swath (km)"@en .
+
+eo-ont:numberOfBands a owl:DatatypeProperty ;
+    rdfs:label "number Of bands"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    rdfs:comment "count of spectral bands or channels that a remote sensing sensor or instrument is capable of capturing"@en ;
+    rdfs:range xsd:integer ;
+    skos:definition "count of spectral bands or channels that a remote sensing sensor or instrument is capable of capturing"@en .
+
+eo-ont:operation a owl:ObjectProperty ;
+    rdfs:label "operation mode"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    schema:rangeIncludes eo-ont:Operation ;
+    rdfs:comment "operation mode"@en ;
+    skos:definition "operation mode"@en .
+
+eo-ont:operationId a owl:DatatypeProperty ;
+    rdfs:label "sensor operation id"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "sensor operation id"@en ;
+    skos:definition "sensor operation id"@en .
+
+eo-ont:operationalBand a owl:ObjectProperty ;
+    rdfs:label "operational band"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:OperationalBand ;
+    rdfs:comment "The waveband that is used by the sensor for sensing."@en ;
+    skos:definition "The waveband that is used by the sensor for sensing."@en .
+
+eo-ont:operationalBandId a owl:DatatypeProperty ;
+    rdfs:label "operational waveband id"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    rdfs:comment "operational waveband id"@en ;
+    skos:definition "operational waveband id"@en .
+
+eo-ont:operationalStatus a owl:ObjectProperty ;
+    rdfs:label "operational status"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    schema:rangeIncludes eo-ont:OperationalStatus ;
+    rdfs:comment "The current operational status of the satellite."@en ;
+    skos:definition "The current operational status of the satellite."@en .
+
+eo-ont:operationalStatusId a owl:DatatypeProperty ;
+    rdfs:label "operational status id"@en ;
+    schema:domainIncludes eo-ont:OperationalStatus ;
+    rdfs:comment "operational status id"@en ;
+    skos:definition "operational status id"@en .
+
+eo-ont:orbitAltitude a owl:DatatypeProperty ;
+    rdfs:label "orbit altitude"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The altitude of the orbit in km."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The altitude of the orbit in km."@en .
+
+eo-ont:orbitLongitude a owl:DatatypeProperty ;
+    rdfs:label "orbit longitude"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The longitude of the orbit (if geostationary)."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The longitude of the orbit (if geostationary)."@en .
+
+eo-ont:orbitSense a owl:DatatypeProperty ;
+    rdfs:label "orbit sense"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The sense that the mission orbit will be traveling in."@en ;
+    skos:definition "The sense that the mission orbit will be traveling in."@en .
+
+eo-ont:orbitType a owl:ObjectProperty ;
+    rdfs:label "orbit type"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    schema:rangeIncludes eo-ont:OrbitType ;
+    rdfs:comment "Orbit type of the canonical orbit."@en ;
+    skos:definition "Orbit type of the canonical orbit."@en .
+
+eo-ont:orbitTypeId a owl:DatatypeProperty ;
+    rdfs:label "orbit type id"@en ;
+    schema:domainIncludes eo-ont:OrbitType ;
+    rdfs:comment "orbit type id"@en ;
+    skos:definition "orbit type id"@en .
+
+eo-ont:owner a owl:ObjectProperty ;
+    rdfs:label "owner"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    schema:rangeIncludes eo-ont:Owner ;
+    rdfs:comment "The country, region or organization to which the satellite mission belongs."@en ;
+    skos:definition "The country, region or organization to which the satellite mission belongs."@en .
+
+eo-ont:ownerId a owl:DatatypeProperty ;
+    rdfs:label "owner id"@en ;
+    schema:domainIncludes eo-ont:Owner ;
+    rdfs:comment "owner id"@en ;
+    skos:definition "owner id"@en .
+
+eo-ont:perigee a owl:DatatypeProperty ;
+    rdfs:label "orbital perigee altitude"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "orbital perigee altitude [kilometers]"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "orbital perigee altitude [kilometers]"@en .
+
+eo-ont:radarCrossSection a owl:DatatypeProperty ;
+    rdfs:label "radar cross section"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "Radar Cross Section [meters2]"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "Radar Cross Section [meters2]"@en .
+
+eo-ont:radiometricResolution a owl:DatatypeProperty ;
+    rdfs:label "radiometric resolution"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "Radiometric resolution is the ability of a remote sensing system to distinguish and represent different levels of brightness or intensity in the electromagnetic radiation received from a target on the Earth's surface. It is typically expressed in terms of the number of bits used to represent the digital values of the recorded data."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "Radiometric resolution is the ability of a remote sensing system to distinguish and represent different levels of brightness or intensity in the electromagnetic radiation received from a target on the Earth's surface. It is typically expressed in terms of the number of bits used to represent the digital values of the recorded data."@en .
+
+eo-ont:relatedIds a owl:DatatypeProperty ;
+    rdfs:label "related sensor id"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "ID in the different data sources associated with this sensor."@en ;
+    skos:definition "ID in the different data sources associated with this sensor."@en .
+
+eo-ont:relatedSatId a owl:DatatypeProperty ;
+    rdfs:label "related satellite id"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "ID in the different data sources associated with this satellite."@en ;
+    skos:definition "ID in the different data sources associated with this satellite."@en .
+
+eo-ont:repeatCycle a owl:DatatypeProperty ;
+    rdfs:label "repeat cycle"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The mission repeat cycle in days."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The mission repeat cycle in days."@en .
+
+eo-ont:resolutionBest a owl:DatatypeProperty ;
+    rdfs:label "best spatial resolution"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "The best resolution across all modes in metres."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The best resolution across all modes in metres."@en .
+
+eo-ont:revisitTime a owl:DatatypeProperty ;
+    rdfs:label "revisit time"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "The time interval between successive observations of the same area on the Earth's surface by a sensor. (day)"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The time interval between successive observations of the same area on the Earth's surface by a sensor. (day)"@en .
+
+eo-ont:revisitTimeBest a owl:DatatypeProperty ;
+    rdfs:label "best revisit time"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "The fastest revisit time in all modes (day)."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The fastest revisit time in all modes (day)."@en .
+
+eo-ont:sampling a owl:ObjectProperty ;
+    rdfs:label "sampling"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:Sampling ;
+    rdfs:comment "The sensor's sampling method."@en ;
+    skos:definition "The sensor's sampling method."@en .
+
+eo-ont:samplingCode a owl:DatatypeProperty ;
+    rdfs:label "sampling code"@en ;
+    schema:domainIncludes eo-ont:Sampling ;
+    rdfs:comment "sampling code"@en ;
+    skos:definition "sampling code"@en .
+
+eo-ont:satelliteAgency a owl:DatatypeProperty ;
+    rdfs:label "satellite agency"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The lead agency for the satellite mission."@en ;
+    skos:definition "The lead agency for the satellite mission."@en .
+
+eo-ont:sensorAgency a owl:DatatypeProperty ;
+    rdfs:label "sensor agency"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    rdfs:comment "The lead agency for the sensor."@en ;
+    skos:definition "The lead agency for the sensor."@en .
+
+eo-ont:sensorStatus a owl:ObjectProperty ;
+    rdfs:label "sensor status"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:SensorStatus ;
+    rdfs:comment "The current status of the sensor."@en ;
+    skos:definition "The current status of the sensor."@en .
+
+eo-ont:sensorStatusCode a owl:DatatypeProperty ;
+    rdfs:label "sensor status code"@en ;
+    schema:domainIncludes eo-ont:SensorStatus ;
+    rdfs:comment "sensor status code"@en ;
+    skos:definition "sensor status code"@en .
+
+eo-ont:sensorType a owl:ObjectProperty ;
+    rdfs:label "sensor type"@en ;
+    schema:domainIncludes eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:SensorType ;
+    rdfs:comment "The type of the sensor."@en ;
+    skos:definition "The type of the sensor."@en .
+
+eo-ont:sensorTypeCode a owl:DatatypeProperty ;
+    rdfs:label "sensor type code"@en ;
+    schema:domainIncludes eo-ont:SensorType ;
+    rdfs:comment "sensor type code"@en ;
+    skos:definition "sensor type code"@en .
+
+eo-ont:spectralResolution a owl:DatatypeProperty ;
+    rdfs:label "spectral resolution"@en ;
+    schema:domainIncludes eo-ont:OperationalBand ;
+    rdfs:comment "Ability of a sensor to distinguish between different wavelengths or bands of the electromagnetic spectrum. The unit is nm."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "Ability of a sensor to distinguish between different wavelengths or bands of the electromagnetic spectrum. The unit is nm."@en .
+
+eo-ont:subband a owl:ObjectProperty ;
+    rdfs:label "subband"@en ;
+    schema:domainIncludes eo-ont:WavebandRegion ;
+    schema:rangeIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "subband"@en ;
+    skos:definition "subband"@en .
+
+eo-ont:swathWidth a owl:DatatypeProperty ;
+    rdfs:label "swath width"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "The horizontal coverage or the width of the area on the Earth's surface that can be imaged or observed by a remote sensing system at a particular instance. It is essentially the strip or band of the Earth's surface that is captured in a single pass by a sensor. It is expressed in kilometers."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The horizontal coverage or the width of the area on the Earth's surface that can be imaged or observed by a remote sensing system at a particular instance. It is essentially the strip or band of the Earth's surface that is captured in a single pass by a sensor. It is expressed in kilometers."@en .
+
+eo-ont:verticalResolution a owl:DatatypeProperty ;
+    rdfs:label "vertical resolution"@en ;
+    schema:domainIncludes eo-ont:Operation ;
+    rdfs:comment "The ability of a remote sensing system to distinguish between different levels or layers in the vertical dimension of a scene. It is expressed in kilometers."@en ;
+    rdfs:range xsd:float ;
+    skos:definition "The ability of a remote sensing system to distinguish between different levels or layers in the vertical dimension of a scene. It is expressed in kilometers."@en .
+
+eo-ont:wavebandRegion a owl:ObjectProperty ;
+    rdfs:label "waveband region"@en ;
+    schema:domainIncludes eo-ont:OperationalBand,
+        eo-ont:Sensor ;
+    schema:rangeIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "waveband region"@en ;
+    skos:definition "waveband region"@en .
+
+eo-ont:wavebandRegionCode a owl:DatatypeProperty ;
+    rdfs:label "waveband region code"@en ;
+    schema:domainIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "waveband region code"@en ;
+    skos:definition "waveband region code"@en .
+
+eo-ont:wavelengthMax a owl:DatatypeProperty ;
+    rdfs:label "wavelength max"@en ;
+    schema:domainIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "wavelength maximum (Micrometer)"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "wavelength maximum (Micrometer)"@en .
+
+eo-ont:wavelengthMin a owl:DatatypeProperty ;
+    rdfs:label "wavelength min"@en ;
+    schema:domainIncludes eo-ont:WavebandRegion ;
+    rdfs:comment "wavelength minimum (Micrometer)"@en ;
+    rdfs:range xsd:float ;
+    skos:definition "wavelength minimum (Micrometer)"@en .
+
+eo-ont:webInfo a owl:DatatypeProperty ;
+    rdfs:label "web information"@en ;
+    schema:domainIncludes eo-ont:Satellite ;
+    rdfs:comment "The satellite mission website URL."@en ;
+    rdfs:range xsd:anyURI ;
+    skos:definition "The satellite mission website URL."@en .
+

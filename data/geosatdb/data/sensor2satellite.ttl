@@ -1,0 +1,3799 @@
+@prefix eor: <https://www.eoknowledgehub.cn/eo/resource/> .
+@prefix mac: <https://schemas.isotc211.org/19115/-2/mac/2.2/> .
+
+eor:sensor.000b1c2a-024a-472d-88af-476961d854be mac:mountedOn eor:satellite.2011-076E .
+
+eor:sensor.00de6f6c-c286-42e7-8bb9-90023fb41876 mac:mountedOn eor:satellite.2020-013B .
+
+eor:sensor.01129b33-810a-472c-8a1b-42e9ea824a15 mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.015ad018-9918-4bf3-a94a-d2bb3dd6dbdc mac:mountedOn eor:satellite.2014-087A .
+
+eor:sensor.01e408da-ec97-48cc-8b0d-3bc8c012492f mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.02130748-9719-46d7-8f13-103baa9447a7 mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.0308073d-daa7-4847-ac78-c2102a82c2b6 mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.0313780d-f249-4783-95b5-e6981a972add mac:mountedOn eor:satellite.1986-055A,
+        eor:satellite.1987-062A,
+        eor:satellite.1988-056A,
+        eor:satellite.1990-018A,
+        eor:satellite.1991-039A,
+        eor:satellite.1994-066A,
+        eor:satellite.1995-046A,
+        eor:satellite.2004-052A .
+
+eor:sensor.0313a388-515c-450f-ad51-d55fff929812 mac:mountedOn eor:satellite.1986-055A,
+        eor:satellite.1987-062A,
+        eor:satellite.1988-056A,
+        eor:satellite.1990-018A,
+        eor:satellite.1991-039A,
+        eor:satellite.1994-066A,
+        eor:satellite.1995-046A,
+        eor:satellite.1999-039A .
+
+eor:sensor.0392295e-2bb4-4440-9fb3-02ff5c33ae35 mac:mountedOn eor:satellite.2012-025A .
+
+eor:sensor.03f83844-4e45-4def-8765-883a3c56c4d5 mac:mountedOn eor:satellite.2017-082A .
+
+eor:sensor.040ea0f0-6922-4638-8be4-52ac500d8fa5 mac:mountedOn eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.048dbf88-f1d2-4cfd-bd93-9ef471a4e7f2 mac:mountedOn eor:satellite.2001-049B,
+        eor:satellite.2013-003A .
+
+eor:sensor.04b0b99c-a3c9-49a0-9149-153e6d6a263c mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.04b97ebb-0bbc-4584-bd9c-c30b1181bdb5 mac:mountedOn eor:satellite.2010-028A .
+
+eor:sensor.04e91016-ecbb-489c-aaad-e591578aa3a8 mac:mountedOn eor:satellite.2013-067C .
+
+eor:sensor.0503c8b3-ee3f-4fef-bcf9-d4ce20eae8db mac:mountedOn eor:satellite.2018-096A .
+
+eor:sensor.050b6c6a-109c-4f1b-8ea4-35dec4b12e6b mac:mountedOn eor:satellite.2002-024A,
+        eor:satellite.2007-010A,
+        eor:satellite.2018-068A,
+        eor:satellite.2020-036A,
+        eor:satellite.2023-176A .
+
+eor:sensor.0547a0f9-549b-41a8-b762-7c83b7035ba4 mac:mountedOn eor:satellite.2007-004D,
+        eor:satellite.2011-034A .
+
+eor:sensor.0576b6c3-fd0b-4208-a31f-261c2f8e560b mac:mountedOn eor:satellite.2023-176A .
+
+eor:sensor.059228d2-edbc-40a0-a045-cd5bae849311 mac:mountedOn eor:satellite.2016-077A,
+        eor:satellite.2021-047A .
+
+eor:sensor.060e772e-4016-4918-8126-4ba2fd0e9d82 mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.0632cad3-0487-4a24-9769-7e7a47e5e969 mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.07ca31a0-df0a-4336-a084-c8106e6d7c55 mac:mountedOn eor:satellite.1998-017A .
+
+eor:sensor.07e27d8a-301d-4275-8ec1-37e2beab2bc5 mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.08185325-7547-48e1-a0d2-ce849b915de3 mac:mountedOn eor:satellite.2011-061A,
+        eor:satellite.2017-073A,
+        eor:satellite.2022-150A .
+
+eor:sensor.084e8b4d-1ab8-40c2-8ade-e250007ded3b mac:mountedOn eor:satellite.1987-018A,
+        eor:satellite.1990-013A .
+
+eor:sensor.084f2660-22af-42ee-81d9-956b195e92ec mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.087a0bfc-cb34-4b68-a869-c0c39477563c mac:mountedOn eor:satellite.2021-100A .
+
+eor:sensor.08b0519b-cc99-4f28-8dae-8a27540975c0 mac:mountedOn eor:satellite.2016-011A,
+        eor:satellite.2018-039A .
+
+eor:sensor.0923e1f2-de8b-4ca8-ab92-25bd0efc25ca mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.097fe477-3cb9-4874-9c7a-4e6bf88723e0 mac:mountedOn eor:satellite.2008-032A,
+        eor:satellite.2016-002A .
+
+eor:sensor.098e207b-0df6-4e33-9522-92cc91278d36 mac:mountedOn eor:satellite.2016-040A,
+        eor:satellite.2017-008A,
+        eor:satellite.2017-036C,
+        eor:satellite.2018-004A .
+
+eor:sensor.09c4e0c2-0ed8-46a7-9702-afda4221e5e5 mac:mountedOn eor:satellite.2000-075B,
+        eor:satellite.2011-024A .
+
+eor:sensor.09d331e4-5967-4b37-908c-3bf94dd140d7 mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.09e01b79-b941-473f-9ae8-92ca358e2c86 mac:mountedOn eor:satellite.2020-084A .
+
+eor:sensor.0a198e20-3714-4197-8665-a8da11ca2e25 mac:mountedOn eor:satellite.2018-100A .
+
+eor:sensor.0a1a51c6-1732-4a70-a956-bec0c8bf0aa8 mac:mountedOn eor:satellite.1987-053A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.0a351c5b-6465-48e6-a0ae-833e750faaf7 mac:mountedOn eor:satellite.2022-039A .
+
+eor:sensor.0abeae11-916f-473e-bd43-124a4a7d3683 mac:mountedOn eor:satellite.2019-068A .
+
+eor:sensor.0af098d5-fada-41fb-9024-05d6d0158b9e mac:mountedOn eor:satellite.2000-079A .
+
+eor:sensor.0b211a02-9bc2-48fe-873c-72aea8e772e2 mac:mountedOn eor:satellite.2023-016A .
+
+eor:sensor.0b56e5e7-d840-40c5-9853-c737724d3693 mac:mountedOn eor:satellite.1988-021A,
+        eor:satellite.1991-061A,
+        eor:satellite.1994-068A .
+
+eor:sensor.0b73f5e1-67f8-400f-bc47-d99f93c3ee5f mac:mountedOn eor:satellite.2002-056A .
+
+eor:sensor.0c0947bd-a8a3-4c3a-a194-9b644bb169fc mac:mountedOn eor:satellite.2008-042A .
+
+eor:sensor.0e38cb23-65c9-4a6a-84ad-972a8c6f19ee mac:mountedOn eor:satellite.2011-044D .
+
+eor:sensor.0e5a652b-f972-437c-9b7d-7a7a91ba7241 mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.0e70a29e-ada9-48bd-b5c0-c964109aaef5 mac:mountedOn eor:satellite.2013-066G .
+
+eor:sensor.0e75e763-3f1c-493b-b7de-c4210f8a5898 mac:mountedOn eor:satellite.2007-004D,
+        eor:satellite.2011-034A .
+
+eor:sensor.0ebbac00-88e6-43d6-ab63-11401ecb5dc7 mac:mountedOn eor:satellite.2020-067A,
+        eor:satellite.2020-067B .
+
+eor:sensor.0ecd821a-ae13-4ada-8ba6-492927df5af5 mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.0eec124b-9f2f-4122-89c3-67d44e489c1e mac:mountedOn eor:satellite.2009-059B .
+
+eor:sensor.0effe69f-3e23-416f-a1d5-6c75bc92793b mac:mountedOn eor:satellite.2007-026A,
+        eor:satellite.2010-030A .
+
+eor:sensor.0f2b938f-d431-41b9-82da-29ef0f5ab6f0 mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.0ff1ab5b-ce5d-4e12-b84a-abe1abe62258 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.101ba979-697d-49f2-884d-b6c095ef028f mac:mountedOn eor:satellite.2022-015D,
+        eor:satellite.2022-074B .
+
+eor:sensor.1043ffff-b5ff-49ac-8b03-02f8277af4a7 mac:mountedOn eor:satellite.2022-065G .
+
+eor:sensor.1065a5f2-3681-4263-afbe-cb070495eb38 mac:mountedOn eor:satellite.1975-064A,
+        eor:satellite.1977-002A,
+        eor:satellite.1977-117A,
+        eor:satellite.1979-021A,
+        eor:satellite.1979-095A,
+        eor:satellite.1980-073A,
+        eor:satellite.1981-043A,
+        eor:satellite.1982-025A,
+        eor:satellite.1982-116A,
+        eor:satellite.1983-109A,
+        eor:satellite.1984-072A,
+        eor:satellite.1985-013A,
+        eor:satellite.1985-119A,
+        eor:satellite.1986-039A,
+        eor:satellite.1987-001A,
+        eor:satellite.1987-068A,
+        eor:satellite.1988-005A,
+        eor:satellite.1989-018A,
+        eor:satellite.1990-057A,
+        eor:satellite.1990-086A,
+        eor:satellite.1993-055A .
+
+eor:sensor.10790faa-2d57-4998-b858-877865610790 mac:mountedOn eor:satellite.1983-113A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A .
+
+eor:sensor.10d41c7b-f4c5-4d83-8b85-b3badda9cf59 mac:mountedOn eor:satellite.2008-064A .
+
+eor:sensor.10d8bca3-e468-48ab-b748-75d84d027d57 mac:mountedOn eor:satellite.2022-173A .
+
+eor:sensor.10da7f92-4843-498c-bdef-e89c41f4fcd4 mac:mountedOn eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1987-022A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.110f4e03-b879-46a0-b45b-8a3f09d3a9bb mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.11dca10a-468a-4fde-836b-4a3059c88e66 mac:mountedOn eor:satellite.2022-039A .
+
+eor:sensor.11e1a930-3eee-44b9-9b1e-e6d7b9bffb9c mac:mountedOn eor:satellite.2006-044A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.12405de7-0ae6-4ade-ae61-a7e3136606d0 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A .
+
+eor:sensor.12df0a95-f206-45ec-b4a4-21e730f91690 mac:mountedOn eor:satellite.2017-042B .
+
+eor:sensor.12f0b68a-b9bc-40e3-bdda-2b96202474fd mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.130edcf9-5086-4f2b-95a8-8a90af66048f mac:mountedOn eor:satellite.1999-029C,
+        eor:satellite.2009-051A .
+
+eor:sensor.131b7089-2716-4668-a1f9-7c164572b037 mac:mountedOn eor:satellite.1969-037A,
+        eor:satellite.1970-025A .
+
+eor:sensor.13519c09-4bd7-4e48-af52-eedc8e82c559 mac:mountedOn eor:satellite.2008-041A,
+        eor:satellite.2008-041B .
+
+eor:sensor.13f048da-1efe-4d3b-8600-7600d4ba9601 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2023-055A,
+        eor:satellite.2023-111A .
+
+eor:sensor.140e8e8e-8b87-4bf2-8060-54efad28ab46 mac:mountedOn eor:satellite.2019-068A .
+
+eor:sensor.14144b27-925b-4c8c-acd5-93da06d7fb40 mac:mountedOn eor:satellite.2023-055A .
+
+eor:sensor.141fc9ea-c6e0-4b77-b270-7ecaf6179c17 mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.1430b08b-708f-4ee4-b21f-26c5ce6298f8 mac:mountedOn eor:satellite.2010-040A,
+        eor:satellite.2012-020A,
+        eor:satellite.2015-061A .
+
+eor:sensor.14aad00d-6d3e-417a-8347-aa8abc84bebf mac:mountedOn eor:satellite.2009-002A .
+
+eor:sensor.14b5eaaa-00c5-437d-8563-721ac3a9bbeb mac:mountedOn eor:satellite.2006-027A .
+
+eor:sensor.1567ae05-4885-48f2-be06-bc82381d0d39 mac:mountedOn eor:satellite.2000-075A .
+
+eor:sensor.157c0590-59f1-4557-ab1d-56e04be295b0 mac:mountedOn eor:satellite.2002-056A .
+
+eor:sensor.159923bb-375e-4eec-947f-8ab393bd8506 mac:mountedOn eor:satellite.1992-038A .
+
+eor:sensor.165ac491-a074-4784-bed3-f7caa140033f mac:mountedOn eor:satellite.2021-131A .
+
+eor:sensor.165c5f7f-43af-4adc-807b-53d041f495ed mac:mountedOn eor:satellite.2013-021A,
+        eor:satellite.2023-155K .
+
+eor:sensor.167efdf8-ecbd-4f10-9f2c-0c9f9ceb225f mac:mountedOn eor:satellite.2000-014A .
+
+eor:sensor.1685ca2c-b15b-4c0c-983f-3308fd3be092 mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.1690f5a6-1332-42a6-9921-64404239dd50 mac:mountedOn eor:satellite.1976-039A,
+        eor:satellite.1992-070B,
+        eor:satellite.2012-006A,
+        eor:satellite.2022-080A .
+
+eor:sensor.16c47823-8718-4bef-82d7-c1e5b610669e mac:mountedOn eor:satellite.2013-066G .
+
+eor:sensor.174e59f1-e2f1-4bf1-bacf-e1c4ca9985a5 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.176b57bb-c9c0-4763-8266-894aea645513 mac:mountedOn eor:satellite.2008-017A .
+
+eor:sensor.17780f4a-2cfc-48c7-8302-6af1bb69a701 mac:mountedOn eor:satellite.2018-084B .
+
+eor:sensor.179d3cbd-9660-4ceb-9a07-2b1ff888a9aa mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.17c2fc3d-267d-4fda-a002-7b54fdafdc1b mac:mountedOn eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.17fe40cc-d984-4f73-9e15-595a9d08fd4c mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A,
+        eor:satellite.2002-009A .
+
+eor:sensor.184a82e9-e271-4412-8712-f90e714f48ea mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.186a39bf-79e3-4501-876c-eff11d019308 mac:mountedOn eor:satellite.2008-051A .
+
+eor:sensor.192268a4-08be-470a-9130-897b51b4744b mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.19361216-c3ab-48f7-a92a-1ab99f9f9f28 mac:mountedOn eor:satellite.1972-097A .
+
+eor:sensor.1964855e-bb70-44d9-a70c-8028721b4bd3 mac:mountedOn eor:satellite.2000-075A .
+
+eor:sensor.197ca2d1-9e62-4adc-bf7b-b56c87d1f0b1 mac:mountedOn eor:satellite.1974-039A .
+
+eor:sensor.19935a3e-bce2-4d83-9f77-3a73878f3454 mac:mountedOn eor:satellite.2022-127A,
+        eor:satellite.2022-158A .
+
+eor:sensor.19b28b9d-e990-47ee-af76-5c63b0cc446b mac:mountedOn eor:satellite.2004-025C .
+
+eor:sensor.1a30eaee-3376-4de7-b848-4c81213ead42 mac:mountedOn eor:satellite.2011-024A .
+
+eor:sensor.1a42f932-9a56-4abf-848a-027801b453aa mac:mountedOn eor:satellite.1984-108B,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A .
+
+eor:sensor.1aa3b600-9870-46b5-bfcf-35660d256022 mac:mountedOn eor:satellite.2023-054AQ .
+
+eor:sensor.1abfcfdd-eac8-46b8-b3c5-a0233d4f57dc mac:mountedOn eor:satellite.2021-022A .
+
+eor:sensor.1b141da4-9534-48c3-ab07-8ff6532f517d mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.1b8f8628-aaff-4b2d-9dd1-7106e357c42f mac:mountedOn eor:satellite.1998-067MY .
+
+eor:sensor.1bd1d4ce-234d-4a92-929d-6d328b5ac545 mac:mountedOn eor:satellite.1962-049A,
+        eor:satellite.1965-098A .
+
+eor:sensor.1bd9f10c-966d-447a-b725-32199e3a8111 mac:mountedOn eor:satellite.2001-049C .
+
+eor:sensor.1bfe76ac-08d7-48f7-a1fa-b9e8af6fca4a mac:mountedOn eor:satellite.2002-040B,
+        eor:satellite.2005-049B,
+        eor:satellite.2012-035B,
+        eor:satellite.2015-034A .
+
+eor:sensor.1c1115f6-98ef-4992-8640-2ffe0ce2889a mac:mountedOn eor:satellite.2015-052C .
+
+eor:sensor.1c24622e-0429-453a-bdb5-286e1544e750 mac:mountedOn eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.1c467349-c991-44c2-a953-7feaf611cf07 mac:mountedOn eor:satellite.1975-052A .
+
+eor:sensor.1c504633-ade8-4d48-8315-567e6377c7d4 mac:mountedOn eor:satellite.2001-055A .
+
+eor:sensor.1c58ddb9-2b4c-4fe0-9970-f5fdc7242f6b mac:mountedOn eor:satellite.2011-061A,
+        eor:satellite.2017-073A,
+        eor:satellite.2022-150A .
+
+eor:sensor.1c971083-eee4-48eb-a55b-aee7fa3f87c3 mac:mountedOn eor:satellite.2006-011A,
+        eor:satellite.2006-011B,
+        eor:satellite.2006-011C,
+        eor:satellite.2006-011D,
+        eor:satellite.2006-011E,
+        eor:satellite.2006-011F .
+
+eor:sensor.1cd57f0f-4f2d-4319-83b2-c0d66aa78793 mac:mountedOn eor:satellite.2009-002A .
+
+eor:sensor.1ce30541-487c-4b86-8f76-014fc7f27c4c mac:mountedOn eor:satellite.1972-082A,
+        eor:satellite.1973-086A,
+        eor:satellite.1974-089A,
+        eor:satellite.1976-077A .
+
+eor:sensor.1d11dd73-c237-49d5-a6c6-659b2060a613 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.1d5290c2-fc41-4dea-b775-514eaa0ddebc mac:mountedOn eor:satellite.1991-063B,
+        eor:satellite.2003-004A .
+
+eor:sensor.1d6364ee-3de8-40cf-9888-00e68283c06a mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.1d8339ac-b6e0-4313-a58c-9c06f9ead842 mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.1d96994a-22fd-48b5-b0b7-30067de22cd5 mac:mountedOn eor:satellite.2018-068A,
+        eor:satellite.2019-033A,
+        eor:satellite.2019-033B,
+        eor:satellite.2019-033C,
+        eor:satellite.2020-036A,
+        eor:satellite.2021-109A,
+        eor:satellite.2022-035A,
+        eor:satellite.2023-176A,
+        eor:satellite.2024-123A,
+        eor:satellite.2024-235A .
+
+eor:sensor.1da0f2bb-70b3-4c74-9482-d97effeb781b mac:mountedOn eor:satellite.2024-070A .
+
+eor:sensor.1e0b9a1f-f86c-46aa-af8d-d9afb5928488 mac:mountedOn eor:satellite.2008-017A .
+
+eor:sensor.1e523347-b77f-46d6-b611-6a6934b6f6a5 mac:mountedOn eor:satellite.2019-049A,
+        eor:satellite.2020-086A,
+        eor:satellite.2022-170C .
+
+eor:sensor.1e52b6fc-421e-4b23-8857-64e61856da98 mac:mountedOn eor:satellite.1963-024A,
+        eor:satellite.2013-003A .
+
+eor:sensor.1e602223-21fa-45e4-aa2a-04f28920904c mac:mountedOn eor:satellite.2003-042E .
+
+eor:sensor.1f39f580-5829-4b38-9e49-3916f584d76c mac:mountedOn eor:satellite.2010-005A .
+
+eor:sensor.1f6209ea-51ef-4b90-ab6f-e062d3fb74b3 mac:mountedOn eor:satellite.2022-039A .
+
+eor:sensor.1f8649ae-1f51-4de1-a521-736a23b6579f mac:mountedOn eor:satellite.2011-024A .
+
+eor:sensor.1f8e3d4b-7392-4116-a0fd-76fa41bcd844 mac:mountedOn eor:satellite.2013-066D,
+        eor:satellite.2014-033D .
+
+eor:sensor.1fdac0b3-b833-45d1-aa72-509020ea2224 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.1ff4e1ad-c315-4429-bf66-e90ab823f3ac mac:mountedOn eor:satellite.2021-047A .
+
+eor:sensor.203b6cda-8b79-4bb8-aef3-9238632a0d5d mac:mountedOn eor:satellite.2011-058A .
+
+eor:sensor.2040686b-9e15-4ce1-becf-b2cd2056aac1 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.20ce205e-c922-4949-a3c4-f9afac05c930 mac:mountedOn eor:satellite.2008-041A .
+
+eor:sensor.20d42bfd-6a9f-423f-8767-3366c96fcb1a mac:mountedOn eor:satellite.1995-072A,
+        eor:satellite.1997-057A .
+
+eor:sensor.210bd2f5-c733-4972-896b-888e146f961d mac:mountedOn eor:satellite.1977-108A,
+        eor:satellite.1981-057A,
+        eor:satellite.1988-051A,
+        eor:satellite.1989-020B,
+        eor:satellite.1991-015B,
+        eor:satellite.1993-073B,
+        eor:satellite.1997-049B .
+
+eor:sensor.21551ce6-f2f2-41d1-b063-1812bd8287eb mac:mountedOn eor:satellite.2018-020A .
+
+eor:sensor.21776813-a697-4ffd-bcd1-9c99fe601e40 mac:mountedOn eor:satellite.2005-032A .
+
+eor:sensor.21eee8d7-d8a3-45be-ba6c-cb3b3c0e7894 mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.225cce50-42ec-4282-95d4-85ff5e99fa3b mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.234c118a-59d8-4d29-913f-25bdd1cb99a8 mac:mountedOn eor:satellite.2005-043B .
+
+eor:sensor.23b55b06-1a43-4615-b325-a00cccfbd8fe mac:mountedOn eor:satellite.2018-007A .
+
+eor:sensor.2450d7c2-5aa3-4010-813e-e0e3ca22d49b mac:mountedOn eor:satellite.2016-040D .
+
+eor:sensor.24c428f3-6a25-48a7-88f2-c0b68b5fcc17 mac:mountedOn eor:satellite.2013-066B .
+
+eor:sensor.253f4d57-dae6-48d2-91c8-e044867868b2 mac:mountedOn eor:satellite.2018-071B .
+
+eor:sensor.256f2d53-1236-46cc-92e9-9ff176ed408f mac:mountedOn eor:satellite.2003-042C .
+
+eor:sensor.25c3d6e2-0ea4-44ed-84b9-1b559cfebd9a mac:mountedOn eor:satellite.1994-069A .
+
+eor:sensor.25e295fa-a06e-4fd8-93d5-0a811e48bfc5 mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.261a2309-d876-4c02-bfc0-71e450223fd3 mac:mountedOn eor:satellite.2001-049C .
+
+eor:sensor.269048f6-ba65-445d-8e5c-a1f09c856551 mac:mountedOn eor:satellite.2011-079A,
+        eor:satellite.2012-001A,
+        eor:satellite.2016-033A,
+        eor:satellite.2020-051A .
+
+eor:sensor.26fb3e8f-af15-4be2-98fd-49007876373e mac:mountedOn eor:satellite.1995-072A,
+        eor:satellite.1997-057A .
+
+eor:sensor.2721fb5b-55dc-45db-8d3d-758e06ea0583 mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.2781a64d-d5b1-4845-a33f-2a51e2634b3d mac:mountedOn eor:satellite.1969-037A .
+
+eor:sensor.27ac55c4-8a36-42a7-a190-c6db774abf51 mac:mountedOn eor:satellite.2006-004A .
+
+eor:sensor.27e6342b-6ba3-4415-8ffa-7bc2384d98cc mac:mountedOn eor:satellite.2015-003A .
+
+eor:sensor.284b9db6-9562-4c18-ab31-281b86111221 mac:mountedOn eor:satellite.2008-049A .
+
+eor:sensor.288b6075-aed6-417b-bf03-b08d04f20a1c mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A,
+        eor:satellite.2002-009A,
+        eor:satellite.2016-011A,
+        eor:satellite.2018-039A .
+
+eor:sensor.28919685-9b03-4e49-a78f-39d4c4643e8a mac:mountedOn eor:satellite.2013-030A,
+        eor:satellite.2014-087A,
+        eor:satellite.2016-016A,
+        eor:satellite.2024-061A,
+        eor:satellite.2024-250A .
+
+eor:sensor.28986a58-608a-45c8-83ca-5d5732a5bfc0 mac:mountedOn eor:satellite.2016-002A .
+
+eor:sensor.28e11849-fcd9-4832-9dbe-a77695e18214 mac:mountedOn eor:satellite.2015-032D .
+
+eor:sensor.29138369-5e0b-444d-9d64-e10a727d4bbd mac:mountedOn eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.2984e29e-4bbd-4ba9-b800-f8b6252548f5 mac:mountedOn eor:satellite.2012-017A,
+        eor:satellite.2022-013A .
+
+eor:sensor.29afdd80-3adb-469e-8ad9-7b9fa1ca9aff mac:mountedOn eor:satellite.2008-017A .
+
+eor:sensor.2a0a8f77-19bc-43e8-b058-63b0e1f3d908 mac:mountedOn eor:satellite.2006-016B .
+
+eor:sensor.2a355bd1-201d-4edb-924f-9d746cc5663d mac:mountedOn eor:satellite.1962-049A,
+        eor:satellite.1965-098A .
+
+eor:sensor.2a856400-6fd7-415e-a325-e6f76ef3da02 mac:mountedOn eor:satellite.2007-041A .
+
+eor:sensor.2aafe82e-0747-4aad-b3ea-fbc14c01885c mac:mountedOn eor:satellite.2003-042G .
+
+eor:sensor.2b55bf71-b725-4597-a9b8-676e52dd107c mac:mountedOn eor:satellite.2006-031A .
+
+eor:sensor.2c0617a6-19d6-47e6-9fd3-f8bd048d058f mac:mountedOn eor:satellite.2011-024A,
+        eor:satellite.2011-058A .
+
+eor:sensor.2c1d4497-1e0b-4234-95a4-ca05cb01ace1 mac:mountedOn eor:satellite.2012-056A .
+
+eor:sensor.2c30df43-0d3f-48c4-b938-cb07739cbf8a mac:mountedOn eor:satellite.2010-028A .
+
+eor:sensor.2c8f9feb-9c52-40ab-918b-204e1e51e612 mac:mountedOn eor:satellite.2011-024A .
+
+eor:sensor.2d687dc4-749b-4a14-b915-ddc3da17f62b mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1994-089A .
+
+eor:sensor.2d804af5-38e9-4487-aa99-19f1ed3a809d mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.2d8c5fed-028f-4a00-99dc-c5c7887a582b mac:mountedOn eor:satellite.1982-031A,
+        eor:satellite.1983-089B,
+        eor:satellite.1988-063A,
+        eor:satellite.1990-051A,
+        eor:satellite.1992-041A,
+        eor:satellite.1993-048B,
+        eor:satellite.1997-027B,
+        eor:satellite.1999-016A,
+        eor:satellite.2002-043A,
+        eor:satellite.2003-013A .
+
+eor:sensor.2daa00dc-6932-44dc-91a6-ff3cb3df3134 mac:mountedOn eor:satellite.1992-052A .
+
+eor:sensor.2dd4eb1d-10aa-4b03-86d3-42be9225c643 mac:mountedOn eor:satellite.2009-059A .
+
+eor:sensor.2e2e30bc-8037-42ec-80f3-8fcdda519e1f mac:mountedOn eor:satellite.2000-075B .
+
+eor:sensor.2e2fb031-ba3f-49c2-bc47-1dedd41ee891 mac:mountedOn eor:satellite.1978-098A,
+        eor:satellite.1984-108B .
+
+eor:sensor.2ed6b5b6-8c91-47b9-9899-0fb4865e8d21 mac:mountedOn eor:satellite.1975-052A .
+
+eor:sensor.2eef0841-a871-47fd-a61e-983d8a67433a mac:mountedOn eor:satellite.2006-044A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.2ef5b002-46b0-45c2-b372-2f90e83b5088 mac:mountedOn eor:satellite.2013-021B .
+
+eor:sensor.2f146bf3-f7e9-48ba-8749-ef04c14558b3 mac:mountedOn eor:satellite.1999-068A .
+
+eor:sensor.2f30e397-789f-4114-8110-4954a36a2d3c mac:mountedOn eor:satellite.2006-011A,
+        eor:satellite.2006-011B,
+        eor:satellite.2006-011C,
+        eor:satellite.2006-011D,
+        eor:satellite.2006-011E,
+        eor:satellite.2006-011F .
+
+eor:sensor.2f42a413-4231-4edc-a7bf-3b2dd01332d4 mac:mountedOn eor:satellite.2019-036E,
+        eor:satellite.2019-036L,
+        eor:satellite.2019-036M,
+        eor:satellite.2019-036N,
+        eor:satellite.2019-036Q,
+        eor:satellite.2019-036V .
+
+eor:sensor.2f662d70-004e-437a-b205-9e46bee8f206 mac:mountedOn eor:satellite.2008-032A .
+
+eor:sensor.2f7e2649-b3d5-4557-b50a-9f3ccdb899b4 mac:mountedOn eor:satellite.2018-015C .
+
+eor:sensor.30c0064c-9157-44e2-b73c-b94992a82365 mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.30f6664d-ec7b-4cb7-8129-5960acd4e11d mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.3145aa76-ecac-4483-8bdf-107c10b504f7 mac:mountedOn eor:satellite.2021-034A,
+        eor:satellite.2021-073E .
+
+eor:sensor.31488974-62e3-41c3-b02e-7811e4cf9dbe mac:mountedOn eor:satellite.2001-055A .
+
+eor:sensor.31503eef-1f7a-43f7-97a7-3caf96340a83 mac:mountedOn eor:satellite.1982-072A,
+        eor:satellite.1984-021A,
+        eor:satellite.2008-032A,
+        eor:satellite.2016-002A,
+        eor:satellite.2022-173A .
+
+eor:sensor.3159600d-3cdd-43b8-a6a2-3992be03d148 mac:mountedOn eor:satellite.2016-040A,
+        eor:satellite.2017-008A,
+        eor:satellite.2017-036C,
+        eor:satellite.2018-004A .
+
+eor:sensor.31c17fee-61fb-487f-8cb1-c0606249c326 mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.31e01b03-e60f-411d-a72f-2303178e4ea9 mac:mountedOn eor:satellite.2003-004A,
+        eor:satellite.2018-099AM .
+
+eor:sensor.324588e2-5982-40c6-947d-c20c4e16c4db mac:mountedOn eor:satellite.1994-069A .
+
+eor:sensor.33b09cd1-9484-4dbc-9a9a-f4b2e399378c mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.33d8ff55-a282-4f56-a302-d2e8e209bc16 mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.33e7d8d6-3597-47d1-abf3-89931f783cea mac:mountedOn eor:satellite.2020-086A .
+
+eor:sensor.344c5d62-ab4a-450c-825b-6904e0006771 mac:mountedOn eor:satellite.2021-102D .
+
+eor:sensor.3469d035-f5d9-4af2-a25e-454359a816d4 mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.35a026aa-3647-4957-9cc2-c77d4de7075b mac:mountedOn eor:satellite.2024-147A .
+
+eor:sensor.35aa4273-5404-411c-9bdf-5857a01d9128 mac:mountedOn eor:satellite.2007-006D .
+
+eor:sensor.36539b18-537c-49d0-9b03-de2e1274e0a5 mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.36794b30-0c25-41cc-b3f0-a7c44d3a559a mac:mountedOn eor:satellite.2000-039B .
+
+eor:sensor.36857c99-bdbb-4dc9-ac3e-e99b90677dec mac:mountedOn eor:satellite.2018-100A .
+
+eor:sensor.36900144-1014-496c-8da2-cd51989e1cf2 mac:mountedOn eor:satellite.2022-033C .
+
+eor:sensor.36914305-4cc6-46c2-a4f2-33b2db79fbd8 mac:mountedOn eor:satellite.2020-068D .
+
+eor:sensor.36cd8474-c438-41b1-9648-5aadad5bfdea mac:mountedOn eor:satellite.2022-015D .
+
+eor:sensor.37017569-abce-4b97-a9bf-b5e1e647985a mac:mountedOn eor:satellite.2013-009A .
+
+eor:sensor.37103a3d-086e-44ef-8f79-98eecb551af7 mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.3739ee9d-1dff-4353-96a1-3d53ddafd829 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.377b8d36-2e21-4313-bf01-02f5217a3d5d mac:mountedOn eor:satellite.2023-111A .
+
+eor:sensor.379a55c3-6d05-43a6-97e9-feb97dc4f66c mac:mountedOn eor:satellite.1972-058A,
+        eor:satellite.1975-004A,
+        eor:satellite.1978-026A .
+
+eor:sensor.38a11840-ddbe-4c29-a219-3afd784497f9 mac:mountedOn eor:satellite.2018-004E .
+
+eor:sensor.38bacfbf-89e7-4cd6-bff2-423bf4f17165 mac:mountedOn eor:satellite.1986-055A,
+        eor:satellite.1987-062A,
+        eor:satellite.1988-056A,
+        eor:satellite.1990-018A,
+        eor:satellite.1991-039A,
+        eor:satellite.1994-066A,
+        eor:satellite.1995-046A,
+        eor:satellite.1999-039A,
+        eor:satellite.2004-052A .
+
+eor:sensor.38c54b5d-6305-4a06-86a7-ac5f9f37a6a3 mac:mountedOn eor:satellite.2004-042A,
+        eor:satellite.2006-053A,
+        eor:satellite.2008-066A,
+        eor:satellite.2012-002A,
+        eor:satellite.2014-090A,
+        eor:satellite.2018-050A .
+
+eor:sensor.38e5d29f-25ad-41cb-99e8-ca96ea2cbe0a mac:mountedOn eor:satellite.2003-004A,
+        eor:satellite.2013-064A .
+
+eor:sensor.392c3d31-5b1c-4e92-a445-423f52bc2ebe mac:mountedOn eor:satellite.2021-062A .
+
+eor:sensor.3995d1d9-42a7-4cf6-947f-56ef357587b2 mac:mountedOn eor:satellite.2012-052A .
+
+eor:sensor.3a221148-dddd-4d44-bd3a-7d2cafc4e7e4 mac:mountedOn eor:satellite.2002-004A .
+
+eor:sensor.3a495a7d-71ba-4b7c-904d-5c81290c97d4 mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.3a5374f8-6490-48d7-ac97-f3d8c7b8f738 mac:mountedOn eor:satellite.1991-056A,
+        eor:satellite.1993-055A,
+        eor:satellite.1994-003A,
+        eor:satellite.1998-043A .
+
+eor:sensor.3a6384a4-09cf-4ccf-a6bb-a9b5fc83366d mac:mountedOn eor:satellite.2000-039B .
+
+eor:sensor.3a680fb1-93fa-4b68-9ccc-a288313eb97a mac:mountedOn eor:satellite.2012-056B .
+
+eor:sensor.3aa0e279-5032-4ae9-adab-135b3e08df6f mac:mountedOn eor:satellite.2021-100A .
+
+eor:sensor.3ad01026-cf89-4f12-8c79-03c4f21618ed mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.3b06f8a8-50c2-414f-90b8-7c10cb41dd0b mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.3b6284a3-02a4-41b3-9de7-c1fdb6d1d7ae mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.3b73f194-1b27-43f3-8cac-ae4baf64676d mac:mountedOn eor:satellite.2018-096M,
+        eor:satellite.2018-099BG,
+        eor:satellite.2019-037C,
+        eor:satellite.2019-054E,
+        eor:satellite.2020-055BP,
+        eor:satellite.2020-055BQ,
+        eor:satellite.2021-023G,
+        eor:satellite.2021-106A,
+        eor:satellite.2021-106B,
+        eor:satellite.2021-115BA,
+        eor:satellite.2021-120A,
+        eor:satellite.2021-120B,
+        eor:satellite.2022-034B,
+        eor:satellite.2022-034C,
+        eor:satellite.2023-041B .
+
+eor:sensor.3ba8d1fa-7019-4fed-9b0f-03f1d1d7d326 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.3be24aa7-c8dc-4d98-bead-7c4604cae32d mac:mountedOn eor:satellite.2022-173A .
+
+eor:sensor.3c570e3f-4c8c-4b7c-a981-b2707767a968 mac:mountedOn eor:satellite.2013-067C .
+
+eor:sensor.3c6ebda5-ba75-4a19-be26-76da81212368 mac:mountedOn eor:satellite.2011-024A .
+
+eor:sensor.3c94cafe-c996-4cbc-921a-0ebcc3ff9a7f mac:mountedOn eor:satellite.2018-020A .
+
+eor:sensor.3c98b47f-d6b7-42b2-8f28-25a8326e779c mac:mountedOn eor:satellite.2020-059B,
+        eor:satellite.2021-059AH,
+        eor:satellite.2022-033B,
+        eor:satellite.2023-185A,
+        eor:satellite.2024-149DL .
+
+eor:sensor.3cd86442-bc09-4af3-a50e-a6555cde1f4d mac:mountedOn eor:satellite.1992-007A .
+
+eor:sensor.3cda5b06-8a02-47d8-85e2-d131a00d5234 mac:mountedOn eor:satellite.1979-050A,
+        eor:satellite.1983-113A,
+        eor:satellite.1987-053A,
+        eor:satellite.1988-006A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.3cf3f616-262f-4ee0-a2cf-e1700d138b4e mac:mountedOn eor:satellite.2018-100A .
+
+eor:sensor.3d6fa4c0-a0e6-48e8-80a3-a76fbf7c5ad6 mac:mountedOn eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.3da1a202-1c1d-473b-b125-712ce0bce446 mac:mountedOn eor:satellite.2011-076F,
+        eor:satellite.2012-068A,
+        eor:satellite.2016-073A,
+        eor:satellite.2017-070A,
+        eor:satellite.2018-095A,
+        eor:satellite.2020-090A .
+
+eor:sensor.3dacd70d-ff7a-488a-9421-37e7bd5feae7 mac:mountedOn eor:satellite.1959-009A,
+        eor:satellite.1960-016A,
+        eor:satellite.1961-017A,
+        eor:satellite.1962-002A,
+        eor:satellite.1963-024A,
+        eor:satellite.1966-008A,
+        eor:satellite.1966-087A,
+        eor:satellite.1967-036A,
+        eor:satellite.1968-069A,
+        eor:satellite.1969-016A,
+        eor:satellite.1970-008A,
+        eor:satellite.1970-106A .
+
+eor:sensor.3e0251ac-ac6f-4a8f-85ea-959588467a0d mac:mountedOn eor:satellite.1992-038A .
+
+eor:sensor.3e12df4a-df19-4d11-b389-01bcc2e007f6 mac:mountedOn eor:satellite.2019-038C,
+        eor:satellite.2019-038D .
+
+eor:sensor.3ea7c446-e91c-44f9-b20f-5b970c342c72 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.3edac718-0f5c-472c-a778-98ee71da8f94 mac:mountedOn eor:satellite.2013-066C,
+        eor:satellite.2014-037D,
+        eor:satellite.2016-040C,
+        eor:satellite.2016-058B,
+        eor:satellite.2016-058C,
+        eor:satellite.2016-058D,
+        eor:satellite.2016-058E,
+        eor:satellite.2017-068A,
+        eor:satellite.2017-068B,
+        eor:satellite.2017-068C,
+        eor:satellite.2017-068D,
+        eor:satellite.2017-068E,
+        eor:satellite.2017-068F,
+        eor:satellite.2018-099AR,
+        eor:satellite.2018-099AW,
+        eor:satellite.2020-038BL,
+        eor:satellite.2020-038BM,
+        eor:satellite.2020-038BN,
+        eor:satellite.2020-057BQ,
+        eor:satellite.2020-057BR,
+        eor:satellite.2020-057BS .
+
+eor:sensor.3f39ab1a-54f0-42ac-91cc-1a059eeb3de4 mac:mountedOn eor:satellite.2018-012B .
+
+eor:sensor.3f4de535-ec67-4598-9f59-eb6e9d5a0c67 mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.3fa33bca-7cea-4c99-aeb0-8bb9da15defd mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.3fb1d693-78bd-4c6d-9849-0f280e090072 mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A .
+
+eor:sensor.401199f7-8db7-4bc6-9bed-3daf753a2810 mac:mountedOn eor:satellite.2013-064A .
+
+eor:sensor.405b10fe-2293-40f4-b3c0-fe52a65c2edd mac:mountedOn eor:satellite.1967-111A .
+
+eor:sensor.40688695-5fa4-44a5-9a9e-a1633c4b7ebf mac:mountedOn eor:satellite.2010-013A .
+
+eor:sensor.4088d073-7be2-4c50-a239-622291797e67 mac:mountedOn eor:satellite.2004-025C .
+
+eor:sensor.40b9c775-0850-49fd-84ca-7d63874aa70c mac:mountedOn eor:satellite.2023-111A .
+
+eor:sensor.410ec1ab-4024-4bb8-a33a-2e0e356df884 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.4157c747-e780-4f75-8fa5-80f2898c7f12 mac:mountedOn eor:satellite.1980-051A,
+        eor:satellite.1985-090A,
+        eor:satellite.1988-032A,
+        eor:satellite.1994-074A,
+        eor:satellite.1998-043A,
+        eor:satellite.1999-039A,
+        eor:satellite.2001-056A,
+        eor:satellite.2004-052A .
+
+eor:sensor.4180cd31-acab-4723-9e9a-5fd4d954b5a0 mac:mountedOn eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.418df311-b9c4-42b3-9e14-935d94124dbb mac:mountedOn eor:satellite.2005-032A .
+
+eor:sensor.41a17f2b-5327-4b09-b5fb-ec92a66ab02d mac:mountedOn eor:satellite.2023-155B .
+
+eor:sensor.41f96f88-b9f5-4ac1-bb30-638759261de9 mac:mountedOn eor:satellite.2003-046A,
+        eor:satellite.2011-015A,
+        eor:satellite.2016-074A .
+
+eor:sensor.4215b286-af61-465f-8d80-05d72f00296e mac:mountedOn eor:satellite.2004-026A .
+
+eor:sensor.4262adab-0aa4-4473-bb1e-b3c50a58d091 mac:mountedOn eor:satellite.2018-065A .
+
+eor:sensor.4262e0db-7fe9-4cd1-bc0a-c850fba348fe mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.427cc097-a5df-4dcf-9686-9b2bd8bfa8f2 mac:mountedOn eor:satellite.1975-052A .
+
+eor:sensor.42891b87-7250-4496-b352-87b3ea8f6ac3 mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.428f24a8-c639-4b2d-a4fc-d26db09ba240 mac:mountedOn eor:satellite.2023-174AS .
+
+eor:sensor.42d32edb-008a-4f1d-896c-884b8b4059e1 mac:mountedOn eor:satellite.1978-098A,
+        eor:satellite.1984-108B .
+
+eor:sensor.43185698-f61e-4e2e-a2e1-e1a0cd89a60d mac:mountedOn eor:satellite.2013-032A,
+        eor:satellite.2014-084A,
+        eor:satellite.2023-074A,
+        eor:satellite.2024-223A .
+
+eor:sensor.4345d27c-027e-406b-8724-60412bef78df mac:mountedOn eor:satellite.1976-043A,
+        eor:satellite.1977-057A,
+        eor:satellite.1979-005A,
+        eor:satellite.1980-051A,
+        eor:satellite.1981-065A .
+
+eor:sensor.43c6b47e-d268-4c6b-9cc2-457be92731f2 mac:mountedOn eor:satellite.2001-055B .
+
+eor:sensor.446981a7-c3a2-4538-8f0c-ba280ed1f2b4 mac:mountedOn eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2024-039A .
+
+eor:sensor.44973291-52bb-497a-a370-778a3b24e4c2 mac:mountedOn eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A .
+
+eor:sensor.44b70a6b-f63d-4f82-bcab-0f04170f3f0a mac:mountedOn eor:satellite.2021-034E .
+
+eor:sensor.44b75a07-8727-467e-92c9-55c3a75392a0 mac:mountedOn eor:satellite.2010-032A .
+
+eor:sensor.44c0b66f-f1e4-42b1-b01f-03dd703687fa mac:mountedOn eor:satellite.2011-043A,
+        eor:satellite.2018-081A,
+        eor:satellite.2020-066A,
+        eor:satellite.2021-043A .
+
+eor:sensor.44d27fd3-4a4a-4f63-83fd-4816d33bb7c3 mac:mountedOn eor:satellite.1972-058A,
+        eor:satellite.1975-004A,
+        eor:satellite.1978-026A .
+
+eor:sensor.4530d7fd-7881-4b71-9372-480bf096ba9b mac:mountedOn eor:satellite.2014-079A,
+        eor:satellite.2019-093E .
+
+eor:sensor.461138a6-9c89-49d2-a51d-c3873b09a377 mac:mountedOn eor:satellite.2020-067A,
+        eor:satellite.2020-067B .
+
+eor:sensor.461f917d-3a1e-4c36-ac26-a713f1b72c09 mac:mountedOn eor:satellite.1997-074A .
+
+eor:sensor.46345b1a-8a41-4790-af59-c4d34611eb35 mac:mountedOn eor:satellite.2003-046A,
+        eor:satellite.2011-015A,
+        eor:satellite.2016-074A .
+
+eor:sensor.4666ca35-85d9-45bc-9882-5c17393cb2ca mac:mountedOn eor:satellite.2006-041A .
+
+eor:sensor.4684f9b2-1e8d-4ecd-b2c9-d0a904e3964c mac:mountedOn eor:satellite.2012-025B,
+        eor:satellite.2015-014A .
+
+eor:sensor.4695cffd-d46e-4275-b3c7-22ed96fb3c56 mac:mountedOn eor:satellite.2000-075B .
+
+eor:sensor.46e2f5d0-7915-44fe-8e80-0f44170c2528 mac:mountedOn eor:satellite.1980-051A .
+
+eor:sensor.46e6f9a2-df8a-4367-b664-900713293f69 mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.47b4f449-4817-4061-9258-d48fe2e3d485 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.489ae38c-670e-4bc1-b6c2-8205df76c4e8 mac:mountedOn eor:satellite.2009-059B .
+
+eor:sensor.48a0c75b-edbe-430c-8d0e-1574761bda36 mac:mountedOn eor:satellite.2004-052A .
+
+eor:sensor.48b267f1-cf39-4f18-aa66-3f672ada2eff mac:mountedOn eor:satellite.2024-025A .
+
+eor:sensor.48da2e51-302b-43d2-b9c4-0fc907eec802 mac:mountedOn eor:satellite.1998-020A .
+
+eor:sensor.4925819d-215c-4bc2-9cdc-b8c623ff7f52 mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.4938a054-f5a9-46ee-949a-28ea72cf9a8a mac:mountedOn eor:satellite.2012-002A,
+        eor:satellite.2014-090A,
+        eor:satellite.2018-050A .
+
+eor:sensor.493ed2c1-a9c4-4077-9a36-c119b10a0d01 mac:mountedOn eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.4943c0d8-1ac6-47ed-b78c-9a0d6e06405f mac:mountedOn eor:satellite.2021-016A,
+        eor:satellite.2023-198A .
+
+eor:sensor.4952b272-2783-4759-b1d1-bfd2d8080af8 mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.49721101-9909-4f79-8c6a-df692c3f27b1 mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.498675a8-9024-45b0-868e-39c4c677f857 mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-055A,
+        eor:satellite.2023-111A .
+
+eor:sensor.498fb522-ce90-4ffe-93fa-01da26fe312f mac:mountedOn eor:satellite.2015-032A,
+        eor:satellite.2015-032B,
+        eor:satellite.2015-032C,
+        eor:satellite.2018-071A .
+
+eor:sensor.49c91598-d173-454c-bbf5-44c1ebbe7498 mac:mountedOn eor:satellite.1975-064A,
+        eor:satellite.1977-002A,
+        eor:satellite.1977-117A,
+        eor:satellite.1979-021A,
+        eor:satellite.1979-095A,
+        eor:satellite.1980-073A,
+        eor:satellite.1981-043A,
+        eor:satellite.1982-025A,
+        eor:satellite.1982-116A,
+        eor:satellite.1983-109A,
+        eor:satellite.1984-072A,
+        eor:satellite.1985-013A,
+        eor:satellite.1985-119A,
+        eor:satellite.1986-039A,
+        eor:satellite.1987-001A,
+        eor:satellite.1987-068A,
+        eor:satellite.1988-005A,
+        eor:satellite.1989-018A,
+        eor:satellite.1990-057A,
+        eor:satellite.1990-086A,
+        eor:satellite.1993-055A .
+
+eor:sensor.49df628c-9a68-4af4-9ceb-17c9f12e3ba6 mac:mountedOn eor:satellite.2004-026A .
+
+eor:sensor.4a1b69a4-48e8-4b4c-8b26-5d1f78eb1b98 mac:mountedOn eor:satellite.1999-066A .
+
+eor:sensor.4a1d8d5c-e162-4c5c-b87f-c8179ba4d8b9 mac:mountedOn eor:satellite.1977-044A,
+        eor:satellite.1979-050A,
+        eor:satellite.1982-118A,
+        eor:satellite.1983-113A,
+        eor:satellite.1988-006A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.4b30c323-9797-40bd-b47a-e5c0364ec390 mac:mountedOn eor:satellite.2016-040A,
+        eor:satellite.2017-008A,
+        eor:satellite.2017-036C,
+        eor:satellite.2018-004A .
+
+eor:sensor.4b7be1b1-39b1-40f4-80be-b199254a9593 mac:mountedOn eor:satellite.2018-065A .
+
+eor:sensor.4b81f78d-f255-4d45-892a-cac41c3f2ebc mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.4bb1151f-d3b4-4831-b858-ca21d74e7b17 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.4bdf9dc3-d4de-41b0-98e9-57fdc1a50147 mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.4bec2570-8f99-44f2-ac37-a73ff3546f99 mac:mountedOn eor:satellite.1996-017A .
+
+eor:sensor.4c871f79-4b40-48bc-bda8-b2fa5fe8cd59 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2023-055A,
+        eor:satellite.2023-111A .
+
+eor:sensor.4c8d6fcd-0737-4270-93f2-88ae82670a4a mac:mountedOn eor:satellite.2006-011A,
+        eor:satellite.2006-011B,
+        eor:satellite.2006-011C,
+        eor:satellite.2006-011D,
+        eor:satellite.2006-011E,
+        eor:satellite.2006-011F .
+
+eor:sensor.4d6c2e95-b98a-4dc0-bfc2-8a784a922614 mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.4dc5e5c1-f14f-4844-9862-7ccb4c0e9c60 mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1981-059A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2013-009A,
+        eor:satellite.2018-087A .
+
+eor:sensor.4dd7819f-a175-41d3-a6ea-0cf33af7593a mac:mountedOn eor:satellite.1972-058A,
+        eor:satellite.1975-004A,
+        eor:satellite.1978-026A,
+        eor:satellite.1982-072A,
+        eor:satellite.1984-021A .
+
+eor:sensor.4e027119-3f0e-4fb1-9e07-6d6b2c0eaf5e mac:mountedOn eor:satellite.2017-049A .
+
+eor:sensor.4e319e02-27c6-48ed-8125-a2f21a8fb4e3 mac:mountedOn eor:satellite.1985-021A .
+
+eor:sensor.4e3e3ba7-e49e-4a75-bbc3-04b2e82a5561 mac:mountedOn eor:satellite.2000-039B,
+        eor:satellite.2013-042A,
+        eor:satellite.2013-067C,
+        eor:satellite.2018-020A .
+
+eor:sensor.4e79607f-37cf-4690-a411-f85412609e97 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A .
+
+eor:sensor.4e9d5c07-81ae-4417-b3e6-cb16fb267fc9 mac:mountedOn eor:satellite.1998-069B .
+
+eor:sensor.4f3d61bf-80dc-4d03-ba3c-67a18c1f5f79 mac:mountedOn eor:satellite.1972-097A .
+
+eor:sensor.4f4a57a4-4b1a-4f8d-a82e-4a80f92eb116 mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.4ffd1726-115c-4441-b404-3204ad1ef342 mac:mountedOn eor:satellite.2013-008A,
+        eor:satellite.2021-088A .
+
+eor:sensor.502d12f5-01e3-4892-be3e-72e9da5af5c0 mac:mountedOn eor:satellite.2002-056A .
+
+eor:sensor.50bc8158-986b-462c-8456-3baa85d3e2d2 mac:mountedOn eor:satellite.2006-027A .
+
+eor:sensor.50ef50da-e70c-45ce-92c0-86a03f5c1c2e mac:mountedOn eor:satellite.2010-062A .
+
+eor:sensor.510f7dfa-d335-4539-82cf-ee89caa9a308 mac:mountedOn eor:satellite.2008-002A .
+
+eor:sensor.51197eae-3b46-4fc0-896a-d28b53d049cf mac:mountedOn eor:satellite.1996-017A .
+
+eor:sensor.5124129a-e3c9-4ec7-aec9-0963f4d9a727 mac:mountedOn eor:satellite.1991-062A .
+
+eor:sensor.51adfd45-fae3-4afe-8651-f092e61c808c mac:mountedOn eor:satellite.2007-023A,
+        eor:satellite.2007-059A,
+        eor:satellite.2008-054A,
+        eor:satellite.2010-060A .
+
+eor:sensor.51cff274-c92f-4108-827e-e75b939a871c mac:mountedOn eor:satellite.2002-021A .
+
+eor:sensor.51fa687c-ce37-4201-90f6-b25a6424c318 mac:mountedOn eor:satellite.1969-029A,
+        eor:satellite.1969-084A,
+        eor:satellite.1970-019A,
+        eor:satellite.1970-037A,
+        eor:satellite.1970-047A,
+        eor:satellite.1970-085A,
+        eor:satellite.1971-003A,
+        eor:satellite.1971-031A,
+        eor:satellite.1971-059A,
+        eor:satellite.1971-120A,
+        eor:satellite.1972-022A,
+        eor:satellite.1972-049A,
+        eor:satellite.1972-085A,
+        eor:satellite.1973-015A,
+        eor:satellite.1973-034A,
+        eor:satellite.1974-011A,
+        eor:satellite.1974-025A,
+        eor:satellite.1974-052A,
+        eor:satellite.1974-083A,
+        eor:satellite.1974-099A,
+        eor:satellite.1975-023A,
+        eor:satellite.1975-087A,
+        eor:satellite.1975-124A,
+        eor:satellite.1976-032A,
+        eor:satellite.1976-043A,
+        eor:satellite.1976-102A,
+        eor:satellite.1977-024A .
+
+eor:sensor.5246d853-ad25-4498-8ab6-bd7cbe1d0188 mac:mountedOn eor:satellite.2006-014A .
+
+eor:sensor.525b7cc0-8fb9-4f9f-91b9-a4d76b9b98f8 mac:mountedOn eor:satellite.1995-021A .
+
+eor:sensor.52819a4e-ae5f-411e-b983-bb9e4368b448 mac:mountedOn eor:satellite.2021-016A,
+        eor:satellite.2023-198A .
+
+eor:sensor.52e5ec47-84b4-498f-b932-dba260aeff8f mac:mountedOn eor:satellite.2003-001A .
+
+eor:sensor.5301666a-65bb-4162-81fe-f92e0bda4c69 mac:mountedOn eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.5321a43b-004c-4a10-adbb-3c749eac95ec mac:mountedOn eor:satellite.2015-083A,
+        eor:satellite.2020-071A,
+        eor:satellite.2023-036A .
+
+eor:sensor.5323b6c6-868b-4a66-9085-8af6d8686809 mac:mountedOn eor:satellite.2018-043A,
+        eor:satellite.2021-079A,
+        eor:satellite.2022-165A .
+
+eor:sensor.53624523-551c-480a-850c-412dfd82b787 mac:mountedOn eor:satellite.2023-176A .
+
+eor:sensor.5400c4b2-5807-41e8-b127-667876a72d24 mac:mountedOn eor:satellite.1999-068A .
+
+eor:sensor.54020848-753b-46c1-81d3-80739ea41685 mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.54024ef3-bc57-4617-9a15-7332f0ec1a56 mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.540a8073-f45d-433f-b9f3-7296eb4ba564 mac:mountedOn eor:satellite.1974-033A,
+        eor:satellite.1975-011A,
+        eor:satellite.1975-100A,
+        eor:satellite.1977-048A,
+        eor:satellite.1978-062A,
+        eor:satellite.1980-074A,
+        eor:satellite.1981-049A,
+        eor:satellite.1983-041A,
+        eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.541a6bfb-5852-4882-9117-0f60963f90cc mac:mountedOn eor:satellite.2014-060A,
+        eor:satellite.2016-064A .
+
+eor:sensor.54b3a205-b4c2-489d-9508-9e7cc1f6c22a mac:mountedOn eor:satellite.2017-064A .
+
+eor:sensor.551e1d7e-f2b4-4643-96fe-8a6daecb016e mac:mountedOn eor:satellite.2010-035D,
+        eor:satellite.2012-047A,
+        eor:satellite.2013-021B,
+        eor:satellite.2014-034A,
+        eor:satellite.2016-059D .
+
+eor:sensor.5553537d-d70b-42de-a58c-be92abd36429 mac:mountedOn eor:satellite.2023-054T,
+        eor:satellite.2023-054V,
+        eor:satellite.2023-084AC,
+        eor:satellite.2024-043AM .
+
+eor:sensor.559a0ce8-0da5-4ac3-98e1-f066290b5205 mac:mountedOn eor:satellite.2014-035A .
+
+eor:sensor.55ea1d12-4afc-4122-b243-c387c68b6b06 mac:mountedOn eor:satellite.2020-098A,
+        eor:satellite.2022-020A,
+        eor:satellite.2022-113A,
+        eor:satellite.2024-047A,
+        eor:satellite.2024-137A,
+        eor:satellite.2024-248A .
+
+eor:sensor.562427b7-9c27-44ac-b159-e2a1211a2289 mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.56f6f9f5-f58c-4c07-b1f6-4a8450a0652f mac:mountedOn eor:satellite.2014-079A,
+        eor:satellite.2019-093E .
+
+eor:sensor.57069566-8e4b-4480-9dff-c06e2e48304a mac:mountedOn eor:satellite.2022-013C .
+
+eor:sensor.577bac09-f73e-4bab-8558-2d55b97630e5 mac:mountedOn eor:satellite.2010-035C,
+        eor:satellite.2014-037G,
+        eor:satellite.2017-042B,
+        eor:satellite.2017-042D,
+        eor:satellite.2021-034E,
+        eor:satellite.2025-009CX .
+
+eor:sensor.57cc1bf4-527b-4b7c-b442-cf75b6599d25 mac:mountedOn eor:satellite.2016-067A .
+
+eor:sensor.580b40b1-bebe-43b4-993a-580975f58fe7 mac:mountedOn eor:satellite.1988-021A,
+        eor:satellite.1991-061A .
+
+eor:sensor.581e81e0-03be-4bb9-bbac-f08d46d07f5f mac:mountedOn eor:satellite.1987-053A .
+
+eor:sensor.58463b3d-85fb-44f8-9b2c-aa4a8a7dc9e7 mac:mountedOn eor:satellite.1960-016A,
+        eor:satellite.1961-017A,
+        eor:satellite.1962-002A,
+        eor:satellite.1963-024A,
+        eor:satellite.1966-040A,
+        eor:satellite.1969-037A .
+
+eor:sensor.58638194-747a-45ba-8aa2-2e2d08b8eb29 mac:mountedOn eor:satellite.1975-010A,
+        eor:satellite.1993-061B .
+
+eor:sensor.58e7b24f-4d5b-446e-8fa7-351ca0e05941 mac:mountedOn eor:satellite.1969-029A,
+        eor:satellite.1969-084A,
+        eor:satellite.1970-019A,
+        eor:satellite.1970-037A,
+        eor:satellite.1970-047A,
+        eor:satellite.1970-085A,
+        eor:satellite.1971-003A,
+        eor:satellite.1971-031A,
+        eor:satellite.1971-059A,
+        eor:satellite.1971-120A,
+        eor:satellite.1972-022A,
+        eor:satellite.1972-049A,
+        eor:satellite.1972-085A,
+        eor:satellite.1973-015A,
+        eor:satellite.1973-034A,
+        eor:satellite.1974-011A,
+        eor:satellite.1974-025A,
+        eor:satellite.1974-052A,
+        eor:satellite.1974-083A,
+        eor:satellite.1974-099A,
+        eor:satellite.1975-023A,
+        eor:satellite.1975-087A,
+        eor:satellite.1975-124A,
+        eor:satellite.1976-032A,
+        eor:satellite.1976-102A,
+        eor:satellite.1977-024A .
+
+eor:sensor.58f52da2-f5ec-43a8-a740-cac3c6bb4bff mac:mountedOn eor:satellite.2001-047A .
+
+eor:sensor.58fda717-0052-4b6b-8822-00db9b5f308e mac:mountedOn eor:satellite.2019-068A .
+
+eor:sensor.59026295-8854-40f1-9081-d3dc36d39977 mac:mountedOn eor:satellite.2022-170C .
+
+eor:sensor.5930161c-8c46-46c7-89b0-fa9cc3cf507a mac:mountedOn eor:satellite.1970-025A .
+
+eor:sensor.593e2022-43f1-4a6c-be20-53683125eb90 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.595d5747-a884-4fea-bbb9-d389d538f3cf mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.5964a33b-ee33-4294-a783-622908061616 mac:mountedOn eor:satellite.2021-062A .
+
+eor:sensor.59a4524c-1714-4018-bb0d-6c23172ab9e1 mac:mountedOn eor:satellite.1999-002A .
+
+eor:sensor.59f0424a-c602-4a9c-a9fd-ceddc4c778ed mac:mountedOn eor:satellite.2019-015A .
+
+eor:sensor.5a0f9976-2544-4d56-9803-d8723c85874b mac:mountedOn eor:satellite.1981-100A .
+
+eor:sensor.5a78e9f1-21a3-4de7-8111-e24f8c336d6a mac:mountedOn eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2009-005A .
+
+eor:sensor.5a818991-4fc1-42a0-b12c-374740a3e6fa mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.5ba0c782-8f66-4beb-9d94-b29ae073c98e mac:mountedOn eor:satellite.2007-026A,
+        eor:satellite.2010-030A .
+
+eor:sensor.5bfec57a-2502-4fb2-a412-f045cac2c06d mac:mountedOn eor:satellite.2009-059A,
+        eor:satellite.2013-067C,
+        eor:satellite.2016-011A,
+        eor:satellite.2018-039A,
+        eor:satellite.2020-086A .
+
+eor:sensor.5bff5947-2136-47d9-8adc-767891c13348 mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.5c3f04a3-9cac-4731-93e3-24b69a0ca935 mac:mountedOn eor:satellite.2007-042A .
+
+eor:sensor.5cbce43b-183c-4133-bc2a-7f303b024a5c mac:mountedOn eor:satellite.1999-016A,
+        eor:satellite.2003-013A .
+
+eor:sensor.5d0c801a-381d-4c00-bd28-8cdfe7f6015a mac:mountedOn eor:satellite.1970-025A .
+
+eor:sensor.5d498fcc-3d67-4b50-9f48-860f515eea59 mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.5d58e700-77da-45a9-823a-33e438ab4f9d mac:mountedOn eor:satellite.1995-011B .
+
+eor:sensor.5da25fee-aae1-4377-b459-617258ef8774 mac:mountedOn eor:satellite.1978-064A .
+
+eor:sensor.5e0951d1-5f4a-47cf-88c1-726673408a6e mac:mountedOn eor:satellite.1988-080A,
+        eor:satellite.1990-081A,
+        eor:satellite.1999-025A,
+        eor:satellite.2002-024B,
+        eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.5e0e1146-56d1-402b-8e2f-9bfad0faedf5 mac:mountedOn eor:satellite.1988-080A,
+        eor:satellite.1990-081A,
+        eor:satellite.1999-025A,
+        eor:satellite.2002-024B,
+        eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.5e2d68e5-d57b-4084-bc4d-ca508c17e711 mac:mountedOn eor:satellite.1978-098A .
+
+eor:sensor.5e2f1c7a-a397-4428-b8a0-2f9a6f922341 mac:mountedOn eor:satellite.2011-044D .
+
+eor:sensor.5e9edab3-59fa-45cb-af04-e7a448551eda mac:mountedOn eor:satellite.2013-030A,
+        eor:satellite.2014-087A,
+        eor:satellite.2016-016A,
+        eor:satellite.2024-061A .
+
+eor:sensor.5ea5ffc2-ccdb-4269-abce-46d74c9f726f mac:mountedOn eor:satellite.1985-100A,
+        eor:satellite.1988-064A,
+        eor:satellite.1989-086A,
+        eor:satellite.1991-030A,
+        eor:satellite.1991-056A,
+        eor:satellite.1994-003A .
+
+eor:sensor.5ed83760-2494-47e4-98c6-9b2071f7b61d mac:mountedOn eor:satellite.2003-036A .
+
+eor:sensor.5ef8967a-5ed5-4950-8e17-7c7171f07223 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.5f11459a-8ee5-48d3-9f37-4647f22539ad mac:mountedOn eor:satellite.1978-064A .
+
+eor:sensor.5fb2734e-a7d9-4e14-800e-d2cfce965329 mac:mountedOn eor:satellite.2013-067C .
+
+eor:sensor.60500c3f-b570-4155-a634-760926f253ec mac:mountedOn eor:satellite.2017-072A,
+        eor:satellite.2021-062A .
+
+eor:sensor.6094760e-d8f8-4d31-afd2-372364385b71 mac:mountedOn eor:satellite.2022-002BG,
+        eor:satellite.2022-002BU,
+        eor:satellite.2022-002M .
+
+eor:sensor.60a4a463-318a-4734-8a7a-3ad294b43993 mac:mountedOn eor:satellite.1996-046A .
+
+eor:sensor.60c113b8-d7c6-4fc0-b376-bad2c4833610 mac:mountedOn eor:satellite.1969-037A,
+        eor:satellite.1970-025A .
+
+eor:sensor.613ffdf5-6349-4b0d-9042-23c6f2928c52 mac:mountedOn eor:satellite.1999-029C .
+
+eor:sensor.614ef22f-f657-49aa-a4e2-759b881863d6 mac:mountedOn eor:satellite.2019-059A,
+        eor:satellite.2021-131A .
+
+eor:sensor.6161b538-7b21-4d3a-b96a-e860309701cf mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.6226e170-0e07-44b6-b795-12cc39dbfa33 mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.625b7a7a-8434-47d7-b214-7c8dd53e1d41 mac:mountedOn eor:satellite.1974-052A,
+        eor:satellite.1976-043A,
+        eor:satellite.1977-057A,
+        eor:satellite.1979-005A,
+        eor:satellite.1980-051A,
+        eor:satellite.1981-065A .
+
+eor:sensor.62e2c0ae-9c62-41ac-8eab-8400fe0bac66 mac:mountedOn eor:satellite.2011-043A,
+        eor:satellite.2018-081A,
+        eor:satellite.2020-066A,
+        eor:satellite.2021-043A .
+
+eor:sensor.6343eda4-ee1d-4ff4-bfd6-9c319cc35de8 mac:mountedOn eor:satellite.1992-052A .
+
+eor:sensor.63fde3eb-d5bf-455b-aa4a-44d945c058b6 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.64279b9b-a73c-4444-90c9-1adf4a41144b mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.64711271-03df-41c2-940f-85bfa318823b mac:mountedOn eor:satellite.2009-055A,
+        eor:satellite.2014-048A .
+
+eor:sensor.64d5bdfe-81da-4c00-a0f4-4f41aba1b964 mac:mountedOn eor:satellite.2014-070A .
+
+eor:sensor.6539e1b1-8444-4be4-b3a6-5b4637e20a05 mac:mountedOn eor:satellite.1999-057A,
+        eor:satellite.2003-049A,
+        eor:satellite.2007-042A .
+
+eor:sensor.658078e9-79f6-44dc-84f6-484cfea3972b mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.65aecd46-bb66-408f-8a90-0bef68e4f4ef mac:mountedOn eor:satellite.2004-025C .
+
+eor:sensor.65aed376-528a-4dfd-8a64-9d9fa2cc7f80 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A,
+        eor:satellite.2021-062A .
+
+eor:sensor.65b8ed8d-88ea-485b-a76b-691706b44f03 mac:mountedOn eor:satellite.1985-100A,
+        eor:satellite.1988-064A,
+        eor:satellite.1989-086A,
+        eor:satellite.1991-030A,
+        eor:satellite.1991-056A,
+        eor:satellite.1993-055A,
+        eor:satellite.1994-003A,
+        eor:satellite.1998-043A .
+
+eor:sensor.6620dc86-d54f-4652-ac52-c0dd49b6ba22 mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.66251e2d-6877-4bb3-8129-e58f7cc81236 mac:mountedOn eor:satellite.2012-056A .
+
+eor:sensor.666099fb-252d-4f80-be5d-f3a4c0c92b5e mac:mountedOn eor:satellite.1997-029A,
+        eor:satellite.2000-032A,
+        eor:satellite.2004-042A,
+        eor:satellite.2006-053A,
+        eor:satellite.2008-066A,
+        eor:satellite.2012-002A,
+        eor:satellite.2014-090A,
+        eor:satellite.2016-077A,
+        eor:satellite.2018-050A,
+        eor:satellite.2021-047A .
+
+eor:sensor.66c772f2-366a-4879-b501-bd06fb31aa0d mac:mountedOn eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A,
+        eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.672a1f9b-2f07-4c7f-9c11-5487f75cc9b4 mac:mountedOn eor:satellite.2013-038B,
+        eor:satellite.2016-054A,
+        eor:satellite.2024-033A .
+
+eor:sensor.672e2d81-dc07-4e0f-8549-ffa3e5895cf2 mac:mountedOn eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.6744600b-2f4c-442b-9f71-b0dc14217c04 mac:mountedOn eor:satellite.2001-055B .
+
+eor:sensor.6747dfff-120d-4cfb-b923-e7b6b3ed7488 mac:mountedOn eor:satellite.2014-079A,
+        eor:satellite.2019-093E .
+
+eor:sensor.686b2250-cdd7-49c3-9c45-605b511293a4 mac:mountedOn eor:satellite.2019-085A .
+
+eor:sensor.68883703-9f3f-4bca-a59c-33c2fa35982a mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.6946aa93-a7ca-4114-80a9-01a0df25d88c mac:mountedOn eor:satellite.1975-064A,
+        eor:satellite.1977-002A,
+        eor:satellite.1977-117A,
+        eor:satellite.1979-021A,
+        eor:satellite.1979-095A,
+        eor:satellite.1980-073A,
+        eor:satellite.1981-043A,
+        eor:satellite.1982-025A,
+        eor:satellite.1982-116A,
+        eor:satellite.1983-109A,
+        eor:satellite.1984-072A,
+        eor:satellite.1985-013A,
+        eor:satellite.1985-119A,
+        eor:satellite.1986-039A,
+        eor:satellite.1987-001A,
+        eor:satellite.1987-068A,
+        eor:satellite.1988-005A,
+        eor:satellite.1989-018A,
+        eor:satellite.1990-057A,
+        eor:satellite.1990-086A,
+        eor:satellite.1993-055A .
+
+eor:sensor.6993f4ef-4a0e-4361-8358-f2a8775f8b0a mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.6a1b7f94-82a1-4791-97d5-54c638b5dd98 mac:mountedOn eor:satellite.2012-039A,
+        eor:satellite.2018-014A,
+        eor:satellite.2018-014B,
+        eor:satellite.2018-111A,
+        eor:satellite.2018-111B .
+
+eor:sensor.6a3f2144-b6d0-45f5-bf38-fbb1e1e512ea mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.6a4545e0-6900-4b9c-b5a3-6d305256d2e0 mac:mountedOn eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.6a988826-e7f5-4d18-9b4a-52240a09eead mac:mountedOn eor:satellite.2021-062A .
+
+eor:sensor.6acf571a-72d7-4136-a723-707c81730edd mac:mountedOn eor:satellite.1994-069A,
+        eor:satellite.2001-056A .
+
+eor:sensor.6b6a69f6-29aa-438d-bbba-faa77d6ad8bf mac:mountedOn eor:satellite.1996-046A .
+
+eor:sensor.6b8d91ad-1100-4a19-aa59-8c15743a9d51 mac:mountedOn eor:satellite.1981-100A .
+
+eor:sensor.6bdb4899-7812-4d09-adbb-400f1c2c0c3a mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.6be98327-822e-48de-9f96-c1df0d459f84 mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.6c089e65-e3bb-4a74-85d5-f0dd1a77bf2a mac:mountedOn eor:satellite.2000-039B,
+        eor:satellite.2008-017A .
+
+eor:sensor.6c125423-76b0-4681-afe3-bd33ddf875d1 mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.6c3fd378-d71d-433b-bbd3-c890651007ab mac:mountedOn eor:satellite.1999-008B .
+
+eor:sensor.6c9b6cd2-21a2-444d-a748-e427d4779fb8 mac:mountedOn eor:satellite.2000-075B,
+        eor:satellite.2011-024A .
+
+eor:sensor.6cd33615-30a8-41d8-8f4f-e7ac5817b18d mac:mountedOn eor:satellite.2001-032A .
+
+eor:sensor.6cde9f80-3fc7-4a27-ad87-b6801577acf6 mac:mountedOn eor:satellite.1970-025A .
+
+eor:sensor.6d0bde20-bfe6-46ce-acae-9dc96f2ee02d mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.6d836280-7515-493c-92ab-cdce418c42f6 mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.6e731840-7036-4d48-aae1-264975261e20 mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.6ec4f7a7-d4fe-4c37-96b3-1e985c46c549 mac:mountedOn eor:satellite.2003-030A .
+
+eor:sensor.6ecb92f8-8b8d-4b06-a644-5b6b6e6bd47d mac:mountedOn eor:satellite.2005-006A,
+        eor:satellite.2006-004A .
+
+eor:sensor.6ecefe56-c91c-4d3b-8cba-414780eddc5c mac:mountedOn eor:satellite.1987-053A,
+        eor:satellite.1988-006A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A,
+        eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.6f3a513c-1d2e-4bfc-b5ed-66d0e3479619 mac:mountedOn eor:satellite.1999-070A .
+
+eor:sensor.6f4fb459-5222-4324-a075-4e4cb2a1f0f9 mac:mountedOn eor:satellite.1980-074A,
+        eor:satellite.1981-049A,
+        eor:satellite.1983-041A,
+        eor:satellite.1987-022A .
+
+eor:sensor.6f53603c-9369-45b4-a3bb-aa9341a43484 mac:mountedOn eor:satellite.1999-068A .
+
+eor:sensor.6f6e2c03-0b73-4361-81db-bcfade28695d mac:mountedOn eor:satellite.1978-064A .
+
+eor:sensor.6f8614fe-1f39-4332-8f38-92780e602edf mac:mountedOn eor:satellite.1985-100A,
+        eor:satellite.1988-064A,
+        eor:satellite.1989-086A,
+        eor:satellite.1991-030A,
+        eor:satellite.1991-056A,
+        eor:satellite.1994-003A,
+        eor:satellite.2001-056A .
+
+eor:sensor.6f90ea3a-3f08-4b64-8506-f5c0b36b3d22 mac:mountedOn eor:satellite.1999-066A .
+
+eor:sensor.6fd8c8bf-b875-40db-81cf-6cc61c289be0 mac:mountedOn eor:satellite.1969-037A,
+        eor:satellite.1970-025A .
+
+eor:sensor.704bd02a-e703-4f3e-bc92-63c38d865332 mac:mountedOn eor:satellite.2008-017A .
+
+eor:sensor.705a0a29-6c8d-40da-bd0b-8002d533ca96 mac:mountedOn eor:satellite.1976-091A,
+        eor:satellite.1977-044A,
+        eor:satellite.1978-042A,
+        eor:satellite.1979-050A .
+
+eor:sensor.7092a06b-32a3-4333-9a72-34fcd2e511eb mac:mountedOn eor:satellite.1999-039A .
+
+eor:sensor.70be11aa-1b36-4dea-a298-39379c3786d6 mac:mountedOn eor:satellite.1984-108B,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A .
+
+eor:sensor.70c19b2e-a3e8-49ac-8002-c2d6e423956c mac:mountedOn eor:satellite.2025-009CX .
+
+eor:sensor.710060ff-c741-4897-9902-3095b799cab5 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.711dc404-74c0-4cb9-9151-cc44616b21d9 mac:mountedOn eor:satellite.1966-110A .
+
+eor:sensor.71ff3c0d-70e9-426f-9399-df98ca31239e mac:mountedOn eor:satellite.2017-044B .
+
+eor:sensor.722864b7-9f23-4444-ad27-c4fbddbe4b6f mac:mountedOn eor:satellite.2003-001A .
+
+eor:sensor.723a3f48-ef81-4cf4-92e7-fb4a43811617 mac:mountedOn eor:satellite.1988-056A,
+        eor:satellite.1999-039A .
+
+eor:sensor.723d6e6f-5111-4449-b0f5-8a4df78b6612 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.728418d2-0150-46d8-a7f3-e0ba82e90996 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.729b60c7-6426-4047-9292-4832eb624af7 mac:mountedOn eor:satellite.1998-017A,
+        eor:satellite.2002-021A .
+
+eor:sensor.72a47175-8926-4350-bffe-404a6c21b3d9 mac:mountedOn eor:satellite.1976-091A,
+        eor:satellite.1977-044A,
+        eor:satellite.1978-042A,
+        eor:satellite.1979-050A,
+        eor:satellite.1982-118A,
+        eor:satellite.1983-113A,
+        eor:satellite.1987-053A,
+        eor:satellite.1988-006A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A,
+        eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.7305c81d-5576-48a4-b318-44009b73b3d4 mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.7358b040-535c-438d-b2bf-cdc5331fe924 mac:mountedOn eor:satellite.2021-016A,
+        eor:satellite.2023-016A,
+        eor:satellite.2023-198A .
+
+eor:sensor.736d1d9b-91f0-4df4-9820-2032a3974c57 mac:mountedOn eor:satellite.2017-042D,
+        eor:satellite.2023-054S .
+
+eor:sensor.736f6f5e-c811-4887-a554-91f5dee1ec0d mac:mountedOn eor:satellite.2018-043A,
+        eor:satellite.2021-079A,
+        eor:satellite.2022-165A .
+
+eor:sensor.7383e59c-4b98-4475-8908-d85f0c17a1a7 mac:mountedOn eor:satellite.2003-042E .
+
+eor:sensor.73ad5777-edd3-4dd9-af16-527ca699d7da mac:mountedOn eor:satellite.1963-054A,
+        eor:satellite.1964-052A,
+        eor:satellite.1966-016A,
+        eor:satellite.1966-040A,
+        eor:satellite.1967-006A,
+        eor:satellite.1967-114A,
+        eor:satellite.1968-114A,
+        eor:satellite.1970-008A,
+        eor:satellite.1970-106A .
+
+eor:sensor.73d9b557-6154-4b37-a03e-ff540c0fd56b mac:mountedOn eor:satellite.2023-052A .
+
+eor:sensor.73f54106-160d-421f-978a-42a0c1ebb56f mac:mountedOn eor:satellite.2004-052A .
+
+eor:sensor.743ed8b7-0486-4793-8210-f5d806ae6bfd mac:mountedOn eor:satellite.2014-016A,
+        eor:satellite.2016-025A,
+        eor:satellite.2024-235A .
+
+eor:sensor.74631068-035d-41c5-9aac-edb84efed93a mac:mountedOn eor:satellite.2018-083A .
+
+eor:sensor.7479bd18-a717-423f-8428-b3628eb747a9 mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.74fd7e45-3d49-451b-81f7-d279e66a9638 mac:mountedOn eor:satellite.2024-149C .
+
+eor:sensor.7565389e-f5f2-4b13-bcab-932be2f21201 mac:mountedOn eor:satellite.2018-068A,
+        eor:satellite.2020-036A .
+
+eor:sensor.75a8fc94-925b-4ea2-bcdd-b15475dec9fc mac:mountedOn eor:satellite.2014-037H .
+
+eor:sensor.7612c4e5-b8eb-4b1f-aa07-9de41e56b171 mac:mountedOn eor:satellite.2000-075B .
+
+eor:sensor.76145296-98f8-4b84-bcdf-a04685e3b24d mac:mountedOn eor:satellite.2011-061A,
+        eor:satellite.2017-073A,
+        eor:satellite.2022-150A .
+
+eor:sensor.76495649-c11f-4d28-b54d-6dafc87771fb mac:mountedOn eor:satellite.2009-059B .
+
+eor:sensor.766630aa-8a79-496d-951e-1a249d61198d mac:mountedOn eor:satellite.1987-053A,
+        eor:satellite.1988-006A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.766ec813-7393-472d-854a-229b33859957 mac:mountedOn eor:satellite.2012-001A,
+        eor:satellite.2016-033A,
+        eor:satellite.2020-051A .
+
+eor:sensor.767b8541-25c4-497e-b932-b8c845132889 mac:mountedOn eor:satellite.2023-054S .
+
+eor:sensor.767ff979-18c0-44f0-8486-63ab9c6559cd mac:mountedOn eor:satellite.1991-056A,
+        eor:satellite.1994-003A,
+        eor:satellite.2001-056A .
+
+eor:sensor.7688bee6-1a03-479e-af84-197cf01ac9aa mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.76a57bf8-4219-4ce5-928c-24cbe0be4ad3 mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.76b7ce89-1d17-461d-8f24-ef0205d9be5f mac:mountedOn eor:satellite.2009-059A .
+
+eor:sensor.76b9d01a-0e1e-4792-a238-47215874f667 mac:mountedOn eor:satellite.2021-022A .
+
+eor:sensor.770ca680-d79b-4e1f-b9fa-4a5b42341680 mac:mountedOn eor:satellite.2013-018A,
+        eor:satellite.2018-031A,
+        eor:satellite.2018-048A .
+
+eor:sensor.773e9906-49e9-408c-8e0f-75d901e60a4b mac:mountedOn eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.77800e51-b980-461f-a582-4b2fc18981a3 mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.77ed482d-a844-4587-a25b-350f1187ff0e mac:mountedOn eor:satellite.2000-039B .
+
+eor:sensor.781be031-69f8-4511-af97-3194c47bd4a6 mac:mountedOn eor:satellite.2008-021D .
+
+eor:sensor.78660a09-a484-4a45-b063-887aff2d82c8 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.7897dfd4-3aff-4c9a-8b48-506ac81538d6 mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.78c04128-eef2-42c1-a39d-f769c6151769 mac:mountedOn eor:satellite.1997-037A .
+
+eor:sensor.7912e017-e785-49d9-b9ff-2fe4f0bf6502 mac:mountedOn eor:satellite.1999-029C,
+        eor:satellite.2009-051A,
+        eor:satellite.2022-158A .
+
+eor:sensor.7964d753-b7e0-4558-afff-2967ff301f42 mac:mountedOn eor:satellite.2016-078D .
+
+eor:sensor.79e6a4bc-5257-48fe-85ad-538cd17d5e0a mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.7a32a8e3-ad3a-4d06-bbd7-f36897f05582 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.7a5813a2-74cd-4298-acff-d7f3dde5a641 mac:mountedOn eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.7b370cc5-8fc9-41c7-b6c8-b1ec631af320 mac:mountedOn eor:satellite.2018-043A,
+        eor:satellite.2021-079A,
+        eor:satellite.2022-165A .
+
+eor:sensor.7b48c126-903d-45d0-b34b-834859d19f5a mac:mountedOn eor:satellite.2023-111A .
+
+eor:sensor.7bb1fb03-f0e7-4517-9240-2a5d87c2ac64 mac:mountedOn eor:satellite.2014-029A .
+
+eor:sensor.7c31b2dd-d282-4fec-a90d-39247c8cc589 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.7d1b38df-0ac9-47e0-9f24-72efc97cd301 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.7d2e9458-b786-45c4-b9c4-d18b71734073 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A .
+
+eor:sensor.7d56e1a7-437c-4c48-b697-107fbe777146 mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.7d6cb140-3e1e-44fa-a040-4e86e6b3894a mac:mountedOn eor:satellite.2015-007A .
+
+eor:sensor.7d8e4961-d40d-44bc-975d-ccf475c90710 mac:mountedOn eor:satellite.2001-056A .
+
+eor:sensor.7da536a8-e3f2-4533-a151-d4147e8ea56f mac:mountedOn eor:satellite.2021-062A .
+
+eor:sensor.7dabf21a-f69e-40ef-9a7d-2b13912cfd6e mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A .
+
+eor:sensor.7dd99abe-52d0-4edf-89a6-925d82396ee5 mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.7df95ea9-b110-4deb-8b89-58cb7a5e792f mac:mountedOn eor:satellite.1991-062A .
+
+eor:sensor.7ecb60b8-b927-4660-a9c4-874d0da7b21f mac:mountedOn eor:satellite.1998-067MY .
+
+eor:sensor.7ee9f59a-5554-42ca-889a-85c97a36a4a1 mac:mountedOn eor:satellite.2001-007A .
+
+eor:sensor.7eff6b0e-9dd3-4dab-b562-f6073e0c1613 mac:mountedOn eor:satellite.1974-033A,
+        eor:satellite.1975-011A,
+        eor:satellite.1975-100A,
+        eor:satellite.1977-048A,
+        eor:satellite.1978-062A,
+        eor:satellite.1980-074A,
+        eor:satellite.1981-049A,
+        eor:satellite.1983-041A,
+        eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-005A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A,
+        eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2022-158A,
+        eor:satellite.2024-119A .
+
+eor:sensor.7f1ae2b7-68b3-4294-a9e4-004398666736 mac:mountedOn eor:satellite.2015-007A .
+
+eor:sensor.7fc7901e-341b-4396-864c-6de78cca5e37 mac:mountedOn eor:satellite.2011-001A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A .
+
+eor:sensor.7fefc98d-993d-4793-a536-d5b301436fd1 mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.7ff5f6c6-4854-43ce-9058-3a50b92cd1ca mac:mountedOn eor:satellite.1999-070A .
+
+eor:sensor.801cba30-6264-4144-adea-e545462a525c mac:mountedOn eor:satellite.2001-049C .
+
+eor:sensor.80515ceb-66ba-4b78-a215-d267e9a48753 mac:mountedOn eor:satellite.2002-056A .
+
+eor:sensor.805db35b-d94d-4c5e-bd88-6c3e357aedc4 mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.80b51c44-c773-4b07-82d3-d5626efd39ba mac:mountedOn eor:satellite.2013-030A,
+        eor:satellite.2014-087A,
+        eor:satellite.2016-016A,
+        eor:satellite.2024-061A,
+        eor:satellite.2024-250A .
+
+eor:sensor.80b9bbdc-c1b7-417e-b36a-6ef9ac9db2df mac:mountedOn eor:satellite.2004-018A .
+
+eor:sensor.812380e1-454a-473a-8b08-73b563687725 mac:mountedOn eor:satellite.1993-061A,
+        eor:satellite.1998-017A .
+
+eor:sensor.8160179c-ae68-4e09-a686-e8ac60689a11 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.81a83a0e-3443-4b52-a9b3-c10979d21f92 mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.81d1b126-684f-4ade-8d78-d6a8ffe12977 mac:mountedOn eor:satellite.2002-040B,
+        eor:satellite.2005-049B,
+        eor:satellite.2012-035B,
+        eor:satellite.2015-034A .
+
+eor:sensor.81dc532b-21fb-4bd8-9d12-5b4e91f02750 mac:mountedOn eor:satellite.1998-067DB .
+
+eor:sensor.81dd03b7-5b7a-4350-b088-82f31f6d3217 mac:mountedOn eor:satellite.1978-064A .
+
+eor:sensor.81e47747-fe9e-4ea2-852e-38b90864c7ed mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.82347449-fafe-4c69-89c4-03a50ac669e5 mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A,
+        eor:satellite.2002-009A,
+        eor:satellite.2009-013A,
+        eor:satellite.2010-013A,
+        eor:satellite.2016-011A,
+        eor:satellite.2018-039A .
+
+eor:sensor.825570a1-0409-4d83-9c3b-aca190fb8c2a mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.82aa0a92-16f0-45cf-9acc-1e35c789f5f2 mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1994-003A,
+        eor:satellite.1995-021A .
+
+eor:sensor.82debac6-03f2-46db-897b-52471716a582 mac:mountedOn eor:satellite.2013-066B .
+
+eor:sensor.832acb02-4b68-472c-bd80-cd4d123e40c5 mac:mountedOn eor:satellite.2014-009C .
+
+eor:sensor.83350f7e-00f0-4567-ad03-8e8060ec7c0b mac:mountedOn eor:satellite.1992-038A .
+
+eor:sensor.84472553-0e00-43a1-bcc0-056fd4274536 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.865565c7-f2be-4a9e-87be-c8170a227569 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.868a1bc9-7af2-4b50-b9ea-7aa056d956a8 mac:mountedOn eor:satellite.2013-009A .
+
+eor:sensor.86bb1ff4-e6bf-41f9-b13e-e7b0b937b50d mac:mountedOn eor:satellite.2017-042A .
+
+eor:sensor.87014c83-b438-4915-8e1a-4c2b8b1e9aeb mac:mountedOn eor:satellite.2001-049B .
+
+eor:sensor.8729829e-f68b-42ed-ae8a-e954264b255f mac:mountedOn eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2002-040B,
+        eor:satellite.2005-049B,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A,
+        eor:satellite.2012-035B,
+        eor:satellite.2015-034A,
+        eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2022-170C,
+        eor:satellite.2024-119A .
+
+eor:sensor.872e6b1d-8c66-4c28-be9a-c55b29fb07e9 mac:mountedOn eor:satellite.2004-042A,
+        eor:satellite.2006-053A,
+        eor:satellite.2008-066A,
+        eor:satellite.2012-002A,
+        eor:satellite.2014-090A,
+        eor:satellite.2018-050A .
+
+eor:sensor.87c42df5-b8e1-4132-ab17-3cd6e6c8d78c mac:mountedOn eor:satellite.2018-065A .
+
+eor:sensor.87f39ed2-4d3a-4254-a548-bf9ab97117bd mac:mountedOn eor:satellite.2014-029A .
+
+eor:sensor.88135b76-37eb-424a-9335-3d693f28ef05 mac:mountedOn eor:satellite.1962-049A,
+        eor:satellite.1965-098A .
+
+eor:sensor.8830ff3e-f14c-43c3-b788-047201a54e82 mac:mountedOn eor:satellite.2011-058A .
+
+eor:sensor.883797ce-76f5-471d-bd43-d271cd5e949d mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.88422cb6-1b67-4ac7-94d2-0b37e7ba194c mac:mountedOn eor:satellite.2022-039A .
+
+eor:sensor.88815daf-fc85-441d-8917-04a7c756577b mac:mountedOn eor:satellite.2003-036A .
+
+eor:sensor.88da66e2-f9f9-48a4-ac13-d1dae122fe9b mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.890a8c68-4e8b-4369-b662-a82ed791b63a mac:mountedOn eor:satellite.2009-051A,
+        eor:satellite.2016-059H,
+        eor:satellite.2022-158A .
+
+eor:sensor.8913f9a6-680e-4b82-873c-693683b4e192 mac:mountedOn eor:satellite.2018-084F .
+
+eor:sensor.89a4b426-393e-483e-8599-e3f9acb0f992 mac:mountedOn eor:satellite.1999-057A,
+        eor:satellite.2003-049A,
+        eor:satellite.2007-042A .
+
+eor:sensor.89ae9f7d-381f-4772-b015-9c2363f3bf00 mac:mountedOn eor:satellite.1996-046A .
+
+eor:sensor.89c6c2b7-a9bf-4ea1-b3b2-997bd811df86 mac:mountedOn eor:satellite.1975-052A .
+
+eor:sensor.8a033b8b-1318-4137-9782-40c72c4110b3 mac:mountedOn eor:satellite.2002-054A,
+        eor:satellite.2003-042C,
+        eor:satellite.2003-042D,
+        eor:satellite.2005-043A,
+        eor:satellite.2009-041A,
+        eor:satellite.2009-041C,
+        eor:satellite.2011-044C,
+        eor:satellite.2016-059C .
+
+eor:sensor.8a092129-ea37-45ca-a4a8-8f79732d20ba mac:mountedOn eor:satellite.2018-070A .
+
+eor:sensor.8a20936c-f0a3-4fdb-be9b-a197ec5fd376 mac:mountedOn eor:satellite.2008-032A,
+        eor:satellite.2016-002A,
+        eor:satellite.2022-173A .
+
+eor:sensor.8a276a21-856b-4304-b9ab-1f28c13b39f3 mac:mountedOn eor:satellite.2011-079A .
+
+eor:sensor.8a7e6d31-a805-4d68-a92d-d8cc39363841 mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1981-059A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A .
+
+eor:sensor.8b0861f8-a2cc-4f01-9695-d0d7ed67ce84 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.8b5e497a-d2a4-4ebf-9f32-a61307f974b0 mac:mountedOn eor:satellite.1986-019A,
+        eor:satellite.1990-005A,
+        eor:satellite.1993-061A .
+
+eor:sensor.8b99b14e-5a47-4cd8-be5c-7520b667bb12 mac:mountedOn eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.8bb00457-fe13-411a-b6b1-07ead117412a mac:mountedOn eor:satellite.2022-129A .
+
+eor:sensor.8be9c23c-f3f6-47d0-8221-ec509d47a523 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.8caa8fb5-7db1-46f8-a872-145aa14222e3 mac:mountedOn eor:satellite.2021-047A .
+
+eor:sensor.8d0420ac-cd3b-4f13-afa2-b2f3ad6e434f mac:mountedOn eor:satellite.2023-055A .
+
+eor:sensor.8d1c1e0c-e779-49b4-ad76-2bbfae0fe9a2 mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.8dd49fea-fb0e-4c6b-90d4-edd5624eb9d1 mac:mountedOn eor:satellite.2002-043A,
+        eor:satellite.2003-013A .
+
+eor:sensor.8e00beac-bb33-43cb-b0f2-fbca593dbf1f mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.8e4014d6-8c78-42f1-a91e-829919cd6571 mac:mountedOn eor:satellite.2009-013A .
+
+eor:sensor.8e50f2bb-3e89-4bfb-9734-6e5408559ca1 mac:mountedOn eor:satellite.1975-064A,
+        eor:satellite.1977-002A,
+        eor:satellite.1977-117A,
+        eor:satellite.1979-021A,
+        eor:satellite.1979-095A,
+        eor:satellite.1980-073A,
+        eor:satellite.1981-043A,
+        eor:satellite.1982-025A,
+        eor:satellite.1982-116A,
+        eor:satellite.1983-109A,
+        eor:satellite.1984-072A,
+        eor:satellite.1985-013A,
+        eor:satellite.1985-100A,
+        eor:satellite.1985-119A,
+        eor:satellite.1986-039A,
+        eor:satellite.1987-001A,
+        eor:satellite.1987-068A,
+        eor:satellite.1988-005A,
+        eor:satellite.1988-064A,
+        eor:satellite.1989-018A,
+        eor:satellite.1989-086A,
+        eor:satellite.1990-057A,
+        eor:satellite.1990-086A,
+        eor:satellite.1991-030A,
+        eor:satellite.1991-056A,
+        eor:satellite.1993-055A,
+        eor:satellite.1994-003A,
+        eor:satellite.1998-043A,
+        eor:satellite.2001-056A .
+
+eor:sensor.8e599f7a-c8ab-4405-9288-1e07cd88f6fc mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.8e648258-4358-44d1-aca3-81f8181d5cdd mac:mountedOn eor:satellite.1999-039A .
+
+eor:sensor.8ea36124-1b99-4067-a72e-3ddc6e9dc303 mac:mountedOn eor:satellite.2023-019A .
+
+eor:sensor.8eb504e4-60ac-4b58-91d5-06c5b85b9173 mac:mountedOn eor:satellite.2001-049A .
+
+eor:sensor.8f192472-bcf2-4a7f-a722-283361d9394e mac:mountedOn eor:satellite.1978-098A .
+
+eor:sensor.8f415706-bc09-48d4-9af9-d798e087c5fd mac:mountedOn eor:satellite.2013-067C .
+
+eor:sensor.8f7ae6e2-7402-4b2a-8861-7364ee32a8f8 mac:mountedOn eor:satellite.2002-056B .
+
+eor:sensor.8f81dfd3-861c-4c9f-b812-5ae39e5334f8 mac:mountedOn eor:satellite.1972-082A,
+        eor:satellite.1973-086A,
+        eor:satellite.1974-089A,
+        eor:satellite.1976-077A .
+
+eor:sensor.8f820d14-ebf8-4b95-a9dc-97f38a332e2c mac:mountedOn eor:satellite.2010-005A .
+
+eor:sensor.8fbc557d-50bf-4f8e-998e-134b1e779bdf mac:mountedOn eor:satellite.1991-062A .
+
+eor:sensor.90879162-1784-45a5-bf69-72e3b9245975 mac:mountedOn eor:satellite.2021-062A .
+
+eor:sensor.914cedbf-22ad-47f4-8ace-46a614869154 mac:mountedOn eor:satellite.2016-077A,
+        eor:satellite.2021-047A .
+
+eor:sensor.91c8c89b-9f18-43c2-8677-f93ea2c2495d mac:mountedOn eor:satellite.1992-038A .
+
+eor:sensor.91e4e436-45ea-453e-996a-28629c6869b9 mac:mountedOn eor:satellite.1991-056A,
+        eor:satellite.2001-056A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.91efe304-0cc1-4e59-b51a-10391eb69a24 mac:mountedOn eor:satellite.2007-006D .
+
+eor:sensor.91f3a1cf-b629-4b99-8f20-6bcbc3a73397 mac:mountedOn eor:satellite.2010-005A .
+
+eor:sensor.92efd605-7b32-49a7-99e9-607c96ee58d3 mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A .
+
+eor:sensor.93102271-f56f-4921-9b1c-c5cc53d84fda mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.93363241-c188-40ca-86cb-1aa90ea1a8db mac:mountedOn eor:satellite.1962-002A,
+        eor:satellite.1962-025A,
+        eor:satellite.1962-047A .
+
+eor:sensor.9343cd76-d1a6-4d6f-93bd-08afa6c9bdda mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.93f99d63-0d9c-4f0f-ac32-f92c99e57f8e mac:mountedOn eor:satellite.2013-003A .
+
+eor:sensor.940b3d1e-5a41-4292-b64e-2bf0e519a2e6 mac:mountedOn eor:satellite.2025-052AT .
+
+eor:sensor.9417ee22-66b8-4628-8106-782f61be943d mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A .
+
+eor:sensor.9449b980-1f5c-40db-b57b-486dd287f4da mac:mountedOn eor:satellite.2021-016A,
+        eor:satellite.2023-198A .
+
+eor:sensor.94b8cc65-99bb-4057-b1f9-4046f5cfd5be mac:mountedOn eor:satellite.1992-052A,
+        eor:satellite.1998-007A,
+        eor:satellite.2001-055A,
+        eor:satellite.2003-002A,
+        eor:satellite.2008-032A,
+        eor:satellite.2011-043A,
+        eor:satellite.2016-002A,
+        eor:satellite.2018-070A,
+        eor:satellite.2018-081A,
+        eor:satellite.2020-066A,
+        eor:satellite.2020-086A,
+        eor:satellite.2021-043A,
+        eor:satellite.2022-173A .
+
+eor:sensor.94cc36e6-c5e7-4a7c-8a4b-19abd2626c1b mac:mountedOn eor:satellite.2022-134A,
+        eor:satellite.2022-146A .
+
+eor:sensor.95142be7-0579-4407-907d-3dc060ac378d mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.95561689-f5a8-4c21-a2b8-ea6545b7e6c8 mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A,
+        eor:satellite.2002-009A .
+
+eor:sensor.95d2b8c3-3881-40d2-9630-99895b1f3da0 mac:mountedOn eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.9602886d-01dd-4545-b422-610c0f15df81 mac:mountedOn eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.961649c8-4068-47ad-b968-0f0178af0fcd mac:mountedOn eor:satellite.2005-017A .
+
+eor:sensor.96892ef1-d028-4f58-b3a8-8621f31160ce mac:mountedOn eor:satellite.1997-029A,
+        eor:satellite.2000-032A,
+        eor:satellite.2004-042A,
+        eor:satellite.2006-053A,
+        eor:satellite.2008-066A,
+        eor:satellite.2012-002A,
+        eor:satellite.2014-090A,
+        eor:satellite.2018-050A .
+
+eor:sensor.971f1bae-1d6e-4eec-9028-ac804aad8c98 mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.9722f98c-3011-4498-a8c4-8855ec799bf4 mac:mountedOn eor:satellite.1994-069A .
+
+eor:sensor.977942f9-6716-4486-89bd-ecdb251efce3 mac:mountedOn eor:satellite.2006-016A,
+        eor:satellite.2024-101A .
+
+eor:sensor.97b20648-b386-4948-b012-c9cf862ac8ac mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.97b3a665-ae7b-412d-a21c-4419e74b8db6 mac:mountedOn eor:satellite.2018-004D .
+
+eor:sensor.97b6d837-b9b7-411a-8be2-319e4315839a mac:mountedOn eor:satellite.1998-007A .
+
+eor:sensor.97bee596-29c0-42f5-af85-b408b999fff3 mac:mountedOn eor:satellite.2019-003D .
+
+eor:sensor.97cc9bca-ee2f-47dc-9903-95ac84d73be2 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2023-055A,
+        eor:satellite.2023-111A .
+
+eor:sensor.97dbf824-95e1-402e-8a40-d9275656db38 mac:mountedOn eor:satellite.2002-056B .
+
+eor:sensor.97e744a3-8b4d-4b92-b4d9-f74b019a6d06 mac:mountedOn eor:satellite.2017-049A .
+
+eor:sensor.983e7a68-4e40-4974-97ea-d7712a68cea4 mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2011-001A,
+        eor:satellite.2014-037A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-038A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.986c9d05-fe78-4095-8241-b33e6b92a046 mac:mountedOn eor:satellite.1964-052A,
+        eor:satellite.1966-040A,
+        eor:satellite.1969-037A .
+
+eor:sensor.98afeb38-4e95-4993-8337-44218f449900 mac:mountedOn eor:satellite.2011-044B .
+
+eor:sensor.98c1f6cc-180e-4684-a8f1-09b38a02362d mac:mountedOn eor:satellite.2011-061A,
+        eor:satellite.2022-150A .
+
+eor:sensor.98e2d820-59d2-4fb1-a2f2-d113413c73fb mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.98f65c1e-d71e-4e0e-9a02-e909512833cf mac:mountedOn eor:satellite.2006-044A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.992faef2-273d-4694-93ed-f91c3c86c4a8 mac:mountedOn eor:satellite.1978-041A .
+
+eor:sensor.994b424c-b649-4aef-bc05-1f525aa07d89 mac:mountedOn eor:satellite.1988-032A,
+        eor:satellite.1994-066A,
+        eor:satellite.1994-074A,
+        eor:satellite.1995-046A,
+        eor:satellite.1998-043A,
+        eor:satellite.1999-039A,
+        eor:satellite.2001-056A,
+        eor:satellite.2004-052A .
+
+eor:sensor.99d382a6-3e3b-487e-b5af-a193005093a9 mac:mountedOn eor:satellite.2024-199A,
+        eor:satellite.2024-199B .
+
+eor:sensor.99edecfe-0beb-41dc-af3a-9d3078956241 mac:mountedOn eor:satellite.1990-005A,
+        eor:satellite.1992-052A,
+        eor:satellite.1993-061A,
+        eor:satellite.1998-017A,
+        eor:satellite.2001-055A,
+        eor:satellite.2002-009A,
+        eor:satellite.2002-021A,
+        eor:satellite.2008-032A,
+        eor:satellite.2010-013A,
+        eor:satellite.2011-043A,
+        eor:satellite.2013-009A,
+        eor:satellite.2016-002A,
+        eor:satellite.2016-011A,
+        eor:satellite.2018-039A,
+        eor:satellite.2020-066A,
+        eor:satellite.2020-086A,
+        eor:satellite.2021-043A,
+        eor:satellite.2022-173A .
+
+eor:sensor.9a345134-7836-4402-9c03-7a12bef4f5d2 mac:mountedOn eor:satellite.2023-111A .
+
+eor:sensor.9a571481-4f1b-4de8-a2bc-b313a0a74540 mac:mountedOn eor:satellite.2003-042E .
+
+eor:sensor.9b28bd48-d692-4765-9128-90323d620c31 mac:mountedOn eor:satellite.1974-033A,
+        eor:satellite.1975-011A,
+        eor:satellite.1975-100A,
+        eor:satellite.1977-048A,
+        eor:satellite.1978-062A,
+        eor:satellite.1980-074A,
+        eor:satellite.1981-049A,
+        eor:satellite.1983-041A,
+        eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A,
+        eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.9b660139-6d84-42b2-a6e9-fe85f8215ba6 mac:mountedOn eor:satellite.2006-021A .
+
+eor:sensor.9b6bd770-4efd-463c-b0e6-bc0c131cb3f3 mac:mountedOn eor:satellite.1999-039A .
+
+eor:sensor.9b96962f-458f-44c0-ae4e-3155b35d5622 mac:mountedOn eor:satellite.2013-033A .
+
+eor:sensor.9bdaa738-65f6-4020-9340-8c2bdcea05b0 mac:mountedOn eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.9c46dee1-b898-4406-8fa1-0154e8564084 mac:mountedOn eor:satellite.2024-043B .
+
+eor:sensor.9c5e7593-e876-4459-b83b-ed6b4b0f53fb mac:mountedOn eor:satellite.2018-076A,
+        eor:satellite.2020-059A .
+
+eor:sensor.9c5f6bbe-96a8-44f7-81c3-849d0f28dc9b mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.9ca585e1-0132-4d40-b310-0f6a67fc90cd mac:mountedOn eor:satellite.2018-084B .
+
+eor:sensor.9cd7de03-d0d9-4e6a-afee-a4bbd67f58e3 mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.9d00947e-c7d1-4e0b-9772-9fd7c8c8974c mac:mountedOn eor:satellite.2012-052A .
+
+eor:sensor.9da0f4fd-4a1a-4427-bad0-06922c37fc52 mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.9e3300d4-ff9a-45c2-a06f-6996ead0ba23 mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.9e3e7954-2176-4e33-9f6b-30d1e121ce95 mac:mountedOn eor:satellite.1999-068A,
+        eor:satellite.2002-022A .
+
+eor:sensor.9e4e3ce4-5914-4eda-ba59-d3b081ec2c9c mac:mountedOn eor:satellite.1999-008B .
+
+eor:sensor.9e92c635-45d7-4cd2-a5cb-fd39ea80a6ac mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.9eb64e01-a41c-41fb-b858-f03e2fb455ef mac:mountedOn eor:satellite.1986-055A,
+        eor:satellite.1987-062A,
+        eor:satellite.1988-032A,
+        eor:satellite.1988-056A,
+        eor:satellite.1990-018A,
+        eor:satellite.1991-039A,
+        eor:satellite.1994-066A,
+        eor:satellite.1994-074A,
+        eor:satellite.1995-046A,
+        eor:satellite.1998-043A,
+        eor:satellite.1999-039A,
+        eor:satellite.2004-052A .
+
+eor:sensor.9ed2a1f7-f341-4c06-8752-3c00a4c8c16f mac:mountedOn eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A .
+
+eor:sensor.9ee16d48-0122-4752-b831-a99752d8677d mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.9f3b46d1-7596-4677-9938-1813f4ba8c8d mac:mountedOn eor:satellite.2006-021A .
+
+eor:sensor.9f50eb71-378b-425d-bf2c-03de77734c23 mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.9f58675b-b65d-4c00-b4f7-0fa3a69d3ab2 mac:mountedOn eor:satellite.1977-108A,
+        eor:satellite.1981-057A,
+        eor:satellite.1988-051A,
+        eor:satellite.1989-020B,
+        eor:satellite.1991-015B,
+        eor:satellite.1993-073B,
+        eor:satellite.1997-049B,
+        eor:satellite.2002-040B,
+        eor:satellite.2005-049B,
+        eor:satellite.2012-035B,
+        eor:satellite.2015-034A,
+        eor:satellite.2022-170C .
+
+eor:sensor.9fb28b5a-7013-4ea7-aa68-82f0f870ba01 mac:mountedOn eor:satellite.2008-021D .
+
+eor:sensor.9fd31ed2-e9a6-480a-b62d-7a440a2448fb mac:mountedOn eor:satellite.2019-081A .
+
+eor:sensor.a000d38c-f772-453a-a48a-b8e2cbeeb23a mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.a001cdbb-8e0b-43cd-906e-bd31325aa8dc mac:mountedOn eor:satellite.2016-083A,
+        eor:satellite.2016-083B,
+        eor:satellite.2018-002A,
+        eor:satellite.2022-043A,
+        eor:satellite.2022-043C,
+        eor:satellite.2024-072A .
+
+eor:sensor.a027a083-d01c-47ec-afdb-9f21edf403f2 mac:mountedOn eor:satellite.1997-074A .
+
+eor:sensor.a0c2a6f9-8b32-47aa-8404-febcd681f74f mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.a12d7d56-22de-45c1-9a77-c52a974960e7 mac:mountedOn eor:satellite.2016-040D,
+        eor:satellite.2020-061G,
+        eor:satellite.2021-006DA,
+        eor:satellite.2022-057F,
+        eor:satellite.2022-057N,
+        eor:satellite.2022-057Q,
+        eor:satellite.2023-054AC,
+        eor:satellite.2023-054AH,
+        eor:satellite.2023-054J .
+
+eor:sensor.a144e541-f154-44c3-94c3-d727c76d9fd5 mac:mountedOn eor:satellite.1999-034A,
+        eor:satellite.2002-056A .
+
+eor:sensor.a152bda8-91b0-4241-ab97-7a0f19316ea4 mac:mountedOn eor:satellite.2013-042A .
+
+eor:sensor.a183adcf-c9ef-4507-9515-723bcb209fb2 mac:mountedOn eor:satellite.2011-015B .
+
+eor:sensor.a21b0552-fe8e-452c-a382-2e9b4ce7c8b4 mac:mountedOn eor:satellite.1999-057A,
+        eor:satellite.2003-049A .
+
+eor:sensor.a27da4f6-5a04-4dda-bad9-fe0fb9749c4c mac:mountedOn eor:satellite.2013-021A .
+
+eor:sensor.a2c76db2-610d-47cd-81d4-24fd2538d3eb mac:mountedOn eor:satellite.2001-055B .
+
+eor:sensor.a31b7d61-1266-4cd4-88c9-241dbe9a8eef mac:mountedOn eor:satellite.2022-129A .
+
+eor:sensor.a33e8c17-280e-48da-abbd-57dd1eb666e2 mac:mountedOn eor:satellite.1975-052A .
+
+eor:sensor.a36da6db-935d-463e-b03b-9e58296c1570 mac:mountedOn eor:satellite.2024-233C .
+
+eor:sensor.a3cc8e7b-1041-4eba-8bbe-50480743ae48 mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1981-059A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1987-022A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.a3dac094-73f3-4a2f-ad7c-e5de32cfc1a6 mac:mountedOn eor:satellite.2007-001B,
+        eor:satellite.2008-021A,
+        eor:satellite.2010-035A,
+        eor:satellite.2012-039A .
+
+eor:sensor.a3fd0921-7d33-4049-ba55-368842f1c6bd mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A,
+        eor:satellite.2013-052A .
+
+eor:sensor.a4146467-3eb7-4bd7-8b13-3b611ede4ef2 mac:mountedOn eor:satellite.1998-067NV .
+
+eor:sensor.a47d8b05-19fa-4cad-981f-4870f2df2b4f mac:mountedOn eor:satellite.1978-064A,
+        eor:satellite.1978-098A .
+
+eor:sensor.a53fa5af-a95a-46f4-aa18-61ec68a959c3 mac:mountedOn eor:satellite.2018-071B .
+
+eor:sensor.a55232ac-260a-4199-b17e-e200ae5ddc1c mac:mountedOn eor:satellite.1978-064A .
+
+eor:sensor.a5884cfe-b228-4437-9e70-5d84dad51c51 mac:mountedOn eor:satellite.2000-039B .
+
+eor:sensor.a5b4b32f-7c0c-4074-a2c0-1e5a4f37548d mac:mountedOn eor:satellite.2018-068A,
+        eor:satellite.2020-036A .
+
+eor:sensor.a5bb17b8-87b7-4d43-b3a3-862698933b86 mac:mountedOn eor:satellite.2016-011A,
+        eor:satellite.2018-039A .
+
+eor:sensor.a646e460-bb08-4e91-af85-cdace5869ee0 mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.a6c34adc-6e00-4191-879e-2541904c8c39 mac:mountedOn eor:satellite.2013-038B,
+        eor:satellite.2016-054A,
+        eor:satellite.2024-033A .
+
+eor:sensor.a6dba341-06aa-44f3-8017-630eac3b9c6a mac:mountedOn eor:satellite.1991-024A .
+
+eor:sensor.a6eff46d-8653-418b-9230-26fdf4a9b399 mac:mountedOn eor:satellite.2023-155A .
+
+eor:sensor.a70d9bb9-a7f7-4c79-8b79-ce4ea9c5520c mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.a764ab51-5002-4376-b45b-68c0e6acc001 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A .
+
+eor:sensor.a7c457f6-5abe-4fc9-852e-e199ff33c08c mac:mountedOn eor:satellite.1970-025A .
+
+eor:sensor.a876e3ef-b987-4e4f-9078-fa163a29f2b6 mac:mountedOn eor:satellite.2011-044B .
+
+eor:sensor.a8d3680d-adc7-4aee-8116-97add6fa056a mac:mountedOn eor:satellite.2020-086A .
+
+eor:sensor.a8f9106c-6590-4f96-bd79-d6e1f6bac1d4 mac:mountedOn eor:satellite.2025-052BK .
+
+eor:sensor.a90151da-3c8d-456c-9727-dabcc9f1f4b5 mac:mountedOn eor:satellite.1999-066A .
+
+eor:sensor.a9556fd8-58f1-4719-a48b-9e92aea5fa51 mac:mountedOn eor:satellite.2003-004A .
+
+eor:sensor.a9afcfec-8d19-4df9-a923-cd7dbf0f550d mac:mountedOn eor:satellite.1987-018A,
+        eor:satellite.1990-013A .
+
+eor:sensor.a9babf4b-5402-46af-8597-05f075a32e7a mac:mountedOn eor:satellite.2011-044B .
+
+eor:sensor.a9d71e87-a439-4a46-8403-f8812b9368d9 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.aa6f2154-589b-4504-93bf-871dd4042050 mac:mountedOn eor:satellite.2018-065A .
+
+eor:sensor.aa8ea396-7ec8-43f4-b070-886dc2541bc0 mac:mountedOn eor:satellite.1999-029C,
+        eor:satellite.2009-051A .
+
+eor:sensor.aad6102f-5642-49a8-a8c8-cbada3abfdfd mac:mountedOn eor:satellite.2016-077A,
+        eor:satellite.2021-047A .
+
+eor:sensor.ab1998ec-4201-41e4-81b5-b3fec974678e mac:mountedOn eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2013-009A,
+        eor:satellite.2018-087A .
+
+eor:sensor.ab43255b-5dd4-48bc-82df-a3f74868b6a2 mac:mountedOn eor:satellite.2011-079A,
+        eor:satellite.2012-001A,
+        eor:satellite.2016-033A,
+        eor:satellite.2020-051A .
+
+eor:sensor.ab53eb3d-5f5b-450c-bd5a-2d89d528d824 mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.ab61eb3f-372b-435d-92fb-0d37739c7c3c mac:mountedOn eor:satellite.1974-033A,
+        eor:satellite.1975-011A,
+        eor:satellite.1975-100A,
+        eor:satellite.1977-048A,
+        eor:satellite.1978-062A .
+
+eor:sensor.abc6f486-0ba3-469f-b838-63e35b4bc5b6 mac:mountedOn eor:satellite.2016-077A,
+        eor:satellite.2021-047A .
+
+eor:sensor.abefd7db-23ff-4531-96a5-bc20fb3e828a mac:mountedOn eor:satellite.2013-067C .
+
+eor:sensor.ac7517ca-93b3-40dc-8236-ff2cb6d71fc3 mac:mountedOn eor:satellite.1979-013A .
+
+eor:sensor.acafa7bc-2402-46b7-8cac-107b331f69ba mac:mountedOn eor:satellite.1998-007A .
+
+eor:sensor.acbd6736-534d-4215-9f00-ff413d6dcfcd mac:mountedOn eor:satellite.2001-007A .
+
+eor:sensor.accd82cf-6b71-42f8-a1a6-34fb53bd2a95 mac:mountedOn eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2009-005A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.acda19b5-8973-4105-a165-f81948a7fe52 mac:mountedOn eor:satellite.1990-065A .
+
+eor:sensor.ad19025d-2d02-416f-9918-9bb94b2f5605 mac:mountedOn eor:satellite.1997-029A,
+        eor:satellite.2000-032A .
+
+eor:sensor.ad2c0211-0c58-4a9b-a63d-4f74de6f78e1 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.addb9fc1-d84a-4286-a659-123ee002b3f2 mac:mountedOn eor:satellite.2004-026A .
+
+eor:sensor.ae16d4d1-ca76-4158-8c29-b508c79c7f36 mac:mountedOn eor:satellite.2011-043A,
+        eor:satellite.2018-081A,
+        eor:satellite.2020-066A,
+        eor:satellite.2021-043A .
+
+eor:sensor.ae1de580-6ebe-4c83-88ad-1041919014ab mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.af056600-02ec-4571-88a3-490a34551757 mac:mountedOn eor:satellite.2010-040A,
+        eor:satellite.2012-020A,
+        eor:satellite.2015-061A .
+
+eor:sensor.af55a68b-8725-4d1a-9a20-2655ed1a5ded mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.af5704c5-723e-4450-9d39-a6b646e3c731 mac:mountedOn eor:satellite.2023-055A .
+
+eor:sensor.af5c2e93-b397-4679-8a12-24cd7352f44d mac:mountedOn eor:satellite.2017-072A,
+        eor:satellite.2023-111A .
+
+eor:sensor.af635345-4e00-40cd-80f0-978fad8cc85a mac:mountedOn eor:satellite.1992-052A .
+
+eor:sensor.af74008b-2d66-46a3-8b7b-7001ea735dab mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.af94a7df-72e4-4157-bdcd-dc87b6b4b07b mac:mountedOn eor:satellite.1991-062A .
+
+eor:sensor.afa5fe38-00ac-4bdc-854a-fbcf7038c95e mac:mountedOn eor:satellite.2011-015C .
+
+eor:sensor.afde5ec9-11e2-401a-8d41-80b7789f40f8 mac:mountedOn eor:satellite.2013-018A,
+        eor:satellite.2018-048A .
+
+eor:sensor.b0300f53-d416-4bd9-80bd-1f672d3141b0 mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.b03bfe62-6cdd-4081-8c93-f5642cbacb4c mac:mountedOn eor:satellite.2006-002A .
+
+eor:sensor.b0933073-2906-4a49-ae17-47d91afcf906 mac:mountedOn eor:satellite.2021-059CF .
+
+eor:sensor.b13f0181-accb-4aa8-8268-3439f47495bf mac:mountedOn eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.b14d287d-0f4f-4649-b351-040c9005480d mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.b15ec0ff-2865-4e1e-82a1-d87220a977ed mac:mountedOn eor:satellite.1997-074A .
+
+eor:sensor.b161ef64-ba5a-4fe6-ac49-276a9c25329b mac:mountedOn eor:satellite.2010-032A .
+
+eor:sensor.b187ec37-7b5d-4b89-8b2e-00bde4ec4192 mac:mountedOn eor:satellite.2014-021A,
+        eor:satellite.2019-008A .
+
+eor:sensor.b19e0946-bab8-40d2-8ca6-d0528f499c7c mac:mountedOn eor:satellite.2020-086A .
+
+eor:sensor.b2172638-be46-49e8-8d2a-6ebea1c2546b mac:mountedOn eor:satellite.2022-173A .
+
+eor:sensor.b2195674-2fce-4189-99a0-dffd8a96a85e mac:mountedOn eor:satellite.2007-001B,
+        eor:satellite.2012-039A,
+        eor:satellite.2012-039B,
+        eor:satellite.2017-042A,
+        eor:satellite.2018-014A,
+        eor:satellite.2018-014B,
+        eor:satellite.2018-111A,
+        eor:satellite.2018-111B .
+
+eor:sensor.b22d13a5-6f8f-491e-9c98-27bd0c90a78c mac:mountedOn eor:satellite.2011-044D .
+
+eor:sensor.b260097a-0f6b-4f6c-b5a8-5ca1931bb544 mac:mountedOn eor:satellite.1972-081A,
+        eor:satellite.1972-082A,
+        eor:satellite.1973-086A,
+        eor:satellite.1974-089A,
+        eor:satellite.1976-077A .
+
+eor:sensor.b2b8074f-d066-4594-9736-72e06ca67968 mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1981-059A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A .
+
+eor:sensor.b2dd7602-ae69-4eb7-bb36-52505e77b82b mac:mountedOn eor:satellite.2008-049A .
+
+eor:sensor.b3948a83-af25-46ce-987f-0226c5ce9ccf mac:mountedOn eor:satellite.1982-072A,
+        eor:satellite.1984-021A .
+
+eor:sensor.b42d3b30-79da-46c5-a799-fdd5ae59cdac mac:mountedOn eor:satellite.1985-090A .
+
+eor:sensor.b4432d8e-e266-4608-a6be-d5a367a9aa7a mac:mountedOn eor:satellite.2004-018A .
+
+eor:sensor.b47701bb-46e7-4c40-a007-4ebee3b6feec mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.b4a1334b-2679-42ce-a8a4-3d2979a71747 mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.b4a6a3e1-d1bb-4792-ae6b-10515ac8b4e2 mac:mountedOn eor:satellite.2014-029A .
+
+eor:sensor.b4ccdf2d-c1e0-48e4-a922-c704ba394d28 mac:mountedOn eor:satellite.2009-013A .
+
+eor:sensor.b5ecd3e5-a8f8-4ecf-a9a2-d4665972a3d9 mac:mountedOn eor:satellite.2009-051A .
+
+eor:sensor.b60af7f3-c8b8-491f-a7fa-0a11fe94ebab mac:mountedOn eor:satellite.1967-011A,
+        eor:satellite.1967-014A .
+
+eor:sensor.b658e3d1-fefa-4d32-b0ee-35152aa4977f mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.b690c7b4-2065-4618-bae6-5a3f63ee44fb mac:mountedOn eor:satellite.1996-046A .
+
+eor:sensor.b6d610f8-1a6a-4cec-b9e3-9512dadbe4e8 mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-055A,
+        eor:satellite.2023-111A .
+
+eor:sensor.b6f3c474-dab7-493b-8be5-24f4c46b0947 mac:mountedOn eor:satellite.2022-007A,
+        eor:satellite.2022-018A,
+        eor:satellite.2023-120A .
+
+eor:sensor.b706c108-de39-4cf1-9cd6-f6d86804e4d9 mac:mountedOn eor:satellite.1992-007A .
+
+eor:sensor.b7081356-09f8-48ea-863c-68169ba45d88 mac:mountedOn eor:satellite.2016-077A,
+        eor:satellite.2021-047A .
+
+eor:sensor.b78cdee0-feff-48cf-97a7-c60380377a72 mac:mountedOn eor:satellite.1999-008B,
+        eor:satellite.2000-075B .
+
+eor:sensor.b7edae5f-57a1-4ba9-9521-c316302a07c7 mac:mountedOn eor:satellite.2012-073A .
+
+eor:sensor.b853502f-02f3-4611-9fdd-8e7f49a81e67 mac:mountedOn eor:satellite.2010-035D,
+        eor:satellite.2012-047A,
+        eor:satellite.2013-021B,
+        eor:satellite.2014-034A,
+        eor:satellite.2016-059D .
+
+eor:sensor.b85bd67a-7f7f-49b8-a709-0c440f99e722 mac:mountedOn eor:satellite.2006-002A .
+
+eor:sensor.b8a91f7a-fe38-43c5-8815-373b4b4195cd mac:mountedOn eor:satellite.1976-091A,
+        eor:satellite.1977-044A,
+        eor:satellite.1978-042A,
+        eor:satellite.1982-118A,
+        eor:satellite.1983-113A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A .
+
+eor:sensor.b8b8a24a-bc0f-43bb-9144-adaff53cd6d2 mac:mountedOn eor:satellite.2003-002A .
+
+eor:sensor.b8d25175-08c7-4080-8607-9297d6686920 mac:mountedOn eor:satellite.2018-099AU .
+
+eor:sensor.b92dd835-c522-41c5-b708-fd0332d59bf1 mac:mountedOn eor:satellite.2012-039D .
+
+eor:sensor.b949f1da-7d11-4f95-8e9c-41270a00d48b mac:mountedOn eor:satellite.1995-072A,
+        eor:satellite.1996-017A,
+        eor:satellite.1997-057A,
+        eor:satellite.1999-029C .
+
+eor:sensor.b967a95d-30f9-47ad-ada9-ebd46e250253 mac:mountedOn eor:satellite.1981-100A .
+
+eor:sensor.b99dd3db-e9cd-4d34-b5ac-84d010248eaf mac:mountedOn eor:satellite.2019-081A .
+
+eor:sensor.b9e6aea4-ec6c-4494-b897-9c8ca0f8ecc5 mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.ba96d970-b634-428d-82e6-1add259a9cde mac:mountedOn eor:satellite.1999-070B .
+
+eor:sensor.bb45fb72-5489-4f73-9478-76fc1f5886e5 mac:mountedOn eor:satellite.1998-007A,
+        eor:satellite.2001-055A,
+        eor:satellite.2003-002A,
+        eor:satellite.2008-032A,
+        eor:satellite.2016-002A,
+        eor:satellite.2018-070A .
+
+eor:sensor.bbad86d8-71a5-47b7-b230-e767afbd4ecc mac:mountedOn eor:satellite.2018-111AH .
+
+eor:sensor.bbbd78ed-e638-46a3-8bb7-22995d45d35c mac:mountedOn eor:satellite.2007-004D,
+        eor:satellite.2011-034A .
+
+eor:sensor.bbc68634-5223-411e-b7a9-671060788f82 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.bbdc8888-750e-419b-8561-c79fc5c89041 mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.bc3fbc12-e8db-46d1-93c8-0b0ac0f7c17d mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.bcd302d7-c19f-4833-bb83-c9365cdb78b2 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.bd1ea938-f228-4b7e-b54c-0176afc5a3d5 mac:mountedOn eor:satellite.1988-032A,
+        eor:satellite.1994-074A,
+        eor:satellite.1998-043A,
+        eor:satellite.2001-056A,
+        eor:satellite.2004-052A,
+        eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.bd236154-4d65-434f-8806-a9872e788a7a mac:mountedOn eor:satellite.1997-074A .
+
+eor:sensor.bd45c15b-8288-4c6c-b863-7df695a31291 mac:mountedOn eor:satellite.1960-002B,
+        eor:satellite.1960-016A,
+        eor:satellite.1961-017A,
+        eor:satellite.1962-002A,
+        eor:satellite.1962-025A,
+        eor:satellite.1962-047A,
+        eor:satellite.1963-024A,
+        eor:satellite.1963-054A,
+        eor:satellite.1965-004A,
+        eor:satellite.1965-051A,
+        eor:satellite.1966-008A .
+
+eor:sensor.bd98d91a-2538-4f71-8733-3b7e471156f1 mac:mountedOn eor:satellite.1992-007A .
+
+eor:sensor.bdb443ee-b1ea-4069-bb7b-b094ab32824c mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.bdc7a5fb-7b07-46e0-9572-2bdb499c7184 mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A .
+
+eor:sensor.be02e939-04cf-49d8-8984-18ed450df0ba mac:mountedOn eor:satellite.2006-011B .
+
+eor:sensor.be1d5945-bbc7-4c3b-99e7-3d0dafbd4ed6 mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.be709e70-e93f-4ad8-ad86-1a46111da4b1 mac:mountedOn eor:satellite.1970-008A,
+        eor:satellite.1970-106A,
+        eor:satellite.1972-081A,
+        eor:satellite.1972-082A,
+        eor:satellite.1973-086A,
+        eor:satellite.1974-089A,
+        eor:satellite.1976-077A .
+
+eor:sensor.be71005d-cdeb-4773-a143-fc4922e78709 mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.be7db81d-44f8-4b3b-a0fb-eba5251e07b0 mac:mountedOn eor:satellite.2017-072A .
+
+eor:sensor.beae7d80-d6c9-465b-a854-366c42a0b728 mac:mountedOn eor:satellite.1977-065A,
+        eor:satellite.1981-076A,
+        eor:satellite.1984-080A,
+        eor:satellite.1989-070A,
+        eor:satellite.1990-013A,
+        eor:satellite.1995-011B,
+        eor:satellite.2005-006A,
+        eor:satellite.2006-004A,
+        eor:satellite.2014-060A,
+        eor:satellite.2016-064A .
+
+eor:sensor.bec282e0-bcb8-4720-9915-217fb9f18e01 mac:mountedOn eor:satellite.2019-038P .
+
+eor:sensor.bedc2e9c-3a94-464d-9abf-dfd91a8ba092 mac:mountedOn eor:satellite.2022-115A .
+
+eor:sensor.bedeaeda-b2c0-498f-8054-e56c25953727 mac:mountedOn eor:satellite.2009-049F .
+
+eor:sensor.befcf440-0137-4e43-bbf8-642b2be17ea0 mac:mountedOn eor:satellite.1999-039A .
+
+eor:sensor.bf0a807c-b4b5-4209-bde9-3b0436f31e54 mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.bf53686c-d8b7-4973-9234-4f06263f12f0 mac:mountedOn eor:satellite.1974-033A,
+        eor:satellite.1975-011A,
+        eor:satellite.1975-100A,
+        eor:satellite.1977-048A,
+        eor:satellite.1978-062A,
+        eor:satellite.1980-074A,
+        eor:satellite.1981-049A,
+        eor:satellite.1983-041A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1987-022A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-022A,
+        eor:satellite.1994-089A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2000-055A,
+        eor:satellite.2001-031A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.bfe406b6-2fb6-4a82-a046-a74604477274 mac:mountedOn eor:satellite.1999-070A .
+
+eor:sensor.c03f9f38-2fe1-47f0-94a0-23319996a960 mac:mountedOn eor:satellite.1960-002B,
+        eor:satellite.1960-016A .
+
+eor:sensor.c0925a72-c17a-40a3-b821-44d8157d5b02 mac:mountedOn eor:satellite.1981-100A .
+
+eor:sensor.c0bd95ac-1c7b-4a4b-8613-06a4c9d14b3b mac:mountedOn eor:satellite.1994-003A,
+        eor:satellite.1998-043A,
+        eor:satellite.2011-058A .
+
+eor:sensor.c0c3ee16-7167-4206-8302-b79361b9b194 mac:mountedOn eor:satellite.1972-097A .
+
+eor:sensor.c0d58127-3575-4c58-829c-df6a0204a080 mac:mountedOn eor:satellite.1988-080A,
+        eor:satellite.1990-081A,
+        eor:satellite.1999-025A,
+        eor:satellite.2002-024B .
+
+eor:sensor.c142a4f3-e95e-4231-839b-12b390efd0e7 mac:mountedOn eor:satellite.1992-041A,
+        eor:satellite.1993-048B,
+        eor:satellite.1997-027B,
+        eor:satellite.1999-016A,
+        eor:satellite.2002-043A,
+        eor:satellite.2003-013A,
+        eor:satellite.2013-038B,
+        eor:satellite.2016-054A,
+        eor:satellite.2024-033A .
+
+eor:sensor.c1464dc2-4b03-4fab-b12e-5e6a0ef0bbe4 mac:mountedOn eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2009-005A .
+
+eor:sensor.c170536d-9dac-40bd-ba8f-2c5bb6dbaaea mac:mountedOn eor:satellite.2014-079A .
+
+eor:sensor.c1715fef-31cb-43c9-bc87-7eae1033dea5 mac:mountedOn eor:satellite.1980-014A .
+
+eor:sensor.c2269c53-f8ba-463c-831e-56e5cb20981b mac:mountedOn eor:satellite.1994-066A,
+        eor:satellite.1995-046A,
+        eor:satellite.1999-039A .
+
+eor:sensor.c23ba007-3c49-4b8a-bb4f-c95ba7b0f5da mac:mountedOn eor:satellite.1994-014A,
+        eor:satellite.2001-032A .
+
+eor:sensor.c27775cb-a3c9-483c-9a88-394f9e39bd75 mac:mountedOn eor:satellite.1998-067TG .
+
+eor:sensor.c2ea8768-cacb-465e-95f2-d3d5c519aeb1 mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.c339d491-612d-400c-b4ce-30433b16206a mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.c4161269-fb37-4802-86f8-7d1510cb7b6f mac:mountedOn eor:satellite.2006-016B .
+
+eor:sensor.c4333670-6415-48a5-9921-6a230ba69e27 mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.c4a8c134-70a0-4069-bb85-75e0e4180492 mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.c4ae1330-ea14-44fc-b9cd-c1274a07ba3c mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1981-059A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A .
+
+eor:sensor.c4d19deb-fbc8-412a-b285-b322001a1b09 mac:mountedOn eor:satellite.2008-032A,
+        eor:satellite.2016-002A .
+
+eor:sensor.c5842ea0-d459-4597-bef6-5f05aca4bf40 mac:mountedOn eor:satellite.2011-024A .
+
+eor:sensor.c5933534-ffe5-4920-801b-7df4d61b5187 mac:mountedOn eor:satellite.1969-037A,
+        eor:satellite.1970-025A .
+
+eor:sensor.c605c9a9-76d7-4305-b330-a1cd0fb2fdde mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.c670c4af-518b-4e93-b91b-cad0ca439755 mac:mountedOn eor:satellite.1993-009B,
+        eor:satellite.1998-060A,
+        eor:satellite.1999-057A,
+        eor:satellite.2003-049A,
+        eor:satellite.2007-042A,
+        eor:satellite.2014-079A,
+        eor:satellite.2019-093E .
+
+eor:sensor.c683d3d4-7162-44d2-b543-bb1dfc489ca4 mac:mountedOn eor:satellite.2021-016A,
+        eor:satellite.2023-198A .
+
+eor:sensor.c687b66d-e571-4e35-abd3-90d63c78bf83 mac:mountedOn eor:satellite.1980-051A,
+        eor:satellite.1985-090A,
+        eor:satellite.1988-032A,
+        eor:satellite.1994-003A,
+        eor:satellite.1994-074A,
+        eor:satellite.1998-043A .
+
+eor:sensor.c71b5016-59db-4c0c-99ad-34131d4441d0 mac:mountedOn eor:satellite.2015-028A,
+        eor:satellite.2017-013A,
+        eor:satellite.2024-157A .
+
+eor:sensor.c7c67f56-bb77-4e8d-a08a-494671036745 mac:mountedOn eor:satellite.2009-041B .
+
+eor:sensor.c7e1fd86-d988-4cf8-808c-20a29751d2fd mac:mountedOn eor:satellite.2004-052A .
+
+eor:sensor.c826f403-bf30-4d29-9bf3-8997c59d4361 mac:mountedOn eor:satellite.1988-032A,
+        eor:satellite.1991-056A,
+        eor:satellite.1994-003A,
+        eor:satellite.1994-074A,
+        eor:satellite.1998-043A,
+        eor:satellite.1999-039A,
+        eor:satellite.2001-056A,
+        eor:satellite.2004-052A .
+
+eor:sensor.c843314b-1f7d-4971-900a-64f0847be744 mac:mountedOn eor:satellite.2000-075B .
+
+eor:sensor.c885c875-fdd9-49c1-9bad-28651399a9c9 mac:mountedOn eor:satellite.1978-098A .
+
+eor:sensor.c88d55de-86e4-4f78-9e40-1aa315d67a6f mac:mountedOn eor:satellite.2018-083A .
+
+eor:sensor.c9686862-5b7b-4839-bd5c-d8d32c96a357 mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.c9eeea2c-42ea-4eff-8b92-506246d1101e mac:mountedOn eor:satellite.2024-081A,
+        eor:satellite.2024-146A,
+        eor:satellite.2025-025A .
+
+eor:sensor.ca30ac0c-6d92-4e67-87fc-3060908f860b mac:mountedOn eor:satellite.2005-043B .
+
+eor:sensor.ca4b39b1-4c11-462b-a4ac-be19eb4607a9 mac:mountedOn eor:satellite.2002-022A .
+
+eor:sensor.ca681e50-ad7a-4167-87a2-89169a6f74d5 mac:mountedOn eor:satellite.2006-044A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.ca6de88d-2066-4b96-8f59-86e1fdf76559 mac:mountedOn eor:satellite.2018-066A .
+
+eor:sensor.caa7278c-9c8a-46e6-8b0d-c6c3c4f027fe mac:mountedOn eor:satellite.1992-044A .
+
+eor:sensor.cae6f127-4915-49d0-a9e7-99ac41b744ab mac:mountedOn eor:satellite.2017-036AE .
+
+eor:sensor.cb72a0e7-3026-4ddf-9839-439443cef40b mac:mountedOn eor:satellite.2014-049A,
+        eor:satellite.2015-030A,
+        eor:satellite.2015-047A,
+        eor:satellite.2018-063A,
+        eor:satellite.2019-066A,
+        eor:satellite.2019-072A,
+        eor:satellite.2020-034B,
+        eor:satellite.2020-039A,
+        eor:satellite.2020-054A,
+        eor:satellite.2020-058A,
+        eor:satellite.2020-064A,
+        eor:satellite.2020-092A,
+        eor:satellite.2021-107A,
+        eor:satellite.2022-176A,
+        eor:satellite.2024-130A .
+
+eor:sensor.cba5d681-c8b5-4b15-a8da-83e11adaf495 mac:mountedOn eor:satellite.2014-024A,
+        eor:satellite.2016-058A .
+
+eor:sensor.cbafe734-507f-49cb-bccf-a66417c795a7 mac:mountedOn eor:satellite.2018-043A,
+        eor:satellite.2021-079A,
+        eor:satellite.2022-165A .
+
+eor:sensor.cbc00ec5-5a91-4ec7-aa13-c4618e682bca mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.cc34475a-07ad-4515-bd3d-def8de8fe020 mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.ccbdb221-5b55-4a18-a5b7-30b5409fe3ea mac:mountedOn eor:satellite.2013-008A,
+        eor:satellite.2021-088A .
+
+eor:sensor.cce8cd16-49c2-44ef-a727-91ee536c4763 mac:mountedOn eor:satellite.2018-111AH .
+
+eor:sensor.cd0597b5-ca96-4a38-83c8-b8723b8d2a5a mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.cd05b56f-9691-4c92-8dc3-1f3c61c331b4 mac:mountedOn eor:satellite.2001-055B .
+
+eor:sensor.cdf0afd3-6565-4860-a848-5fd7339df78e mac:mountedOn eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-022A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.ce5c8b24-042e-4f24-b98c-3fdc9b3763d8 mac:mountedOn eor:satellite.2019-015A .
+
+eor:sensor.ce8874e5-f44c-45d1-91ff-4164c95d357c mac:mountedOn eor:satellite.2019-059A,
+        eor:satellite.2021-131A .
+
+eor:sensor.ceb66f37-b454-4c7c-b96f-1680030d839c mac:mountedOn eor:satellite.1981-100A .
+
+eor:sensor.cf183410-1c5d-495c-bba5-b2d5b5a98734 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.cf51d344-b20d-4c75-8ef4-ea166986deb3 mac:mountedOn eor:satellite.2024-149M,
+        eor:satellite.2024-149T,
+        eor:satellite.2024-247K,
+        eor:satellite.2024-247R,
+        eor:satellite.2025-052AA,
+        eor:satellite.2025-052R,
+        eor:satellite.2025-081B .
+
+eor:sensor.cf61b781-0bbe-4779-874f-c2860d936876 mac:mountedOn eor:satellite.2020-067A,
+        eor:satellite.2020-067B .
+
+eor:sensor.cfa9b65b-63d9-4c2b-8f70-3a4880889e34 mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.cfb36dcd-03f5-4d56-8380-a27c7d8a14ee mac:mountedOn eor:satellite.2021-015A .
+
+eor:sensor.cfe29160-898e-4657-8f1e-df667db8e097 mac:mountedOn eor:satellite.2001-056A .
+
+eor:sensor.cfea9d34-b73d-4534-ad87-6f7ac9514e89 mac:mountedOn eor:satellite.1974-052A,
+        eor:satellite.1976-043A,
+        eor:satellite.1977-057A,
+        eor:satellite.1979-005A,
+        eor:satellite.1980-051A,
+        eor:satellite.1981-065A,
+        eor:satellite.1999-039A .
+
+eor:sensor.cff8d11e-c76b-49c1-9605-eb4db0af756b mac:mountedOn eor:satellite.2023-055A .
+
+eor:sensor.d01ab414-a5d9-41a0-b81a-f832146a3042 mac:mountedOn eor:satellite.1975-052A,
+        eor:satellite.1978-098A .
+
+eor:sensor.d059c75b-d1d0-4e1b-b26b-65c46e45920f mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.d0c66c10-57b3-4e34-827c-55276870a89b mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.d0e06eea-ee9f-46f3-b60f-eb6ff03877b1 mac:mountedOn eor:satellite.1996-046A,
+        eor:satellite.2002-056A,
+        eor:satellite.2004-049G .
+
+eor:sensor.d128aed9-14f0-45df-9f2d-04a6e1749ec2 mac:mountedOn eor:satellite.2021-015A .
+
+eor:sensor.d137d340-18aa-4c1c-81ec-285c98100cdb mac:mountedOn eor:satellite.2022-039A .
+
+eor:sensor.d17b10b3-902d-4c70-8c19-9b2a70d0a0d4 mac:mountedOn eor:satellite.2022-129A .
+
+eor:sensor.d18de004-b05e-4611-9204-8fb1bb82a879 mac:mountedOn eor:satellite.2013-064A .
+
+eor:sensor.d1b5bdeb-a131-4268-a62a-24592aa8912a mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.d202adef-1a03-430e-ae38-0d3b6fdba75a mac:mountedOn eor:satellite.1991-063B .
+
+eor:sensor.d257e558-8201-4b40-8826-7340212ccd97 mac:mountedOn eor:satellite.1969-029A,
+        eor:satellite.1969-084A,
+        eor:satellite.1970-019A,
+        eor:satellite.1970-037A,
+        eor:satellite.1970-047A,
+        eor:satellite.1970-085A,
+        eor:satellite.1971-003A,
+        eor:satellite.1971-031A,
+        eor:satellite.1971-059A,
+        eor:satellite.1971-120A,
+        eor:satellite.1972-022A,
+        eor:satellite.1972-049A,
+        eor:satellite.1972-085A,
+        eor:satellite.1973-015A,
+        eor:satellite.1973-034A,
+        eor:satellite.1974-011A,
+        eor:satellite.1974-025A,
+        eor:satellite.1974-083A,
+        eor:satellite.1974-099A,
+        eor:satellite.1975-023A,
+        eor:satellite.1975-087A,
+        eor:satellite.1975-124A,
+        eor:satellite.1976-032A,
+        eor:satellite.1976-102A,
+        eor:satellite.1977-024A .
+
+eor:sensor.d301ee91-5be4-44e0-9e2f-65b5cfb1cc0c mac:mountedOn eor:satellite.1978-098A,
+        eor:satellite.1991-056A,
+        eor:satellite.1996-037A,
+        eor:satellite.1996-046A .
+
+eor:sensor.d303e094-ed2f-42c4-89ac-60b334ea9d47 mac:mountedOn eor:satellite.2000-075B .
+
+eor:sensor.d3be3d09-0345-4681-b639-0073d751d0e1 mac:mountedOn eor:satellite.2023-084Y .
+
+eor:sensor.d4370392-444e-4bd7-b4bd-b25823e909af mac:mountedOn eor:satellite.1970-008A,
+        eor:satellite.1970-106A,
+        eor:satellite.1972-081A,
+        eor:satellite.1972-082A,
+        eor:satellite.1973-086A,
+        eor:satellite.1974-089A,
+        eor:satellite.1976-077A .
+
+eor:sensor.d45f4aeb-aecb-4e1d-9b55-e06f9fd55935 mac:mountedOn eor:satellite.2012-064A,
+        eor:satellite.2022-132A,
+        eor:satellite.2023-116A .
+
+eor:sensor.d465b003-f188-4d47-8e10-4371944c2c5e mac:mountedOn eor:satellite.2015-011A,
+        eor:satellite.2015-011B,
+        eor:satellite.2015-011C,
+        eor:satellite.2015-011D .
+
+eor:sensor.d482e6b6-91f5-4456-8321-9e295d8720ac mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.d48ef758-b30a-4ce1-a055-f2946f73f177 mac:mountedOn eor:satellite.2004-026A .
+
+eor:sensor.d4a3c8ef-9ec5-4755-a385-616c640a7a25 mac:mountedOn eor:satellite.1999-008B,
+        eor:satellite.2000-075B .
+
+eor:sensor.d4a89ce3-6628-4ed3-b557-22cef6906262 mac:mountedOn eor:satellite.2004-025C .
+
+eor:sensor.d4df0a8c-dca5-4f23-bdbc-8b11f331544d mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.d506af82-539b-4f9a-b82f-defb9894140e mac:mountedOn eor:satellite.1978-096A,
+        eor:satellite.1979-057A,
+        eor:satellite.1981-059A,
+        eor:satellite.1983-022A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2012-049A,
+        eor:satellite.2018-087A .
+
+eor:sensor.d5271b48-4867-41ab-ba75-b1f39ef4f36e mac:mountedOn eor:satellite.2006-011A,
+        eor:satellite.2006-011B,
+        eor:satellite.2006-011C,
+        eor:satellite.2006-011D,
+        eor:satellite.2006-011E,
+        eor:satellite.2006-011F .
+
+eor:sensor.d57fdd4f-a98b-4e81-aac7-cffc9073f18b mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2011-001A,
+        eor:satellite.2014-037A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-038A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.d62865ec-d7e3-4840-a2bb-3f9bbb05271e mac:mountedOn eor:satellite.1989-070A,
+        eor:satellite.1995-011B .
+
+eor:sensor.d6a8fb99-3372-46d4-bc0f-f87646f01b5e mac:mountedOn eor:satellite.2024-149CD .
+
+eor:sensor.d6de9b9a-0476-4151-ba00-a3a38752fc95 mac:mountedOn eor:satellite.1986-017JE .
+
+eor:sensor.d6e714ff-1280-4718-8ff9-95aa87a52a52 mac:mountedOn eor:satellite.1991-056A .
+
+eor:sensor.d7141646-8cd5-4841-acdd-c3a391c88a3c mac:mountedOn eor:satellite.1999-020A .
+
+eor:sensor.d737b5d5-e2a0-4316-9aa9-a08fbe4bb6c5 mac:mountedOn eor:satellite.2005-043A .
+
+eor:sensor.d75bfb01-8cee-43ac-84cf-961da499e2a8 mac:mountedOn eor:satellite.2019-033A,
+        eor:satellite.2019-033B,
+        eor:satellite.2019-033C .
+
+eor:sensor.d7f47660-da34-4130-b32a-ff2fc57f3889 mac:mountedOn eor:satellite.2024-043D .
+
+eor:sensor.d8303a95-2b59-4946-9f94-fde91494b44e mac:mountedOn eor:satellite.1997-045A .
+
+eor:sensor.d8baa467-e8c4-4781-91db-8797cf9ab4f1 mac:mountedOn eor:satellite.2015-007A .
+
+eor:sensor.d8f37af2-12b1-4d81-ac5e-ef05cfd44032 mac:mountedOn eor:satellite.2006-056A .
+
+eor:sensor.d928b7c5-7178-43b9-872c-99a187d4551f mac:mountedOn eor:satellite.2011-044G,
+        eor:satellite.2022-002AY .
+
+eor:sensor.d955110d-0d36-4793-94d2-6cc38717616b mac:mountedOn eor:satellite.2021-047A .
+
+eor:sensor.d98c65c6-5161-4cc2-9fb7-d9074a8df9a4 mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.d9ace983-199f-4a47-967a-19569f09c5b8 mac:mountedOn eor:satellite.2014-033A .
+
+eor:sensor.da7016aa-7cfd-4a83-b5c5-7ffea43cf967 mac:mountedOn eor:satellite.2016-071A,
+        eor:satellite.2018-022A,
+        eor:satellite.2022-021A,
+        eor:satellite.2024-119A .
+
+eor:sensor.dab1b7ea-6112-434e-a4ba-c1d029a7951c mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.db03ff4c-3fbf-414e-bf00-447a36a26c11 mac:mountedOn eor:satellite.2022-170C .
+
+eor:sensor.db1c797f-426c-4f25-9f77-22edf6d4a952 mac:mountedOn eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A,
+        eor:satellite.1998-030A,
+        eor:satellite.2000-055A,
+        eor:satellite.2002-032A,
+        eor:satellite.2005-018A,
+        eor:satellite.2006-044A,
+        eor:satellite.2009-005A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A,
+        eor:satellite.2012-049A,
+        eor:satellite.2013-009A,
+        eor:satellite.2018-087A,
+        eor:satellite.2022-158A .
+
+eor:sensor.db30ecac-f439-4b4e-b2f9-182846680a7a mac:mountedOn eor:satellite.2006-021A .
+
+eor:sensor.db3ca214-15e9-4406-bde5-4bcaf7edabd5 mac:mountedOn eor:satellite.2016-077A,
+        eor:satellite.2021-047A .
+
+eor:sensor.db41b616-0c1f-40c4-8d08-7e5c2d7c0e5b mac:mountedOn eor:satellite.1998-017A .
+
+eor:sensor.db66772f-917b-4b84-9bca-c309da7a100a mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.db7a12e4-3e97-46b2-9661-a0f194a968e1 mac:mountedOn eor:satellite.2011-061A,
+        eor:satellite.2017-073A,
+        eor:satellite.2022-150A .
+
+eor:sensor.db889155-8897-4e02-9c1c-49179d23e184 mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.dc298b59-05ca-455a-a86f-6d0b62b42aab mac:mountedOn eor:satellite.1985-100A,
+        eor:satellite.1988-064A,
+        eor:satellite.1989-086A,
+        eor:satellite.1991-030A,
+        eor:satellite.1991-056A,
+        eor:satellite.1994-003A,
+        eor:satellite.2001-056A .
+
+eor:sensor.dc3bb3f9-b5f7-45fa-b9b5-564df33b708b mac:mountedOn eor:satellite.2023-052A .
+
+eor:sensor.dc91f6b3-f133-4cc6-a04c-bd863ee92757 mac:mountedOn eor:satellite.2022-090A .
+
+eor:sensor.dca7ad01-1788-4e39-902e-9dccee0a83db mac:mountedOn eor:satellite.1995-059A,
+        eor:satellite.2007-061A .
+
+eor:sensor.dd10ea4c-f79d-44ed-b413-0e29a14858ab mac:mountedOn eor:satellite.2015-007A .
+
+eor:sensor.dd9482f4-257e-4bf3-8e9b-af4688704aee mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.ddb84ba9-ea02-4fda-907e-19ca31f8363a mac:mountedOn eor:satellite.2007-004D,
+        eor:satellite.2011-034A .
+
+eor:sensor.ddcba301-980f-492c-9786-c5a360f258d6 mac:mountedOn eor:satellite.1999-070A .
+
+eor:sensor.de011ed2-8082-48c0-8def-110041cc4504 mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.de35b31b-5c68-45a8-b328-35051004db9e mac:mountedOn eor:satellite.1974-052A,
+        eor:satellite.1976-043A,
+        eor:satellite.1977-057A,
+        eor:satellite.1981-065A .
+
+eor:sensor.de3d219a-508c-428b-b009-8fe0b1a62c90 mac:mountedOn eor:satellite.1996-046A .
+
+eor:sensor.de3ff3f7-b1b8-4921-9d66-b0471f2a7832 mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.de51b3a5-0da5-4ad8-a480-95f5639c2be7 mac:mountedOn eor:satellite.2009-019A,
+        eor:satellite.2019-028A,
+        eor:satellite.2019-089F,
+        eor:satellite.2020-081A .
+
+eor:sensor.def782d6-1ecb-46b9-8404-3f2900895ccf mac:mountedOn eor:satellite.2021-047A .
+
+eor:sensor.df022514-7889-4b84-85ed-04cb98e24770 mac:mountedOn eor:satellite.2002-009A .
+
+eor:sensor.df4d3e16-532a-48ac-aaf3-8ff333a2cbce mac:mountedOn eor:satellite.2007-012A,
+        eor:satellite.2011-044G,
+        eor:satellite.2022-002AY .
+
+eor:sensor.df77dcf2-5b33-4940-a699-a523da54d729 mac:mountedOn eor:satellite.2008-026A,
+        eor:satellite.2010-059A .
+
+eor:sensor.dfe1aaee-19c8-428b-82be-064904a250aa mac:mountedOn eor:satellite.2000-075B .
+
+eor:sensor.dfeb46dc-81a6-4a8d-84b2-20ee4bcbefd8 mac:mountedOn eor:satellite.2021-059Y,
+        eor:satellite.2023-062A,
+        eor:satellite.2023-073C .
+
+eor:sensor.e017b0a2-e769-4e72-93a4-75d3c4a38728 mac:mountedOn eor:satellite.1995-072A,
+        eor:satellite.1996-017A,
+        eor:satellite.1997-057A,
+        eor:satellite.1999-029C .
+
+eor:sensor.e0af0c50-be36-4236-9bb1-b9680d2454bd mac:mountedOn eor:satellite.2017-072A .
+
+eor:sensor.e0c63dfb-87d4-4582-9404-c69de98f5b31 mac:mountedOn eor:satellite.1976-043A,
+        eor:satellite.1977-057A,
+        eor:satellite.1979-005A .
+
+eor:sensor.e0d24528-6510-44ac-ba1c-b61c6c9de335 mac:mountedOn eor:satellite.1962-049A,
+        eor:satellite.1965-098A .
+
+eor:sensor.e203d50b-8c4e-40eb-be83-7fda793ee053 mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.e22164b3-68dd-4956-a2fe-e7d2fc55ce72 mac:mountedOn eor:satellite.1972-097A .
+
+eor:sensor.e225474f-8dc8-45f9-b918-1bce3e3a0b78 mac:mountedOn eor:satellite.2012-039A,
+        eor:satellite.2012-039B,
+        eor:satellite.2017-042A,
+        eor:satellite.2018-014A,
+        eor:satellite.2018-014B,
+        eor:satellite.2018-111A,
+        eor:satellite.2018-111B .
+
+eor:sensor.e2c49401-5747-4bca-a208-3f51cee36304 mac:mountedOn eor:satellite.1977-065A,
+        eor:satellite.1981-076A,
+        eor:satellite.1984-080A,
+        eor:satellite.1989-070A .
+
+eor:sensor.e2e425bf-d116-44b1-ba0f-345a47933412 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.e444486b-67ac-4c2c-90a5-4ca78957cb0d mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2011-001A,
+        eor:satellite.2014-037A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-038A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.e4bdca76-0494-4910-a56a-6d554b6397ca mac:mountedOn eor:satellite.2002-056B .
+
+eor:sensor.e4eb7d47-2972-46a5-8865-1803bb7b1637 mac:mountedOn eor:satellite.2023-176A .
+
+eor:sensor.e51e7917-4892-4221-954c-49c219ad6624 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.e528f001-e658-43d5-941f-c1dc769e1fad mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.e5599c8e-f585-473c-ad09-590cc6727f68 mac:mountedOn eor:satellite.2003-042G .
+
+eor:sensor.e55a8ef9-2589-450c-a03d-a76e3f7952bf mac:mountedOn eor:satellite.1987-053A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.e5984439-3fda-492c-9eac-822dcbb287f0 mac:mountedOn eor:satellite.2016-011A,
+        eor:satellite.2018-039A .
+
+eor:sensor.e5b870a4-8be2-49a7-8b1a-b718a40e1382 mac:mountedOn eor:satellite.2003-046A,
+        eor:satellite.2011-015A,
+        eor:satellite.2016-074A .
+
+eor:sensor.e5fb898f-582e-4531-a4dd-153ff127c1c1 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.e6544d37-7e4d-4ae2-9e8a-28c7ef62595b mac:mountedOn eor:satellite.2015-007A .
+
+eor:sensor.e6639033-5b08-472c-a3d1-dc6a2d1e81b8 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.e6694cb6-f67d-4a3b-b4d7-a02150dd2852 mac:mountedOn eor:satellite.1997-074A,
+        eor:satellite.1999-068A,
+        eor:satellite.2002-022A,
+        eor:satellite.2011-061A,
+        eor:satellite.2017-073A .
+
+eor:sensor.e69e21ea-61dd-4399-9f37-c5d0cba8530d mac:mountedOn eor:satellite.1996-013A .
+
+eor:sensor.e6d2d0a9-2ae1-4f37-959d-ea94774b8bd2 mac:mountedOn eor:satellite.2001-049B .
+
+eor:sensor.e6db601f-a69f-4ada-8d52-05b51ff9e34f mac:mountedOn eor:satellite.2005-006A .
+
+eor:sensor.e7012f20-e83d-4b85-a445-7a5b767d3dc8 mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.e75797b7-7e42-425f-87a0-90ca466e40f9 mac:mountedOn eor:satellite.2016-081A .
+
+eor:sensor.e763c3b5-88be-48dc-ac44-28a46df7c9ce mac:mountedOn eor:satellite.1999-008B,
+        eor:satellite.2000-039B .
+
+eor:sensor.e7733599-608c-4306-b2af-f225dbb1d29a mac:mountedOn eor:satellite.2007-012A,
+        eor:satellite.2011-044G,
+        eor:satellite.2022-002AY .
+
+eor:sensor.e8f18e35-5b70-4083-8818-d6651ee644d9 mac:mountedOn eor:satellite.2023-132A .
+
+eor:sensor.e9b02c86-ef96-479d-8a45-29475827e23d mac:mountedOn eor:satellite.1994-071A .
+
+eor:sensor.e9b7e986-f06b-4b2b-be81-8955dfb224fc mac:mountedOn eor:satellite.2025-033B .
+
+eor:sensor.e9e58fd5-4ec9-4842-9e23-2a6ac7108d53 mac:mountedOn eor:satellite.1996-046A .
+
+eor:sensor.eab10869-d0dd-4193-bbab-6273ef05ba32 mac:mountedOn eor:satellite.2018-100A .
+
+eor:sensor.eae13b52-561f-4244-9048-1f8a42ad3a0c mac:mountedOn eor:satellite.2011-015B .
+
+eor:sensor.eb18a6f4-0740-4a82-9a54-68df44a9f1ee mac:mountedOn eor:satellite.2004-026A .
+
+eor:sensor.eb23afa9-ca6f-4e1e-9aa5-5b08a0427f3b mac:mountedOn eor:satellite.2011-043A,
+        eor:satellite.2018-081A,
+        eor:satellite.2020-066A,
+        eor:satellite.2021-043A .
+
+eor:sensor.eb4f7d82-8199-4278-b46f-d95d288d3010 mac:mountedOn eor:satellite.2002-022A .
+
+eor:sensor.ec12a44f-38fa-48ee-bbdc-cade09ae22ee mac:mountedOn eor:satellite.2009-003A .
+
+eor:sensor.ec1f8afc-2084-4099-95eb-e40e9841e9b7 mac:mountedOn eor:satellite.1987-018A,
+        eor:satellite.1990-013A .
+
+eor:sensor.ec8acf3a-aa7a-4671-a88d-e66b0b567815 mac:mountedOn eor:satellite.2023-155A .
+
+eor:sensor.ec977f6a-ad3d-43d6-a486-880e4791ec9b mac:mountedOn eor:satellite.2001-049B,
+        eor:satellite.2013-003A .
+
+eor:sensor.eccc72d4-01e1-4655-aaad-87d902175f4b mac:mountedOn eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.ecfb8d61-b6e5-4407-aa2c-bd136dd47dc9 mac:mountedOn eor:satellite.2000-075A .
+
+eor:sensor.ed118584-e774-43ff-8a14-aa2791f0f2be mac:mountedOn eor:satellite.2006-041A .
+
+eor:sensor.ed2d20d6-9833-471d-9c8f-ef2b62879e3f mac:mountedOn eor:satellite.2016-081A .
+
+eor:sensor.ed4edb41-7367-44a4-921f-a301f7284219 mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.ed5c97fe-ed27-4ded-8d89-57bfa5a74695 mac:mountedOn eor:satellite.2006-002A .
+
+eor:sensor.ed673a8f-89a0-4f49-86ec-766eb6daf890 mac:mountedOn eor:satellite.2002-024A,
+        eor:satellite.2007-010A,
+        eor:satellite.2018-068A,
+        eor:satellite.2020-036A,
+        eor:satellite.2023-176A .
+
+eor:sensor.ee0f9dd1-5869-4ec0-988d-d0b984e42598 mac:mountedOn eor:satellite.2008-017A .
+
+eor:sensor.ee10c1bb-e535-48bc-98e8-04facacede44 mac:mountedOn eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.ee4a4100-1816-4c3e-8218-813c855f3c30 mac:mountedOn eor:satellite.1988-021A,
+        eor:satellite.1991-061A,
+        eor:satellite.1994-068A .
+
+eor:sensor.ee61fce6-faba-4d87-9c30-1a504bfd4a6f mac:mountedOn eor:satellite.2018-099AK .
+
+eor:sensor.eed1551d-4773-4b04-88df-49ed73325311 mac:mountedOn eor:satellite.2003-042G .
+
+eor:sensor.ef027d97-9395-440d-b9ca-38084f70c50e mac:mountedOn eor:satellite.2017-042B .
+
+eor:sensor.ef422453-a0c7-4977-a0fe-1dbca6c38be1 mac:mountedOn eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2014-037A,
+        eor:satellite.2019-038A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.efb9986a-4dd6-40d5-99a0-77c1aedadc7a mac:mountedOn eor:satellite.2014-009C .
+
+eor:sensor.f03cbb99-58f2-4f9d-a6fc-a81dc68d4a47 mac:mountedOn eor:satellite.2020-013B .
+
+eor:sensor.f046e45a-955e-4b9b-b619-e97e72ebcd42 mac:mountedOn eor:satellite.2007-004D,
+        eor:satellite.2011-034A .
+
+eor:sensor.f05428b3-2dd3-4606-8573-b434b9f86cde mac:mountedOn eor:satellite.1974-033A,
+        eor:satellite.1975-011A,
+        eor:satellite.1975-100A,
+        eor:satellite.1977-048A,
+        eor:satellite.1978-062A,
+        eor:satellite.1980-074A,
+        eor:satellite.1981-049A,
+        eor:satellite.1983-041A,
+        eor:satellite.1987-022A,
+        eor:satellite.1994-022A,
+        eor:satellite.1995-025A,
+        eor:satellite.1997-019A,
+        eor:satellite.2000-022A,
+        eor:satellite.2001-031A,
+        eor:satellite.2006-018A,
+        eor:satellite.2009-033A,
+        eor:satellite.2010-008A .
+
+eor:sensor.f064ad65-c108-4a42-a6f2-ae4b62186890 mac:mountedOn eor:satellite.2002-022A .
+
+eor:sensor.f0dcf197-77bb-40fb-90ed-b7868633b3cc mac:mountedOn eor:satellite.2015-014A .
+
+eor:sensor.f0e7deac-00a2-48f9-ad25-b1c7f1e6bd38 mac:mountedOn eor:satellite.2016-080A .
+
+eor:sensor.f14756b6-a296-4a81-bdb7-693493ae8f69 mac:mountedOn eor:satellite.2001-032A .
+
+eor:sensor.f1a62368-ec7c-46cf-85ac-185189731f50 mac:mountedOn eor:satellite.2020-010A .
+
+eor:sensor.f1a8dabd-a0b0-4d59-9853-c37439c44e53 mac:mountedOn eor:satellite.2019-032C .
+
+eor:sensor.f1bf6ab7-f5c9-4201-afb0-137216deae39 mac:mountedOn eor:satellite.1978-098A .
+
+eor:sensor.f1cbbf28-d1e8-4af6-8d12-b94571d2476c mac:mountedOn eor:satellite.1981-059A,
+        eor:satellite.1984-123A,
+        eor:satellite.1986-073A,
+        eor:satellite.1988-089A,
+        eor:satellite.1991-032A,
+        eor:satellite.1993-050A,
+        eor:satellite.1994-089A .
+
+eor:sensor.f1f94bd0-3d71-4999-a19f-87cdddf9bf07 mac:mountedOn eor:satellite.2022-082A,
+        eor:satellite.2022-082C,
+        eor:satellite.2024-218B,
+        eor:satellite.2024-218C .
+
+eor:sensor.f1fee24d-a51d-4fa0-b82b-e917d8d83cb7 mac:mountedOn eor:satellite.2013-030A,
+        eor:satellite.2014-087A,
+        eor:satellite.2016-016A,
+        eor:satellite.2024-061A,
+        eor:satellite.2024-250A .
+
+eor:sensor.f225888a-37ee-4ef2-9b28-baa8f050bb3c mac:mountedOn eor:satellite.2008-041B .
+
+eor:sensor.f229dc00-59c2-43a5-9630-6e63d299cada mac:mountedOn eor:satellite.2013-052A,
+        eor:satellite.2017-072A,
+        eor:satellite.2021-062A,
+        eor:satellite.2023-111A .
+
+eor:sensor.f249c840-83b9-4b76-8934-c84c5a8a5970 mac:mountedOn eor:satellite.1976-091A,
+        eor:satellite.1977-044A,
+        eor:satellite.1978-042A,
+        eor:satellite.1979-050A,
+        eor:satellite.1982-118A,
+        eor:satellite.1983-113A,
+        eor:satellite.1988-006A,
+        eor:satellite.1990-105A,
+        eor:satellite.1991-082A,
+        eor:satellite.1994-057A,
+        eor:satellite.1995-015A,
+        eor:satellite.1997-012A,
+        eor:satellite.1999-067A .
+
+eor:sensor.f25dfda2-c5fe-4fe6-b695-8a3098bb4dfa mac:mountedOn eor:satellite.2020-086A .
+
+eor:sensor.f3075d20-7693-4f3a-905c-c91203b4f0e3 mac:mountedOn eor:satellite.2009-059B .
+
+eor:sensor.f395129a-6563-4974-8ead-0562acfa1faa mac:mountedOn eor:satellite.2013-055A .
+
+eor:sensor.f3e838dd-1f9e-421a-a79f-c1879431cab1 mac:mountedOn eor:satellite.2022-147A .
+
+eor:sensor.f457e87d-a17b-4aee-9bd7-4066d58977e4 mac:mountedOn eor:satellite.2013-042A .
+
+eor:sensor.f494a00e-bcb6-4799-a403-7b4a13f725dd mac:mountedOn eor:satellite.1991-050A,
+        eor:satellite.1995-021A .
+
+eor:sensor.f4acd12a-0af8-4e64-a914-b7e87f7be53e mac:mountedOn eor:satellite.2006-047B .
+
+eor:sensor.f4e634f5-148b-4837-99dc-6f0a4e74b034 mac:mountedOn eor:satellite.2020-061G,
+        eor:satellite.2021-006DA,
+        eor:satellite.2022-057F,
+        eor:satellite.2022-057N,
+        eor:satellite.2022-057Q,
+        eor:satellite.2023-054AC,
+        eor:satellite.2023-054AH,
+        eor:satellite.2023-054J .
+
+eor:sensor.f4f299a5-d0a2-4a73-a6c0-7becc41bc4f7 mac:mountedOn eor:satellite.1972-081A,
+        eor:satellite.1972-082A,
+        eor:satellite.1973-086A,
+        eor:satellite.1974-089A,
+        eor:satellite.1976-077A .
+
+eor:sensor.f534df86-20b1-471d-b3bb-cd294c33d197 mac:mountedOn eor:satellite.1996-017A .
+
+eor:sensor.f6bab1a3-aadb-4860-8b71-0c5526a63a66 mac:mountedOn eor:satellite.1975-052A .
+
+eor:sensor.f72458b2-11f4-4b2b-9c5f-ae2e4da2b3a3 mac:mountedOn eor:satellite.2022-158A .
+
+eor:sensor.f7620b57-efcf-4a65-b4b6-cea8ac1b313e mac:mountedOn eor:satellite.2019-092A,
+        eor:satellite.2022-008A .
+
+eor:sensor.f7a81f08-2107-4685-8361-346ccf4e7d34 mac:mountedOn eor:satellite.2021-100A .
+
+eor:sensor.f80d0f6b-a888-4fde-a91a-b1698bdabfe0 mac:mountedOn eor:satellite.2016-049A,
+        eor:satellite.2019-082A,
+        eor:satellite.2021-026A,
+        eor:satellite.2021-109A,
+        eor:satellite.2022-035A,
+        eor:satellite.2022-069A,
+        eor:satellite.2023-123A,
+        eor:satellite.2024-186A .
+
+eor:sensor.f81e971c-90a1-403e-9a4c-e7c7c1fdc59a mac:mountedOn eor:satellite.2021-062A .
+
+eor:sensor.f8dde106-8d53-4469-9a00-c3ebfec72388 mac:mountedOn eor:satellite.1972-097A .
+
+eor:sensor.f9140cb5-e683-4df3-8d52-e96683a5ee21 mac:mountedOn eor:satellite.2002-021A .
+
+eor:sensor.f93045e8-eada-4c4d-a84a-6d0516a04003 mac:mountedOn eor:satellite.2018-043A,
+        eor:satellite.2021-079A,
+        eor:satellite.2022-165A .
+
+eor:sensor.f9d92f8b-c80a-4820-a32e-83672b599c9d mac:mountedOn eor:satellite.1999-067A,
+        eor:satellite.2003-048A,
+        eor:satellite.2006-050A,
+        eor:satellite.2009-057A,
+        eor:satellite.2014-015A .
+
+eor:sensor.f9f01892-b159-40c0-92e1-f5103e9a7f5d mac:mountedOn eor:satellite.2013-066G .
+
+eor:sensor.f9f29695-d136-44b0-840b-c40e6eed23f4 mac:mountedOn eor:satellite.1998-067A .
+
+eor:sensor.fae1ca96-f70d-448c-89a5-e933ce10b6ac mac:mountedOn eor:satellite.2018-043A,
+        eor:satellite.2021-079A,
+        eor:satellite.2022-165A .
+
+eor:sensor.faed05e9-84e3-4581-bde1-b8ccd269329f mac:mountedOn eor:satellite.1996-046A,
+        eor:satellite.2002-056A .
+
+eor:sensor.faf98293-59ec-4080-813d-7371521f6815 mac:mountedOn eor:satellite.2023-054X,
+        eor:satellite.2023-084AG .
+
+eor:sensor.fb22cf95-9677-4959-a953-5b9fc66f42d6 mac:mountedOn eor:satellite.2022-074G .
+
+eor:sensor.fb5b77c2-61e8-4c4d-844d-fe2c3579fd8a mac:mountedOn eor:satellite.2019-068A .
+
+eor:sensor.fb8d62d7-67e9-47ab-9a7c-7267dd32adfc mac:mountedOn eor:satellite.2011-043A,
+        eor:satellite.2018-081A .
+
+eor:sensor.fba5c270-384d-4256-b77a-c891d0b0c8b1 mac:mountedOn eor:satellite.1999-051A .
+
+eor:sensor.fbe58d50-affa-47ff-94ab-7221d10964a8 mac:mountedOn eor:satellite.2015-007A .
+
+eor:sensor.fbfbdd90-2eea-446b-80a1-66d360dc4e92 mac:mountedOn eor:satellite.2024-099A,
+        eor:satellite.2024-108A .
+
+eor:sensor.fc58c14b-6019-4ee3-90c8-ac1006445720 mac:mountedOn eor:satellite.1964-052A,
+        eor:satellite.1966-040A,
+        eor:satellite.1966-087A,
+        eor:satellite.1967-036A,
+        eor:satellite.1968-069A,
+        eor:satellite.1969-016A,
+        eor:satellite.1970-008A,
+        eor:satellite.1970-106A .
+
+eor:sensor.fc79f2b8-9f7a-4036-b5fb-1901ec765d80 mac:mountedOn eor:satellite.2006-016B .
+
+eor:sensor.fc7aa4a3-7c38-454d-afa7-abf667a6dece mac:mountedOn eor:satellite.1996-023A .
+
+eor:sensor.fca906ea-3891-4f8b-82d6-92f06c40f9f3 mac:mountedOn eor:satellite.1999-002A .
+
+eor:sensor.fce9714b-8c59-4b33-97c2-c38810f66994 mac:mountedOn eor:satellite.2001-032A .
+
+eor:sensor.fd111425-6066-4038-9640-dc1bd11da482 mac:mountedOn eor:satellite.1994-069A,
+        eor:satellite.2001-056A .
+
+eor:sensor.fd1d5ea5-6f9b-4d39-813e-c310d1bb66c8 mac:mountedOn eor:satellite.2004-025C .
+
+eor:sensor.fd51a9f0-f08b-413f-98d5-26274f523ff6 mac:mountedOn eor:satellite.1995-065A .
+
+eor:sensor.fd7298eb-1050-457d-b76c-52d023f22ef7 mac:mountedOn eor:satellite.2006-041A .
+
+eor:sensor.fd77d4ab-798a-438e-a45b-f7dc61684544 mac:mountedOn eor:satellite.1970-025A,
+        eor:satellite.1972-097A,
+        eor:satellite.1975-052A,
+        eor:satellite.1978-098A .
+
+eor:sensor.fdce3a03-b569-4cb3-a4ce-eb6b5c3c1ef1 mac:mountedOn eor:satellite.2010-028A .
+
+eor:sensor.fe0738c9-36da-4d98-83aa-b686530f672b mac:mountedOn eor:satellite.1982-031A,
+        eor:satellite.1983-089B,
+        eor:satellite.1988-063A,
+        eor:satellite.1990-051A,
+        eor:satellite.1992-041A,
+        eor:satellite.1993-048B,
+        eor:satellite.1997-027B,
+        eor:satellite.1999-016A,
+        eor:satellite.2002-043A,
+        eor:satellite.2003-013A,
+        eor:satellite.2013-038B,
+        eor:satellite.2016-054A,
+        eor:satellite.2024-033A .
+
+eor:sensor.feecb019-e6fc-4865-b0df-2327b99778fc mac:mountedOn eor:satellite.2001-032A .
+
+eor:sensor.ff1b4fb3-b3fa-4251-97e9-da91c47787c1 mac:mountedOn eor:satellite.2009-051A,
+        eor:satellite.2016-059H,
+        eor:satellite.2022-158A .
+
+eor:sensor.ff556f30-32e6-4043-9312-f6207bd536d2 mac:mountedOn eor:satellite.1992-052A .
+
+eor:sensor.ffe54ac3-f180-46a5-bddf-cd3cbdda79b5 mac:mountedOn eor:satellite.1994-069A,
+        eor:satellite.2001-056A,
+        eor:satellite.2009-049A,
+        eor:satellite.2011-001A,
+        eor:satellite.2014-037A,
+        eor:satellite.2015-074A,
+        eor:satellite.2019-038A,
+        eor:satellite.2019-095A,
+        eor:satellite.2023-016A,
+        eor:satellite.2023-091A,
+        eor:satellite.2024-039A .
+
+eor:sensor.fff2fc9d-8939-4153-8fc3-eae4185bfe79 mac:mountedOn eor:satellite.2000-017A .
+
+eor:sensor.fffde5af-7cfc-4c14-8cac-0a4c64e4785f mac:mountedOn eor:satellite.1969-037A,
+        eor:satellite.1970-025A .
+

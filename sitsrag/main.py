@@ -26,7 +26,7 @@ from sitsrag.db.engine import create_engine, create_session_factory, init_db
 from sitsrag.db.graph.retriever import create_hybrid_retriever
 from sitsrag.db.graph.vector_store import create_vector_store
 from sitsrag.logging import configure_logging, get_logger
-from sitsrag.observability import build_trace_span, configure_langfuse
+from sitsrag.observability import build_trace_run, build_trace_span, configure_langfuse
 from sitsrag.providers.llm import build_chat_model
 from sitsrag.providers.reranker import build_reranker
 from sitsrag.services.agent import SYSTEM_PROMPT, build_agent_graph
@@ -58,8 +58,9 @@ async def lifespan(app: FastAPI):
     # Configure Langfuse
     langfuse_client = configure_langfuse(settings)
 
-    # Build trace span
+    # Build trace span (tool-level) and trace run (request-level)
     trace_span = build_trace_span(langfuse_client)
+    trace_run = build_trace_run(langfuse_client)
 
     # Read-only content index
     index_engine = create_engine(settings.index_db_url, load_vec=True)
@@ -162,6 +163,7 @@ async def lifespan(app: FastAPI):
     app.state.index_engine = index_engine
     app.state.agent = agent
     app.state.agent_graph = agent_graph
+    app.state.trace_run = trace_run
     app.state.connection_limiter = connection_limiter
     app.state.daily_quota = daily_quota
     app.state.daily_limit_notice = daily_limit_notice

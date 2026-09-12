@@ -11,18 +11,17 @@
 
 from __future__ import annotations
 
-import os
 from collections.abc import Callable
-from contextlib import asynccontextmanager
+from contextlib import ExitStack, asynccontextmanager
+from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Any
-
-import litellm
 
 from sitsrag.logging import get_logger
 
 if TYPE_CHECKING:
     from collections.abc import AsyncIterator, Callable
 
+    from langchain_core.callbacks import BaseCallbackHandler
     from langfuse import Langfuse
 
     from sitsrag.config import Settings
@@ -35,16 +34,56 @@ logger = get_logger(__name__)
 
 
 #
+# Constants
+#
+RUN_OBSERVATION_NAME = "agui.agent"
+
+# Langfuse caps propagated attribute values (session id, metadata values)
+ATTRIBUTE_MAX_LENGTH = 200
+
+
+#
 # Types
 #
 TraceSpan = Callable[..., "asynccontextmanager[None]"]
+TraceRun = Callable[..., "asynccontextmanager[RunTrace]"]
+
+
+@dataclass
+class RunTrace:
+    """Handle for one traced agent run.
+
+    Attributes:
+        callbacks (list[BaseCallbackHandler]): LangChain callbacks to attach to the
+            graph run config. Empty when tracing is disabled.
+    """
+
+    _root: Any = None
+    """The root observation for the run."""
+
+    callbacks: list[BaseCallbackHandler] = field(default_factory=list)
+    """Callbacks to attach to the run config."""
+
+    #
+    # Methods
+    #
+    def set_output(self, output: Any) -> None:
+        """Record the run output on the root observation."""
+        if self._root is None:
+            return
+
+        try:
+            self._root.update(output=output)
+
+        except Exception:
+            logger.debug("Langfuse root output update failed")
 
 
 #
 # Configure Langfuse
 #
 def configure_langfuse(settings: Settings) -> Langfuse | None:
-    """Configure Langfuse observability via LiteLLM callbacks.
+    """Configure the Langfuse client.
 
     Args:
         settings (Settings): Configuration.
@@ -65,23 +104,13 @@ def configure_langfuse(settings: Settings) -> Langfuse | None:
     # Create and return the client (imported here as this is optional)
     from langfuse import Langfuse
 
-    # LiteLLM's Langfuse callback reads API keys from env vars - there is
-    # no programmatic alternative for the callback system. This is the one
-    # place in the codebase where os.environ mutation is intentional.
-    os.environ.setdefault("LANGFUSE_PUBLIC_KEY", settings.langfuse_public_key)
-    os.environ.setdefault("LANGFUSE_SECRET_KEY", settings.langfuse_secret_key)
-    os.environ.setdefault("LANGFUSE_HOST", settings.langfuse_host)
-    os.environ.setdefault("LANGFUSE_RELEASE", settings.environment)
-
-    # Register LiteLLM callback
-    if "langfuse" not in litellm.success_callback:
-        litellm.success_callback.append("langfuse")
-
-    if "langfuse" not in litellm.failure_callback:
-        litellm.failure_callback.append("langfuse")
-
     # Create langfuse client
-    client = Langfuse()
+    client = Langfuse(
+        public_key=settings.langfuse_public_key,
+        secret_key=settings.langfuse_secret_key,
+        base_url=settings.langfuse_host,
+        environment=settings.environment,
+    )
 
     # Log
     logger.info(
@@ -110,17 +139,95 @@ def build_trace_span(client: Langfuse | None) -> TraceSpan:
             yield
             return
 
+        # Only guard the span setup: exceptions raised by the traced
+        # body must propagate unchanged (re-yielding after a throw would break the generator)
+        stack = ExitStack()
+
         try:
-            span = client.span(name=name, metadata=attrs)
-
-            try:
-                yield
-
-            finally:
-                span.end()
+            stack.enter_context(
+                client.start_as_current_observation(
+                    as_type="span",
+                    name=name,
+                    metadata=attrs,
+                )
+            )
 
         except Exception:
-            logger.debug("Langfuse span failed — continuing without trace", span_name=name)
+            stack.close()
+            logger.debug("Langfuse span creation failed", span_name=name)
+
+        with stack:
             yield
 
     return trace_span
+
+
+def build_trace_run(client: Langfuse | None) -> TraceRun:
+    """Build a `trace_run` async context manager bound to a Langfuse client.
+
+    Args:
+        client (Langfuse | None): Langfuse client, or `None` to produce a no-op run.
+
+    Returns:
+        An async context manager factory for tracing agent runs.
+
+    Notes:
+        - Each run becomes one trace: a root observation carrying the run input/output,
+        with the thread id propagated as session id to every child observation,
+        and a LangChain callback handler that records the graph's LLM, and tool calls.
+    """
+
+    @asynccontextmanager
+    async def trace_run(
+        *,
+        thread_id: str,
+        run_id: str | None = None,
+        input: Any = None,
+    ) -> AsyncIterator[RunTrace]:
+        """Trace an agent run."""
+        if client is None:
+            yield RunTrace()
+            return
+
+        # Only guard the trace setup
+        stack = ExitStack()
+
+        try:
+            from langfuse import propagate_attributes
+            from langfuse.langchain import CallbackHandler
+
+            # Prepare metadata
+            metadata = {"run_id": run_id[:ATTRIBUTE_MAX_LENGTH]} if run_id else None
+
+            # Create the root observation
+            root = stack.enter_context(
+                client.start_as_current_observation(
+                    as_type="agent",
+                    name=RUN_OBSERVATION_NAME,
+                    input=input,
+                    metadata=metadata,
+                )
+            )
+
+            # Propagate attributes to the root observation
+            stack.enter_context(
+                propagate_attributes(
+                    session_id=thread_id[:ATTRIBUTE_MAX_LENGTH],
+                    trace_name=RUN_OBSERVATION_NAME,
+                    metadata=metadata,
+                )
+            )
+
+            # Create the run trace
+            run = RunTrace(callbacks=[CallbackHandler()], _root=root)
+
+        except Exception:
+            stack.close()
+            logger.debug("Langfuse run trace failed")
+            run = RunTrace()
+
+        # Yield the run trace
+        with stack:
+            yield run
+
+    return trace_run

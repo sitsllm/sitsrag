@@ -34,7 +34,7 @@ from fastapi.responses import StreamingResponse
 from sitsrag.api.sse.limiter import ConnectionLimiter
 from sitsrag.api.sse.transport import SSETransport, sse_response
 from sitsrag.logging import get_logger
-from sitsrag.services.quota import DailyQuota
+from sitsrag.observability import RunTrace, TraceRun, build_trace_run
 
 logger = get_logger(__name__)
 
@@ -67,6 +67,30 @@ def _sanitize_tool_call_args(messages: object) -> None:
             # If error, set arguments to empty object
             except ValueError:
                 function.arguments = "{}"
+
+
+def _last_user_message(messages: object) -> str | None:
+    """Get latest user message.
+
+    Args:
+        messages (object): The messages.
+
+    Returns:
+        The content of the latest user message, or ``None`` if no user
+        message is found.
+    """
+    # Iterate over messages in reverse order
+    for message in reversed(messages or []):
+        # If message is a user message
+        if getattr(message, "role", None) == "user":
+            # Get content
+            content = getattr(message, "content", None)
+
+            # If content is a string, return it
+            return content if isinstance(content, str) else None
+
+    # No user message found
+    return None
 
 
 def _stream_notice(
@@ -172,6 +196,10 @@ async def agent_endpoint(input_data: RunAgentInput, request: Request) -> Streami
     # Get connection limiter
     connection_limiter = cast(ConnectionLimiter, getattr(app_state, "connection_limiter"))
 
+    # Get trace run (no-op when Langfuse is not configured)
+    trace_run = cast("TraceRun | None", getattr(app_state, "trace_run", None))
+    trace_run = trace_run or build_trace_run(None)
+
     # Acquire connection
     await connection_limiter.acquire()
 
@@ -193,12 +221,12 @@ async def agent_endpoint(input_data: RunAgentInput, request: Request) -> Streami
         encoder = EventEncoder(accept=accept_header)
 
         # Get daily quota
-        quota = cast("DailyQuota | None", getattr(app_state, "daily_quota", None))
+        quota = getattr(app_state, "daily_quota", None)
 
         # If quota is available
         if quota is not None and not quota.allow():
             # Get daily limit notice
-            notice = cast(str, getattr(app_state, "daily_limit_notice", "Daily limit reached."))
+            notice = getattr(app_state, "daily_limit_notice", "Daily limit reached.")
 
             # Log daily limit reached
             logger.warning(
@@ -234,8 +262,14 @@ async def agent_endpoint(input_data: RunAgentInput, request: Request) -> Streami
             max_queue_size=request.app.state.sse_max_queue_size,
         )
 
-        # Async producer function
-        async def producer() -> None:
+        # Stream the agent run to the transport
+        async def _stream_run(run: RunTrace) -> None:
+            # Attach Langfuse callbacks to the graph run config
+            config["callbacks"] = run.callbacks
+
+            # Assistant text collected for the trace output
+            output_parts = []
+
             try:
                 async for event in request_agent.run(input_data):
                     # If client disconnected, log and break
@@ -255,6 +289,10 @@ async def agent_endpoint(input_data: RunAgentInput, request: Request) -> Streami
                     # Get base event
                     base_event = cast(BaseEvent, cast(object, event))
 
+                    # Collect assistant text deltas
+                    if base_event.type == EventType.TEXT_MESSAGE_CONTENT:
+                        output_parts.append(cast(TextMessageContentEvent, base_event).delta)
+
                     # Encode event (as SSE frame)
                     encoded_frame = encoder.encode(base_event)
 
@@ -263,6 +301,21 @@ async def agent_endpoint(input_data: RunAgentInput, request: Request) -> Streami
                     # double-framed (this breaks the annimation)
                     if not transport.disconnected:
                         await transport._queue.put(encoded_frame)  # type: ignore[attr-defined]
+
+            # Record whatever was streamed (also on partial/failed runs)
+            finally:
+                run.set_output("".join(output_parts))
+
+        # Async producer function
+        async def producer() -> None:
+            try:
+                async with trace_run(
+                    thread_id=input_data.thread_id,
+                    run_id=getattr(input_data, "run_id", None),
+                    input=_last_user_message(getattr(input_data, "messages", None)),
+                ) as run:
+                    # Stream the run to the transport
+                    await _stream_run(run)
 
             # If exception, send error and release connection
             except Exception as exc:

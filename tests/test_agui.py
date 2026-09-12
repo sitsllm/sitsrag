@@ -10,11 +10,14 @@
 """Tests for the AG-UI endpoint and `sources_node`."""
 
 import types
+from contextlib import asynccontextmanager
+from unittest.mock import MagicMock
 
 import httpx
 from langchain_core.messages import ToolMessage
 
 from sitsrag.api.agui.router import _sanitize_tool_call_args
+from sitsrag.observability import RunTrace
 from sitsrag.services.agent import AgentState, sources_node
 
 #
@@ -240,3 +243,51 @@ async def test_sources_node_merges_multiple_tool_artifacts():
     # Assert result
     assert len(result["sources"]) == 1
     assert result["sources"]["S1"]["title"] == "Ref"
+
+
+async def test_agui_endpoint_observability(test_app, mock_agent):
+    """Test that the AG-UI endpoint observability."""
+    # Capture trace_run calls
+    calls = []
+    run = RunTrace(callbacks=[MagicMock(name="handler")], _root=MagicMock())
+
+    @asynccontextmanager
+    async def _trace_run(**kwargs):
+        calls.append(kwargs)
+        yield run
+
+    # Patch trace_run
+    test_app.state.trace_run = _trace_run
+
+    # Build transport
+    transport = httpx.ASGITransport(app=test_app)
+
+    # Send request
+    payload = {
+        **AGUI_PAYLOAD,
+        "messages": [
+            {"id": "m0", "role": "user", "content": "Hi there"},
+        ],
+    }
+
+    async with httpx.AsyncClient(transport=transport, base_url="http://test") as client:
+        response = await client.post("/agui/agent", json=payload)
+
+    # Assert response
+    assert response.status_code == 200
+
+    # Trace run receives the thread as session, the run id
+    # and the user input
+    assert calls == [
+        {
+            "thread_id": AGUI_PAYLOAD["threadId"],
+            "run_id": "r1",
+            "input": "Hi there",
+        },
+    ]
+
+    # Callbacks are attached to the graph run config
+    assert mock_agent.clone.return_value.config["callbacks"] == run.callbacks
+
+    # Assistant text is recorded as the root output
+    run._root.update.assert_called_once_with(output="Hello!")
